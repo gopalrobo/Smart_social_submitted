@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/appEvent" />
+            <option value="$PROJECT_DIR$/appPra" />
+            <option value="$PROJECT_DIR$/ask" />
+            <option value="$PROJECT_DIR$/library-gmail" />
+            <option value="$PROJECT_DIR$/library-tableformat" />
+            <option value="$PROJECT_DIR$/multisnaprecyclerview" />
+            <option value="$PROJECT_DIR$/qrmodule" />
+            <option value="$PROJECT_DIR$/rosetta" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

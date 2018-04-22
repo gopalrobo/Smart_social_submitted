@@ -1,0 +1,1 @@
+include ':app',':multisnaprecyclerview',':library-gmail',':rosetta',':qrmodule',':library-tableformat',':ask',':appPra',':appEvent'

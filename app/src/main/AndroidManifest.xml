@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="smart.social.worker">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <application
+        android:name="smart.social.worker.app.AppController"
+        android:allowBackup="true"
+        android:icon="@drawable/holyicon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+
+        <activity
+            android:name="smart.social.worker.SplashScreen"
+            android:label="@string/app_name"
+            android:theme="@style/AppThemee">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="smart.social.worker.FingerprintActivity"
+            android:label="@string/app_name"/>
+        <activity
+            android:name="smart.social.worker.MainActivity"
+            android:label="@string/app_name"/>
+        <activity
+            android:name="smart.social.worker.MainActivitySubject"
+            android:label="@string/app_name"/>
+        <activity
+            android:name="smart.social.worker.AttendancePage"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".off.MainActivityOfficer"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name="io.github.hidroh.calendar.MainActivityEvent"
+            android:theme="@style/AppThemee"/>
+        <activity
+            android:name="smart.social.worker.FieldWork"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="smart.social.worker.StudentRegistration"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:name="smart.social.worker.ProfileActivity"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:name="smart.social.worker.ToolReport"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="smart.social.worker.FinalReport"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="smart.social.worker.HistoricalTimelinePhoto"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="smart.social.worker.CustomMarkerClusteringDemoActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="smart.social.worker.AdditionalInformation"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="smart.social.worker.TeamMember"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="smart.social.worker.Observation"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="smart.social.worker.MainActivityVideo"
+            android:windowSoftInputMode="stateHidden"
+            android:theme="@style/Base.Theme.AppCompat.Dialog"/>
+        <activity android:name="smart.social.worker.table.ui.SampleActivity"
+            android:theme="@style/AppThemeNew"/>
+        <activity
+            android:name="smart.social.worker.MapsFragActivity" />
+        <activity android:name="katomaran.evao.lib.qrmodule.activity.QrScannerActivity" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.com.vansuita.pickimage.provider"
+            android:exported="false"
+            android:grantUriPermissions="true"
+            tools:replace="android:authorities">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/picker_provider_paths" />
+        </provider>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="facebook_app_id" />
+
+        <!-- SMS Receiver -->
+        <receiver android:name="smart.social.worker.receiver.SmsReceiver">
+            <intent-filter android:priority="99999">
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+
+
+        <!-- Intent service -->
+        <service
+            android:name="smart.social.worker.service.HttpService"
+            android:exported="false" />
+    </application>
+
+</manifest>
