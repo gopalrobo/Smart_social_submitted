@@ -19,6 +19,7 @@ import java.util.Map;
 import smart.social.worker.MainActivity;
 import smart.social.worker.app.AppConfig;
 import smart.social.worker.app.AppController;
+import smart.social.worker.forms.MainActivityFragment;
 
 /**
  * Created by Ravi on 04/04/15.
@@ -63,7 +64,7 @@ public class HttpService extends IntentService {
 
                     if (!error) {
                         // parsing the user profile information
-                        Intent intent = new Intent(HttpService.this, MainActivity.class);
+                        Intent intent = new Intent(HttpService.this, MainActivityFragment.class);
                         intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                         startActivity(intent);
                         Toast.makeText(getApplicationContext(), message, Toast.LENGTH_LONG).show();

@@ -62,6 +62,7 @@ import javax.crypto.SecretKey;
 import smart.social.worker.app.AppConfig;
 import smart.social.worker.app.AppController;
 import smart.social.worker.db.DbStudent;
+import smart.social.worker.forms.MainActivityFragment;
 import smart.social.worker.off.MainActivityOfficer;
 
 public class FingerprintActivity extends AppCompatActivity {
@@ -179,7 +180,7 @@ public class FingerprintActivity extends AppCompatActivity {
                                 SharedPreferences.Editor editor = sharedpreferences.edit();
                                 editor.putString(vrpid, vrpList.get(i).get(0));
                                 editor.commit();
-                                Intent io = new Intent(FingerprintActivity.this, MainActivity.class);
+                                Intent io = new Intent(FingerprintActivity.this, MainActivityFragment.class);
                                 startActivity(io);
                                 finish();
                             }
@@ -366,7 +367,7 @@ public class FingerprintActivity extends AppCompatActivity {
                         SharedPreferences.Editor editor = sharedpreferences.edit();
                         editor.putString(vrpid, mvrpid);
                         editor.commit();
-                        Intent io = new Intent(FingerprintActivity.this, MainActivity.class);
+                        Intent io = new Intent(FingerprintActivity.this, MainActivityFragment.class);
                         startActivity(io);
                         finish();
                     } else {

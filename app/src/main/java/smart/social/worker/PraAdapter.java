@@ -20,13 +20,11 @@ import org.json.JSONObject;
 
 import java.util.List;
 
-import info.androidhive.recyclerview.*;
-
 public class PraAdapter extends RecyclerView.Adapter<PraAdapter.MyViewHolder> {
 
 
     private List<Pra> moviesList;
-    private AppCompatActivity mContext;
+    private Context mContext;
     YouTubePlayer player;
     private VideoClick videoClick;
     SharedPreferences sharedpreferences;
@@ -55,7 +53,7 @@ public class PraAdapter extends RecyclerView.Adapter<PraAdapter.MyViewHolder> {
     }
 
 
-    public PraAdapter(List<Pra> moviesList, AppCompatActivity mContext, VideoClick videoClick) {
+    public PraAdapter(List<Pra> moviesList, Context mContext, VideoClick videoClick) {
         this.moviesList = moviesList;
         this.mContext = mContext;
         this.videoClick = videoClick;
@@ -142,8 +140,18 @@ public class PraAdapter extends RecyclerView.Adapter<PraAdapter.MyViewHolder> {
                         SharedPreferences.Editor editor = sharedpreferences.edit();
                         editor.putString(tittle, result.toString());
                         editor.commit();
-                        Intent io = new Intent(mContext, FieldWork.class);
-                        mContext.startActivity(io);
+                        if (pra.getGenre().equals("Field")) {
+                            Intent io = new Intent(mContext, FieldWork.class);
+                            mContext.startActivity(io);
+                        } else if (pra.getGenre().equals("Research")) {
+                            Intent io = new Intent(mContext, Research.class);
+                            mContext.startActivity(io);
+                        }else if (pra.getGenre().equals("Assignment")) {
+                            Intent io = new Intent(mContext, Assignment.class);
+                            mContext.startActivity(io);
+                        }else if (pra.getGenre().equals("survey")) {
+                            videoClick.tittleClick(position);
+                        }
                     } catch (JSONException e) {
                         e.printStackTrace();
                     }

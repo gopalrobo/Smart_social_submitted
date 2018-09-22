@@ -122,7 +122,7 @@ public class CustomFontEditText extends android.support.v7.widget.AppCompatEditT
     public String othersModule(String tittle, final Context context, final TextView textView) {
         result = "";
         LayoutInflater li = LayoutInflater.from(context);
-        View dialogView = li.inflate(R.layout.dialog_activity, null);
+        View dialogView = li.inflate(R.layout.dialog_activity_pra, null);
         AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(
                 context);
         alertDialogBuilder.setTitle(tittle);

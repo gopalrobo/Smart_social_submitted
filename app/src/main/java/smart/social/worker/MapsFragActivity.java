@@ -65,6 +65,7 @@ import java.util.List;
 import java.util.Locale;
 
 import smart.social.worker.db.DbStudent;
+import smart.social.worker.forms.MainActivityFragment;
 import smart.social.worker.model.DataModel;
 import smart.social.worker.model.DrawingOption;
 import smart.social.worker.ui.BaseActivity;
@@ -173,7 +174,7 @@ public class MapsFragActivity extends BaseActivity implements OnMapReadyCallback
                 SharedPreferences.Editor editor = sharedpreferences.edit();
                 editor.putString(plotid, myList.get(position).getPlotid());
                 editor.commit();
-                Intent io = new Intent(MapsFragActivity.this, MainActivity.class);
+                Intent io = new Intent(MapsFragActivity.this, MainActivityFragment.class);
                 startActivity(io);
             }
 

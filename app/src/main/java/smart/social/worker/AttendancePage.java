@@ -33,7 +33,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import de.hdodenhof.circleimageview.CircleImageView;
-import smart.social.worker.app.AppConfig;
+import smart.social.worker.app.GlideApp;
 import smart.social.worker.db.DbImage;
 import smart.social.worker.db.DbReport;
 
@@ -213,7 +213,7 @@ public class AttendancePage extends AppCompatActivity {
                 JSONObject jsonObject = new JSONObject(data);
                 geotag.setText(jsonObject.getString("geotag"));
                 description.setText(jsonObject.getString("description"));
-                Glide.with(AttendancePage.this).load(jsonObject.getString("image"))
+                GlideApp.with(AttendancePage.this).load(jsonObject.getString("image"))
                         .centerCrop()
                         .dontAnimate()
                         .thumbnail(0.5f)
@@ -270,7 +270,7 @@ public class AttendancePage extends AppCompatActivity {
                 PickImageDialog.build(setup).setOnPickResult(new IPickResult() {
                     @Override
                     public void onPickResult(PickResult pickResult) {
-                        Glide.with(AttendancePage.this).load(pickResult.getUri())
+                        GlideApp.with(AttendancePage.this).load(pickResult.getUri())
                                 .centerCrop()
                                 .dontAnimate()
                                 .thumbnail(0.5f)

@@ -9,4 +9,9 @@
         android:title="Profile"
         app:showAsAction="always" />
 
+    <item
+        android:id="@+id/timeTable"
+        android:icon="@drawable/ic_event_white_24dp"
+        android:title="Profile"
+        app:showAsAction="always" />
 </menu>

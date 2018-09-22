@@ -30,12 +30,12 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import smart.social.worker.FingerprintActivity;
 import smart.social.worker.MainActivity;
 import smart.social.worker.R;
 import smart.social.worker.app.AppConfig;
 import smart.social.worker.app.AppController;
 import smart.social.worker.db.DbStudent;
+import smart.social.worker.forms.MainActivityFragment;
 
 
 public class MainActivityOfficer extends AppCompatActivity {
@@ -214,7 +214,7 @@ public class MainActivityOfficer extends AppCompatActivity {
                         SharedPreferences.Editor editor = sharedpreferences.edit();
                         editor.putString(vrpid, mvrpid);
                         editor.commit();
-                        Intent io = new Intent(MainActivityOfficer.this, MainActivity.class);
+                        Intent io = new Intent(MainActivityOfficer.this, MainActivityFragment.class);
                         startActivity(io);
                         finish();
                     } else {

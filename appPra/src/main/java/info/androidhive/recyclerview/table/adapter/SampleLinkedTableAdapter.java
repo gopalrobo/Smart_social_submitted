@@ -59,25 +59,25 @@ public class SampleLinkedTableAdapter extends LinkedAdaptiveTableAdapter<ViewHol
     @NonNull
     @Override
     public ViewHolderImpl onCreateItemViewHolder(@NonNull ViewGroup parent) {
-        return new TestViewHolder(mLayoutInflater.inflate(R.layout.item_card, parent, false));
+        return new TestViewHolder(mLayoutInflater.inflate(R.layout.item_card_pra, parent, false));
     }
 
     @NonNull
     @Override
     public ViewHolderImpl onCreateColumnHeaderViewHolder(@NonNull ViewGroup parent) {
-        return new TestHeaderColumnViewHolder(mLayoutInflater.inflate(R.layout.item_header_column, parent, false));
+        return new TestHeaderColumnViewHolder(mLayoutInflater.inflate(R.layout.item_header_column_pra, parent, false));
     }
 
     @NonNull
     @Override
     public ViewHolderImpl onCreateRowHeaderViewHolder(@NonNull ViewGroup parent) {
-        return new TestHeaderRowViewHolder(mLayoutInflater.inflate(R.layout.item_header_row, parent, false));
+        return new TestHeaderRowViewHolder(mLayoutInflater.inflate(R.layout.item_header_row_pra, parent, false));
     }
 
     @NonNull
     @Override
     public ViewHolderImpl onCreateLeftTopHeaderViewHolder(@NonNull ViewGroup parent) {
-        return new TestHeaderLeftTopViewHolder(mLayoutInflater.inflate(R.layout.item_header_left_top, parent, false));
+        return new TestHeaderLeftTopViewHolder(mLayoutInflater.inflate(R.layout.item_header_left_top_pra, parent, false));
     }
 
     @Override

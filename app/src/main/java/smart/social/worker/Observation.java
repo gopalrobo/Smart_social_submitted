@@ -12,6 +12,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import smart.social.worker.db.DbReport;
+import smart.social.worker.forms.MainActivityFragment;
 
 /**
  * Created by Gopal on 08-11-2017.
@@ -57,7 +58,7 @@ public class Observation extends AppCompatActivity {
                     if (success == 0)
                         dbReport.addData(vrpString, tittleString,
                                 getResources().getString(R.string.observation), observation.getText().toString());
-                    Intent io = new Intent(Observation.this, MainActivity.class);
+                    Intent io = new Intent(Observation.this, MainActivityFragment.class);
                     startActivity(io);
                 } else {
                     observation.setError("Enter Observation");

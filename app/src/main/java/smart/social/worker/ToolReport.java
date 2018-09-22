@@ -16,6 +16,9 @@ import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import smart.social.worker.db.DbReport;
 import smart.social.worker.table.ui.SampleActivity;
 
@@ -32,6 +35,7 @@ public class ToolReport extends AppCompatActivity {
     String tittleString;
     String vrpString;
     DbReport dbReport;
+    String videoString;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -46,6 +50,12 @@ public class ToolReport extends AppCompatActivity {
         }
         getSupportActionBar().setTitle("SSW");
         final EditText toolreport = (EditText) findViewById(R.id.toolreport);
+        try {
+            JSONObject jsonObject = new JSONObject(tittleString);
+            videoString = jsonObject.getString("chapter");
+        } catch (JSONException e) {
+            Log.e("Error", e.toString());
+        }
         try {
             String tool = dbReport.getData(vrpString, tittleString, getResources().getString(R.string.toolreport));
             if (tool != null)
@@ -93,7 +103,11 @@ public class ToolReport extends AppCompatActivity {
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
-
+        if (id == R.id.videoRef) {
+            Intent io = new Intent(ToolReport.this, MainActivityYoutubeVideo.class);
+            io.putExtra("VIDEO", videoString);
+            startActivity(io);
+        }
         //noinspection SimplifiableIfStatement
         if (id == R.id.report) {
             if (tittleString.equalsIgnoreCase("Gender Analysis")) {

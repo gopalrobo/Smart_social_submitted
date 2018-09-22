@@ -6,13 +6,15 @@ package smart.social.worker;
 
 public interface VideoClick {
 
-     void videoClick(int position);
+    void videoClick(int position);
 
-     void webClick(int position);
+    void webClick(int position);
 
-     void mapClick(int position);
+    void mapClick(int position);
 
-     void imageClick(int position);
+    void imageClick(int position);
 
-     void reportClick(int position);
+    void reportClick(int position);
+
+    void tittleClick(int position);
 }

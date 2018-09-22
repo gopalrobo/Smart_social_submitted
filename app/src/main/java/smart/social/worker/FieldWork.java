@@ -5,16 +5,18 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
-import android.widget.EditText;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import org.json.JSONObject;
 
+import smart.social.worker.allstudent.MainActivityAllStudent;
 import smart.social.worker.db.DbReport;
+import smart.social.worker.forms.MainActivityFragment;
+import smart.social.worker.map.MapListActivityImpl;
 
 /**
  * Created by Gopal on 08-11-2017.
@@ -29,6 +31,8 @@ public class FieldWork extends AppCompatActivity {
     String tittleString;
     String vrpString;
 
+
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -41,20 +45,21 @@ public class FieldWork extends AppCompatActivity {
             vrpString = sharedpreferences.getString(vrpid, "").trim();
         }
 
+
         getSupportActionBar().setTitle("Field Work");
         TextView submit = (TextView) findViewById(R.id.submit);
-        final EditText planForTheDay = (EditText) findViewById(R.id.planForTheDay);
-        final EditText technicalDetails = (EditText) findViewById(R.id.technicalDetails);
-        final EditText futurePlan = (EditText) findViewById(R.id.futurePlan);
-        final EditText conclusion = (EditText) findViewById(R.id.conclusion);
+//        final EditText planForTheDay = (EditText) findViewById(R.id.planForTheDay);
+//        final EditText technicalDetails = (EditText) findViewById(R.id.technicalDetails);
+//        final EditText futurePlan = (EditText) findViewById(R.id.futurePlan);
+//        final EditText conclusion = (EditText) findViewById(R.id.conclusion);
         try {
             String obs = dbReport.getData(vrpString, tittleString, getResources().getString(R.string.fieldWork));
             if (obs != null) {
                 JSONObject jsonObject = new JSONObject(obs);
-                planForTheDay.setText(jsonObject.getString("planForTheDay"));
-                technicalDetails.setText(jsonObject.getString("technicalDetails"));
-                futurePlan.setText(jsonObject.getString("futurePlan"));
-                conclusion.setText(jsonObject.getString("conclusion"));
+//                planForTheDay.setText(jsonObject.getString("planForTheDay"));
+//                technicalDetails.setText(jsonObject.getString("technicalDetails"));
+//                futurePlan.setText(jsonObject.getString("futurePlan"));
+//                conclusion.setText(jsonObject.getString("conclusion"));
             }
         } catch (Exception e) {
             Log.d("field Work ", e.toString());
@@ -62,16 +67,16 @@ public class FieldWork extends AppCompatActivity {
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (planForTheDay.getText().toString().length() > 0
-                        || technicalDetails.getText().toString().length() > 0
-                        || futurePlan.getText().toString().length() > 0
-                        || conclusion.getText().toString().length() > 0) {
+//                if (planForTheDay.getText().toString().length() > 0
+//                        || technicalDetails.getText().toString().length() > 0
+//                        || futurePlan.getText().toString().length() > 0
+//                        || conclusion.getText().toString().length() > 0) {
                     JSONObject jsonObject = new JSONObject();
                     try {
-                        jsonObject.put("planForTheDay", planForTheDay.getText().toString());
-                        jsonObject.put("technicalDetails", technicalDetails.getText().toString());
-                        jsonObject.put("futurePlan", futurePlan.getText().toString());
-                        jsonObject.put("conclusion", conclusion.getText().toString());
+//                        jsonObject.put("planForTheDay", planForTheDay.getText().toString());
+//                        jsonObject.put("technicalDetails", technicalDetails.getText().toString());
+//                        jsonObject.put("futurePlan", futurePlan.getText().toString());
+//                        jsonObject.put("conclusion", conclusion.getText().toString());
                     } catch (Exception e) {
                         Log.e("Error", e.toString());
                     }
@@ -80,12 +85,37 @@ public class FieldWork extends AppCompatActivity {
                     if (success == 0)
                         dbReport.addData(vrpString, tittleString,
                                 getResources().getString(R.string.fieldWork), jsonObject.toString());
-                    Intent io = new Intent(FieldWork.this, MainActivity.class);
+                    Intent io = new Intent(FieldWork.this, MainActivityFragment.class);
                     startActivity(io);
-                } else {
-                    Toast.makeText(getApplicationContext(), "Enter Field Work", Toast.LENGTH_SHORT).show();
-                }
+//                }
+//                else {
+//                    Toast.makeText(getApplicationContext(), "Enter Field Work", Toast.LENGTH_SHORT).show();
+//                }
             }
         });
+
+        FloatingActionButton studentGroup = (FloatingActionButton) findViewById(R.id.studentgroup);
+        studentGroup.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent io = new Intent(FieldWork.this, MainActivityAllStudent.class);
+                startActivity(io);
+            }
+        });
+
+        FloatingActionButton studentRoute = (FloatingActionButton) findViewById(R.id.studentRoute);
+        studentRoute.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent io = new Intent(FieldWork.this, MapListActivityImpl.class);
+                startActivity(io);
+            }
+        });
+
     }
+
+
+
+
+
 }

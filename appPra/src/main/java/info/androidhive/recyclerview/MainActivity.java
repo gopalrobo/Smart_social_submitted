@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity implements VideoClick {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main_pra);
         recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
         mAdapter = new PraAdapter(praList, this, this);
         getSupportActionBar().setTitle("Smart PRA");
@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity implements VideoClick {
     @Override
     public void onBackPressed() {
         super.onBackPressed();
-        finishAffinity();
+        finish();
     }
 
     @Override

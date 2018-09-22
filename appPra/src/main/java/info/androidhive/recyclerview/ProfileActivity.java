@@ -154,7 +154,7 @@ public class ProfileActivity extends AppCompatActivity implements OnMapReadyCall
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_profile);
+        setContentView(R.layout.activity_profile_pra);
         dbVrp = new DbVrp(this);
         dbProfile = new DbProfile(this);
         sharedpreferences = getSharedPreferences(mypreference,
@@ -704,7 +704,7 @@ public class ProfileActivity extends AppCompatActivity implements OnMapReadyCall
         imagePath = "";
         AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(ProfileActivity.this);
         LayoutInflater inflater = ProfileActivity.this.getLayoutInflater();
-        final View dialogView = inflater.inflate(R.layout.common_popup, null);
+        final View dialogView = inflater.inflate(R.layout.common_popup_pra, null);
         final ImageView itemclose = (ImageView) dialogView.findViewById(R.id.itemclose);
         final CustomFontEditText name = (CustomFontEditText) dialogView.findViewById(R.id.name);
         final CustomFontEditText description = (CustomFontEditText) dialogView.findViewById(R.id.description);
@@ -814,7 +814,7 @@ public class ProfileActivity extends AppCompatActivity implements OnMapReadyCall
         imagePath = "";
         AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(ProfileActivity.this);
         LayoutInflater inflater = ProfileActivity.this.getLayoutInflater();
-        final View dialogView = inflater.inflate(R.layout.common_popup, null);
+        final View dialogView = inflater.inflate(R.layout.common_popup_pra, null);
         final ImageView itemclose = (ImageView) dialogView.findViewById(R.id.itemclose);
         final CustomFontEditText name = (CustomFontEditText) dialogView.findViewById(R.id.name);
         final CustomFontEditText description = (CustomFontEditText) dialogView.findViewById(R.id.description);
@@ -924,7 +924,7 @@ public class ProfileActivity extends AppCompatActivity implements OnMapReadyCall
         imagePath = "";
         AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(ProfileActivity.this);
         LayoutInflater inflater = ProfileActivity.this.getLayoutInflater();
-        final View dialogView = inflater.inflate(R.layout.common_popup, null);
+        final View dialogView = inflater.inflate(R.layout.common_popup_pra, null);
         final ImageView itemclose = (ImageView) dialogView.findViewById(R.id.itemclose);
         final CustomFontEditText name = (CustomFontEditText) dialogView.findViewById(R.id.name);
         final CustomFontEditText description = (CustomFontEditText) dialogView.findViewById(R.id.description);
@@ -1034,7 +1034,7 @@ public class ProfileActivity extends AppCompatActivity implements OnMapReadyCall
         imagePath = "";
         AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(ProfileActivity.this);
         LayoutInflater inflater = ProfileActivity.this.getLayoutInflater();
-        final View dialogView = inflater.inflate(R.layout.common_popup, null);
+        final View dialogView = inflater.inflate(R.layout.common_popup_pra, null);
         final ImageView itemclose = (ImageView) dialogView.findViewById(R.id.itemclose);
         final CustomFontEditText name = (CustomFontEditText) dialogView.findViewById(R.id.name);
         final CustomFontEditText description = (CustomFontEditText) dialogView.findViewById(R.id.description);
@@ -1144,7 +1144,7 @@ public class ProfileActivity extends AppCompatActivity implements OnMapReadyCall
         imagePath = "";
         AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(ProfileActivity.this);
         LayoutInflater inflater = ProfileActivity.this.getLayoutInflater();
-        final View dialogView = inflater.inflate(R.layout.common_popup, null);
+        final View dialogView = inflater.inflate(R.layout.common_popup_pra, null);
         final ImageView itemclose = (ImageView) dialogView.findViewById(R.id.itemclose);
         final CustomFontEditText name = (CustomFontEditText) dialogView.findViewById(R.id.name);
         final CustomFontEditText description = (CustomFontEditText) dialogView.findViewById(R.id.description);
@@ -1254,7 +1254,7 @@ public class ProfileActivity extends AppCompatActivity implements OnMapReadyCall
         imagePath = "";
         AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(ProfileActivity.this);
         LayoutInflater inflater = ProfileActivity.this.getLayoutInflater();
-        final View dialogView = inflater.inflate(R.layout.common_popup, null);
+        final View dialogView = inflater.inflate(R.layout.common_popup_pra, null);
         final ImageView itemclose = (ImageView) dialogView.findViewById(R.id.itemclose);
         final CustomFontEditText name = (CustomFontEditText) dialogView.findViewById(R.id.name);
         final CustomFontEditText description = (CustomFontEditText) dialogView.findViewById(R.id.description);
@@ -1364,7 +1364,7 @@ public class ProfileActivity extends AppCompatActivity implements OnMapReadyCall
         imagePath = "";
         AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(ProfileActivity.this);
         LayoutInflater inflater = ProfileActivity.this.getLayoutInflater();
-        final View dialogView = inflater.inflate(R.layout.common_popup, null);
+        final View dialogView = inflater.inflate(R.layout.common_popup_pra, null);
         final ImageView itemclose = (ImageView) dialogView.findViewById(R.id.itemclose);
         final CustomFontEditText name = (CustomFontEditText) dialogView.findViewById(R.id.name);
         final CustomFontEditText description = (CustomFontEditText) dialogView.findViewById(R.id.description);
@@ -1474,7 +1474,7 @@ public class ProfileActivity extends AppCompatActivity implements OnMapReadyCall
         imagePath = "";
         AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(ProfileActivity.this);
         LayoutInflater inflater = ProfileActivity.this.getLayoutInflater();
-        final View dialogView = inflater.inflate(R.layout.common_popup, null);
+        final View dialogView = inflater.inflate(R.layout.common_popup_pra, null);
         final ImageView itemclose = (ImageView) dialogView.findViewById(R.id.itemclose);
         final CustomFontEditText name = (CustomFontEditText) dialogView.findViewById(R.id.name);
         final CustomFontEditText description = (CustomFontEditText) dialogView.findViewById(R.id.description);
@@ -1584,7 +1584,7 @@ public class ProfileActivity extends AppCompatActivity implements OnMapReadyCall
         imagePath = "";
         AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(ProfileActivity.this);
         LayoutInflater inflater = ProfileActivity.this.getLayoutInflater();
-        final View dialogView = inflater.inflate(R.layout.common_popup, null);
+        final View dialogView = inflater.inflate(R.layout.common_popup_pra, null);
         final ImageView itemclose = (ImageView) dialogView.findViewById(R.id.itemclose);
         final CustomFontEditText name = (CustomFontEditText) dialogView.findViewById(R.id.name);
         final CustomFontEditText description = (CustomFontEditText) dialogView.findViewById(R.id.description);
@@ -1694,7 +1694,7 @@ public class ProfileActivity extends AppCompatActivity implements OnMapReadyCall
         imagePath = "";
         AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(ProfileActivity.this);
         LayoutInflater inflater = ProfileActivity.this.getLayoutInflater();
-        final View dialogView = inflater.inflate(R.layout.crops_popup, null);
+        final View dialogView = inflater.inflate(R.layout.crops_popup_pra, null);
         final ImageView itemclose = (ImageView) dialogView.findViewById(R.id.itemclose);
         final CustomFontEditText year = (CustomFontEditText) dialogView.findViewById(R.id.year);
         final EditText season = (EditText) dialogView.findViewById(R.id.season);
@@ -1995,7 +1995,7 @@ public class ProfileActivity extends AppCompatActivity implements OnMapReadyCall
         imagePath = "";
         AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(ProfileActivity.this);
         LayoutInflater inflater = ProfileActivity.this.getLayoutInflater();
-        final View dialogView = inflater.inflate(R.layout.common_popup, null);
+        final View dialogView = inflater.inflate(R.layout.common_popup_pra, null);
         final ImageView itemclose = (ImageView) dialogView.findViewById(R.id.itemclose);
         final CustomFontEditText name = (CustomFontEditText) dialogView.findViewById(R.id.name);
         final CustomFontEditText description = (CustomFontEditText) dialogView.findViewById(R.id.description);
@@ -2105,7 +2105,7 @@ public class ProfileActivity extends AppCompatActivity implements OnMapReadyCall
         imagePath = "";
         AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(ProfileActivity.this);
         LayoutInflater inflater = ProfileActivity.this.getLayoutInflater();
-        final View dialogView = inflater.inflate(R.layout.common_popup, null);
+        final View dialogView = inflater.inflate(R.layout.common_popup_pra, null);
         final ImageView itemclose = (ImageView) dialogView.findViewById(R.id.itemclose);
         final CustomFontEditText name = (CustomFontEditText) dialogView.findViewById(R.id.name);
         final CustomFontEditText description = (CustomFontEditText) dialogView.findViewById(R.id.description);
@@ -2214,7 +2214,7 @@ public class ProfileActivity extends AppCompatActivity implements OnMapReadyCall
     public void addBank(final int position, final String conatct, String tittle) {
         AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(ProfileActivity.this);
         LayoutInflater inflater = ProfileActivity.this.getLayoutInflater();
-        final View dialogView = inflater.inflate(R.layout.add_bank_popup, null);
+        final View dialogView = inflater.inflate(R.layout.add_bank_popup_pra, null);
         final CustomFontEditText nametxt = (CustomFontEditText) dialogView.findViewById(R.id.name);
         final CustomFontEditText accounttxt = (CustomFontEditText) dialogView.findViewById(R.id.account);
         final CustomFontEditText ifscnumbertxt = (CustomFontEditText) dialogView.findViewById(R.id.ifscnumber);
@@ -2629,7 +2629,7 @@ public class ProfileActivity extends AppCompatActivity implements OnMapReadyCall
     public void qrcode(final int position, final String contact, final String tittle) {
         AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(ProfileActivity.this);
         LayoutInflater inflater = ProfileActivity.this.getLayoutInflater();
-        final View dialogView = inflater.inflate(R.layout.qrcode_activity, null);
+        final View dialogView = inflater.inflate(R.layout.qrcode_activity_pra, null);
         final ImageView qrimage = (ImageView) dialogView.findViewById(R.id.qrimage);
         final CustomFontTextView submittxt = (CustomFontTextView) dialogView.findViewById(R.id.r_submittxt);
         final CustomFontTextView itemtittle = (CustomFontTextView) dialogView.findViewById(R.id.itemtittle);

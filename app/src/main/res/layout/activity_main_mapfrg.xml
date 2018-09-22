@@ -22,13 +22,8 @@
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
-
-
             <include layout="@layout/activity_fragmaps" />
-
-
         </FrameLayout>
     </android.support.v7.widget.CardView>
-
 
 </RelativeLayout>

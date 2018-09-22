@@ -3,12 +3,12 @@ apply plugin: 'jacoco'
 apply plugin: 'com.github.kt3k.coveralls'
 
 android {
-    compileSdkVersion 26
-    buildToolsVersion "26.0.2"
+    compileSdkVersion 27
+    buildToolsVersion '27.0.3'
 
     defaultConfig {
         minSdkVersion 14
-        targetSdkVersion 26
+        targetSdkVersion 27
         versionCode 1
         versionName "1.0"
         buildConfigField "String", "FORECAST_IO_API_KEY", "\"97b232a76771e4bd5fcd985da278ac0d\""
@@ -41,7 +41,7 @@ android {
 }
 
 ext {
-    supportVersion = '26.1.0'
+    supportVersion = '27.0.2'
     retrofit2Version = '2.0.0'
     robolectricVersion = '3.0'
     assertjVersion = '1.1.1'
@@ -62,20 +62,20 @@ dependencies {
     }
 }
 
-task jacocoTestReport(type: JacocoReport, dependsOn: ['testDebugUnitTest']) {
-    reports {
-        xml.enabled true
-        xml.destination file("${buildDir}/reports/jacoco/test/jacocoTestReport.xml")
-        html.destination file("${buildDir}/reports/coverage")
-    }
-
-    executionData = files "${buildDir}/jacoco/testDebugUnitTest.exec"
-    sourceDirectories = files android.sourceSets.main.java.srcDirs
-    classDirectories = fileTree(dir: "${buildDir}/intermediates/classes/debug",
-            exclude: [ '**/R.class', '**/R$*.class' ])
-
-    doLast {
-        println "coveralls report has been generated to file://${buildDir}/reports/jacoco/test/jacocoTestReport.xml"
-        println "coverage report generated at file://${reports.html.destination}/index.html"
-    }
-}
+//task jacocoTestReport(type: JacocoReport, dependsOn: ['testDebugUnitTest']) {
+//    reports {
+//        xml.enabled true
+//        xml.destination file("${buildDir}/reports/jacoco/test/jacocoTestReport.xml")
+//        html.destination file("${buildDir}/reports/coverage")
+//    }
+//
+//    executionData = files "${buildDir}/jacoco/testDebugUnitTest.exec"
+//    sourceDirectories = files android.sourceSets.main.java.srcDirs
+//    classDirectories = fileTree(dir: "${buildDir}/intermediates/classes/debug",
+//            exclude: [ '**/R.class', '**/R$*.class' ])
+//
+//    doLast {
+//        println "coveralls report has been generated to file://${buildDir}/reports/jacoco/test/jacocoTestReport.xml"
+//        println "coverage report generated at file://${reports.html.destination}/index.html"
+//    }
+//}

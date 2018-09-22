@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 26
-    buildToolsVersion '26.0.2'
+    compileSdkVersion 27
+    buildToolsVersion '27.0.3'
 
     defaultConfig {
         applicationId "smart.social.worker"
         minSdkVersion 17
-        targetSdkVersion 26
+        targetSdkVersion 27
         versionCode 1
         versionName "1.0"
         multiDexEnabled true
@@ -22,45 +22,58 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:multidex:1.0.0'
-   // compile fileTree(include: ['*.jar'], dir: 'libs')
-    testCompile 'junit:junit:4.12'
-    compile 'com.android.support:appcompat-v7:26.1.0'
-    compile 'com.android.support:design:26.1.0'
-    compile 'com.android.support:recyclerview-v7:26.1.0'
-    compile 'com.android.support:cardview-v7:26.1.0'
-    compile 'de.hdodenhof:circleimageview:2.2.0'
-   // compile files('libs/YouTubeAndroidPlayerApi.jar')
-    compile 'org.apache.httpcomponents:httpmime:4.0-alpha3'
-    compile 'com.github.mirrajabi:okhttp-json-mock:1.0'
-    compile 'com.squareup.okhttp3:okhttp:3.5.0'
-    compile project(':ask')
-    compile project(':appPra')
-    compile project(':appEvent')
-
-    // compile project(':library-map')
-    compile 'com.github.bumptech.glide:glide:3.7.0'
-    compile project(':multisnaprecyclerview')
-    compile('com.github.bkhezry:ExtraMapUtils:v1.2.0') {
+    implementation 'com.android.support:multidex:1.0.0'
+    // implementation fileTree(include: ['*.jar'], dir: 'libs')
+    testImplementation 'junit:junit:4.12'
+    implementation 'com.android.support:appcompat-v7:27.0.2'
+    implementation 'com.android.support:design:27.0.2'
+    implementation 'com.android.support:recyclerview-v7:27.0.2'
+    implementation 'com.android.support:cardview-v7:27.0.2'
+    implementation 'de.hdodenhof:circleimageview:2.2.0'
+    //implementation files('libs/YouTubeAndroidPlayerApi.jar')
+    implementation 'org.apache.httpcomponents:httpmime:4.0-alpha3'
+    implementation 'com.github.mirrajabi:okhttp-json-mock:1.0'
+    implementation 'com.squareup.okhttp3:okhttp:3.5.0'
+    implementation project(':ask')
+    implementation project(':appPra')
+    implementation project(':appEvent')
+    // implementation project(':library-map')
+    implementation project(':multisnaprecyclerview')
+    implementation('com.github.bkhezry:ExtraMapUtils:v1.2.0') {
         exclude group: 'com.android.support'
     }
-    compile 'com.github.smart-fun:XmlToJson:1.1.1'
-    compile 'com.github.flavienlaurent.datetimepicker:library:0.0.2'
-    compile project(path: ':library-gmail')
-    compile 'com.squareup.retrofit2:converter-gson:2.1.0'
-    compile 'com.mcxiaoke.volley:library-aar:1.0.0'
-    //compile project(':library')
-    compile project(':rosetta')
-    compile 'com.github.jrvansuita:PickImage:+'
-    compile 'com.facebook.android:facebook-android-sdk:4.24.0'
-    compile project(':qrmodule')
-    compile project(':library-tableformat')
-    compile('com.schibstedspain.android:android-reactive-location:0.10.1') {
+    implementation 'com.github.smart-fun:XmlToJson:1.1.1'
+    implementation 'com.github.flavienlaurent.datetimepicker:library:0.0.2'
+    implementation project(path: ':library-gmail')
+    ///implementation 'com.squareup.retrofit2:converter-gson:2.1.0'
+    implementation 'com.mcxiaoke.volley:library-aar:1.0.0'
+    //implementation project(':library')
+    implementation project(':rosetta')
+    implementation 'com.github.jrvansuita:PickImage:+'
+    implementation 'com.facebook.android:facebook-android-sdk:4.24.0'
+    implementation project(':qrmodule')
+    implementation project(':library-tableformat')
+    implementation('com.schibstedspain.android:android-reactive-location:0.10.1') {
         exclude group: 'com.google.android.gms'
     }
-    compile 'com.tbruyelle.rxpermissions:rxpermissions:0.9.4@aar'
-    compile 'com.google.maps.android:android-maps-utils:0.5+'
+    implementation 'com.tbruyelle.rxpermissions:rxpermissions:0.9.4@aar'
+    implementation 'com.google.maps.android:android-maps-utils:0.5+'
     def playServicesVersion = '10.2.0'
-    compile "com.google.android.gms:play-services-location:$playServicesVersion"
-    compile 'com.weiwangcn.betterspinner:library-material:1.1.0'
+    implementation "com.google.android.gms:play-services-location:$playServicesVersion"
+    implementation 'com.weiwangcn.betterspinner:library-material:1.1.0'
+    implementation project(path: ':multichoicerecyclerview')
+    implementation 'com.jakewharton:butterknife:8.1.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.1.0'
+    implementation project(':youtubeparser')
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+    implementation files('libs/Java-Plagiarism-Checker.jar')
+    implementation files('libs/commons-cli-1.3.1.jar')
+    implementation project(':surveylib')
+    implementation 'com.github.bumptech.glide:glide:4.0.0'
+    //    implementation 'com.github.bumptech.glide:glide:3.7.0'
+    implementation 'com.github.bumptech.glide:compiler:4.0.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.0.0'
+    implementation 'com.github.dimorinny:floating-text-button:0.0.2'
+    implementation project(':photoview')
+    implementation files('libs/YouTubeAndroidPlayerApi.jar')
 }

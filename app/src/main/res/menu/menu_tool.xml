@@ -9,4 +9,10 @@
         android:title="Report"
         app:showAsAction="always" />
 
+    <item
+        android:id="@+id/videoRef"
+        android:icon="@drawable/ic_play_circle_outline_black_24dp"
+        android:title="Report"
+        app:showAsAction="always" />
+
 </menu>

@@ -10,7 +10,7 @@ public class SplashScreen extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_splashpra);
+        setContentView(R.layout.activity_splashpra_pra);
         //thread for splash screen running
         Thread logoTimer = new Thread() {
             public void run() {

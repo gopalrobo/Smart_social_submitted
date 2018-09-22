@@ -33,7 +33,6 @@ import com.android.volley.Request;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
-import com.bumptech.glide.Glide;
 import com.google.gson.Gson;
 import com.vansuita.pickimage.bean.PickResult;
 import com.vansuita.pickimage.bundle.PickSetup;
@@ -51,7 +50,9 @@ import de.hdodenhof.circleimageview.CircleImageView;
 import fr.arnaudguyon.xmltojsonlib.XmlToJson;
 import smart.social.worker.app.AppConfig;
 import smart.social.worker.app.AppController;
+import smart.social.worker.app.GlideApp;
 import smart.social.worker.db.DbStudent;
+import smart.social.worker.forms.MainActivityFragment;
 import smart.social.worker.service.HttpService;
 import katomaran.evao.lib.qrmodule.activity.QrScannerActivity;
 
@@ -232,7 +233,7 @@ public class StudentRegistration extends AppCompatActivity
                 PickImageDialog.build(setup).setOnPickResult(new IPickResult() {
                     @Override
                     public void onPickResult(PickResult pickResult) {
-                        Glide.with(StudentRegistration.this).load(pickResult.getUri())
+                        GlideApp.with(StudentRegistration.this).load(pickResult.getUri())
                                 .centerCrop()
                                 .dontAnimate()
                                 .thumbnail(0.5f)
@@ -284,7 +285,7 @@ public class StudentRegistration extends AppCompatActivity
                 ifscnumber.setText(student.getIfscnumber());
                 password.setText(dbStudent.getDataByvrpid(sharedpreferences.getString(vrpid, "")).get(2));
                 confirmpassword.setText(dbStudent.getDataByvrpid(sharedpreferences.getString(vrpid, "")).get(2));
-                Glide.with(StudentRegistration.this).load(imageUri)
+                GlideApp.with(StudentRegistration.this).load(imageUri)
                         .centerCrop()
                         .dontAnimate()
                         .thumbnail(0.5f)
@@ -431,7 +432,7 @@ public class StudentRegistration extends AppCompatActivity
                 editor.remove(vrpid);
                 editor.remove(update);
                 editor.commit();
-                Intent io = new Intent(StudentRegistration.this, MainActivity.class);
+                Intent io = new Intent(StudentRegistration.this, MainActivityFragment.class);
                 io.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
                 io.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 startActivity(io);

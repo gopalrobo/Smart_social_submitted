@@ -1,0 +1,77 @@
+{
+  "survey_properties": {
+    "intro_message": "<strong>Survey Consent form.</strong><br><br><br> Hello, Madam/Sir, I am  a student from Bharathiyar University and I am conducting my master research study on impacts of climate change on livelihoods.<br><br>I kindly request you to participate in my survey and provide responses based on your experience.<br><br>I assure utmost confidentiality and protecting your personal informationi will not disclose it to any one.",
+    "end_message": "Thank you for having the time to take our survey.",
+    "skip_intro": false
+  },
+  "questions": [
+    {
+      "question_type": "String",
+      "question_title": "Name of respondent",
+      "description": "",
+      "required": true
+    },
+    {
+      "question_type": "Radioboxes",
+      "question_title": "GENDER ?",
+      "description": "",
+      "required": true,
+      "random_choices": true,
+      "choices": [
+        "male",
+        "female",
+        "Third Gender"
+      ]
+    },
+    {
+      "question_type": "Radioboxes",
+      "question_title": "What is your age group ?",
+      "description": "",
+      "required": true,
+      "random_choices": false,
+      "choices": [
+        "less than 20",
+        "20-30",
+        "30-40",
+        "40-50",
+        "50+"
+      ]
+    },
+    {
+      "question_title": "Number of family members ?",
+      "description": "",
+      "required": false,
+      "question_type": "Number"
+    },
+    {
+      "question_type": "Radioboxes",
+      "question_title": "Education level of the family members?",
+      "description": "",
+      "required": true,
+      "random_choices": false,
+      "choices": [
+        "Illiterate",
+        "Primary",
+        "Middle",
+        "ITI",
+        "High",
+        "Polytechnic",
+        "Higher secondary",
+        "Bachelors",
+        "Master+"
+      ]
+    },
+    {
+      "question_type": "Checkboxes",
+      "question_title": "Occupation details?",
+      "description": "",
+      "required": false,
+      "random_choices": true,
+      "choices": [
+        "Primary",
+        "Secondary",
+        "Tertiary"
+      ]
+    }
+  ]
+}

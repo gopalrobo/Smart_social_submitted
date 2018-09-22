@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <smart.social.worker.allstudent.SlidingUpPanelLayout
+        android:id="@+id/slidingLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="bottom"
+        app:paralaxOffset="@dimen/paralax_offset"
+        app:shadowHeight="0dp">
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="top">
+
+            <RelativeLayout
+                android:id="@+id/mapContainer"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/btnSatellite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|bottom|center"
+                android:layout_marginBottom="50.0dip"
+                android:layout_marginStart="20.0dip"
+                app:backgroundTint="#fff"
+                app:elevation="2.0dip"
+                app:fabSize="normal"
+                app:rippleColor="#ffeceeef"
+                android:src="@drawable/ic_satellite_off" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/btnGPS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|bottom|center"
+                android:layout_marginBottom="50.0dip"
+                android:layout_marginEnd="20.0dip"
+                app:backgroundTint="#fff"
+                app:elevation="2dp"
+                app:fabSize="normal"
+                app:rippleColor="#ffeceeef"
+                android:src="@drawable/ic_gps_fixed_black_24dp" />
+        </FrameLayout>
+
+        <RelativeLayout
+            android:id="@+id/slidingContainer"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <View
+                android:id="@+id/transparentView"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/map_height"
+                android:layout_alignParentTop="true"
+                android:visibility="gone" />
+
+            <View
+                android:id="@+id/whiteSpaceView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/map_height"
+                android:background="@android:color/white"
+                android:visibility="gone" />
+
+            <smart.social.worker.allstudent.LockableRecyclerView
+                android:id="@android:id/list"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@id/transparentView"
+                android:background="@android:color/transparent"
+                android:cacheColorHint="@android:color/white"
+                android:drawSelectorOnTop="true"
+                android:smoothScrollbar="false" />
+        </RelativeLayout>
+    </smart.social.worker.allstudent.SlidingUpPanelLayout>
+
+    <!-- more code here -->
+</RelativeLayout>

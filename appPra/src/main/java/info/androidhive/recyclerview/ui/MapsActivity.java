@@ -86,7 +86,7 @@ public class MapsActivity extends BaseActivity implements OnMapReadyCallback, Go
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_maps);
+        setContentView(R.layout.activity_maps_pra);
         AppCompatDelegate.setCompatVectorFromResourcesEnabled(true);
         drawingOption = getIntent().getParcelableExtra(MAP_OPTION);
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()

@@ -61,7 +61,7 @@ public class TeamMember extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.team_member);
+        setContentView(R.layout.team_member_pra);
         getSupportActionBar().setTitle("Team members");
         gps = new GPSTracker(TeamMember.this);
 
@@ -132,7 +132,7 @@ public class TeamMember extends AppCompatActivity {
         imagePath = "";
         AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(TeamMember.this);
         LayoutInflater inflater = TeamMember.this.getLayoutInflater();
-        final View dialogView = inflater.inflate(R.layout.team_member_registration, null);
+        final View dialogView = inflater.inflate(R.layout.team_member_registration_pra, null);
         final ImageView itemclose = (ImageView) dialogView.findViewById(R.id.itemclose);
         final CustomFontEditText name = (CustomFontEditText) dialogView.findViewById(R.id.membername);
         final CustomFontEditText designation = (CustomFontEditText) dialogView.findViewById(R.id.designation);

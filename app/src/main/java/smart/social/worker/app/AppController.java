@@ -1,6 +1,6 @@
 package smart.social.worker.app;
 
-import android.app.Application;
+import android.content.Context;
 import android.support.multidex.MultiDexApplication;
 import android.text.TextUtils;
 
@@ -20,7 +20,7 @@ public class AppController extends MultiDexApplication {
     public static final String TAG = AppController.class.getSimpleName();
 
     private RequestQueue mRequestQueue;
-
+    private static Context sContext;
     private static AppController mInstance;
 
     private Locale firstLaunchLocale;
@@ -32,10 +32,14 @@ public class AppController extends MultiDexApplication {
     public void onCreate() {
         super.onCreate();
         mInstance = this;
+        sContext = this;
         AppEventsLogger.activateApp(this);
         init();
     }
 
+    public static Context getAppContext() {
+        return sContext;
+    }
 
     private void init() {
         AutomatedSupportedLocales();

@@ -1,11 +1,22 @@
 package smart.social.worker.app;
 
+import android.content.Context;
+import android.view.Gravity;
+import android.widget.TextView;
+import android.widget.Toast;
+
 import java.util.HashMap;
 import java.util.Map;
 
 import smart.social.worker.R;
 
 public class AppConfig {
+
+    //Key values
+    public static final String studentIdKey = "studentIdKey";
+    public static final String staffIdKey = "staffIdKey";
+    public static final String mypreference = "mypref";
+
 
     public static String iplocalfarmer = "192.168.43.233/coconut/farmer";
     public static String iplocalpro = "192.168.43.233/coconut/product";
@@ -76,4 +87,15 @@ public class AppConfig {
     }
 
     public static final String YOUTUBE_API_KEY = "AIzaSyCG25IwSEZcJuF5Te7kko9XawkHaEJ48Ws";
+
+
+    public static void styleToast(String msg, Context context) {
+        Toast toast = Toast.makeText(context,
+                msg, Toast.LENGTH_SHORT);
+        toast.setGravity(Gravity.CENTER | Gravity.CENTER_HORIZONTAL, 0, 0);
+        TextView tv = (TextView) toast.getView().findViewById(android.R.id.message);
+        toast.getView().setBackgroundResource(R.drawable.shape_toast);
+        toast.show();
+    }
+
 }

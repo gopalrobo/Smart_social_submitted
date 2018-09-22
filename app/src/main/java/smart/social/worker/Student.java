@@ -27,6 +27,16 @@ public class Student {
     public Student() {
     }
 
+
+    public Student(String sudentid, String image, String aadharnumber, String studentname, String geotag, String degreeName) {
+        this.sudentid = sudentid;
+        this.image = image;
+        this.aadharnumber = aadharnumber;
+        this.studentname = studentname;
+        this.geotag = geotag;
+        this.degreeName = degreeName;
+    }
+
     public void setId(String sudentid) {
         this.sudentid = sudentid;
     }

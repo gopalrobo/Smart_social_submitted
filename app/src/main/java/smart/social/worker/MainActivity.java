@@ -9,11 +9,18 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.androidadvance.androidsurvey.SurveyActivity;
+
+import java.io.IOException;
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
+
+import io.github.hidroh.calendar.MainActivityEvent;
 
 public class MainActivity extends AppCompatActivity implements VideoClick {
     private List<Pra> praList = new ArrayList<>();
@@ -22,7 +29,7 @@ public class MainActivity extends AppCompatActivity implements VideoClick {
     SharedPreferences sharedpreferences;
     public static final String mypreference = "mypref";
     public static final String tittle = "tittleKey";
-
+    private static final int SURVEY_REQUEST = 1337;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -59,15 +66,20 @@ public class MainActivity extends AppCompatActivity implements VideoClick {
         pra = new Pra("Special courses", "O0wa42N5Rtw", "", "https://sites.google.com/site/faopratoolkit/transect-walk");
         praList.add(pra);
 
-        pra = new Pra("PRA", "pra", "", "https://sites.google.com/site/faopratoolkit/transect-walk");
+        pra = new Pra("PRA", "pra", "true", "https://sites.google.com/site/faopratoolkit/transect-walk");
         praList.add(pra);
 
         pra = new Pra("FILED WORK", "Field", "true", "https://sites.google.com/site/faopratoolkit/transect-walk");
         praList.add(pra);
 
+        pra = new Pra("ASSIGNMENT", "Assignment", "true", "https://sites.google.com/site/faopratoolkit/transect-walk");
+        praList.add(pra);
+
         pra = new Pra("RESEARCH", "Research", "true", "https://sites.google.com/site/faopratoolkit/transect-walk");
         praList.add(pra);
 
+        pra = new Pra("SURVEY", "survey", "true", "https://sites.google.com/site/faopratoolkit/transect-walk");
+        praList.add(pra);
         mAdapter.notifyDataSetChanged();
     }
 
@@ -126,6 +138,14 @@ public class MainActivity extends AppCompatActivity implements VideoClick {
     }
 
     @Override
+    public void tittleClick(int position) {
+        Intent i_survey = new Intent(MainActivity.this, SurveyActivity.class);
+        //you have to pass as an extra the json string.
+        i_survey.putExtra("json_survey", loadSurveyJson("example_survey_1.json"));
+        startActivityForResult(i_survey, SURVEY_REQUEST);
+    }
+
+    @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_main, menu);
@@ -145,7 +165,43 @@ public class MainActivity extends AppCompatActivity implements VideoClick {
             startActivity(io);
             return true;
         }
+        if (id == R.id.timeTable) {
+            Intent io = new Intent(MainActivity.this, MainActivityEvent.class);
+            startActivity(io);
+            return true;
+        }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        if (requestCode == SURVEY_REQUEST) {
+            if (resultCode == RESULT_OK) {
+
+                String answers_json = data.getExtras().getString("answers");
+                Log.d("****", "****************** WE HAVE ANSWERS ******************");
+                Log.v("ANSWERS JSON", answers_json);
+                Log.d("****", "*****************************************************");
+
+                //do whatever you want with them...
+            }
+        }
+    }
+
+
+    //json stored in the assets folder. but you can get it from wherever you like.
+    private String loadSurveyJson(String filename) {
+        try {
+            InputStream is = getAssets().open(filename);
+            int size = is.available();
+            byte[] buffer = new byte[size];
+            is.read(buffer);
+            is.close();
+            return new String(buffer, "UTF-8");
+        } catch (IOException ex) {
+            ex.printStackTrace();
+            return null;
+        }
     }
 }

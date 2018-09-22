@@ -58,7 +58,7 @@ public class EditItemDialog extends DialogFragment implements View.OnClickListen
                              @Nullable Bundle savedInstanceState) {
         //noinspection ConstantConditions
         getDialog().getWindow().setBackgroundDrawable(new ColorDrawable(android.graphics.Color.TRANSPARENT));
-        View view = inflater.inflate(R.layout.dialog_edit_item, container, false);
+        View view = inflater.inflate(R.layout.dialog_edit_item_pra, container, false);
 
         mTilValue = (TextInputLayout) view.findViewById(R.id.tilValue);
         mEtValue = (TextInputEditText) view.findViewById(R.id.etValue);

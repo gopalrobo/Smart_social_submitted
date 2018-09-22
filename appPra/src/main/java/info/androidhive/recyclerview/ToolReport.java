@@ -36,7 +36,7 @@ public class ToolReport extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.tool_report);
+        setContentView(R.layout.tool_report_pra);
         dbReport = new DbReport(this);
         sharedpreferences = getSharedPreferences(mypreference,
                 Context.MODE_PRIVATE);

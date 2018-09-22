@@ -72,7 +72,7 @@ public class TableLayoutFragment
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        final View view = inflater.inflate(R.layout.fragment_tab_layout, container, false);
+        final View view = inflater.inflate(R.layout.fragment_tab_layout_pra, container, false);
 
         mTableLayout = (AdaptiveTableLayout) view.findViewById(R.id.tableLayout);
         progressBar = (ProgressBar) view.findViewById(R.id.progressBar);

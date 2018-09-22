@@ -93,7 +93,7 @@ public class CustomMarkerClusteringDemoActivity extends BaseDemoActivity impleme
         public PersonRenderer() {
             super(getApplicationContext(), getMap(), mClusterManager);
 
-            View multiProfile = getLayoutInflater().inflate(R.layout.multi_profile, null);
+            View multiProfile = getLayoutInflater().inflate(R.layout.multi_profile_pra, null);
             mClusterIconGenerator.setContentView(multiProfile);
             mClusterImageView = (ImageView) multiProfile.findViewById(R.id.image);
 

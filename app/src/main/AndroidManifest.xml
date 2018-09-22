@@ -27,6 +27,17 @@
     <uses-permission android:name="android.permission.USE_FINGERPRINT" />
     <uses-permission android:name="android.permission.READ_CALENDAR" />
     <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="25.3.1" />
+    <meta-data
+        android:name="smart.social.worker.app.MyAppGlideModule"
+        android:value="GlideModule" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
     <application
         android:name="smart.social.worker.app.AppController"
         android:allowBackup="true"
@@ -52,37 +63,55 @@
         </activity>
         <activity
             android:name="smart.social.worker.FingerprintActivity"
-            android:label="@string/app_name"/>
+            android:logo="@drawable/holyicon"
+            android:label="@string/app_name" />
         <activity
             android:name="smart.social.worker.MainActivity"
-            android:label="@string/app_name"/>
+            android:label="@string/app_name" />
         <activity
             android:name="smart.social.worker.MainActivitySubject"
-            android:label="@string/app_name"/>
+            android:label="@string/app_name" />
         <activity
             android:name="smart.social.worker.AttendancePage"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name=".off.MainActivityOfficer"
+            android:name="smart.social.worker.attend.SampleToolbarActivity"
+            android:theme="@style/AppThemeAttend"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="smart.social.worker.off.MainActivityOfficer"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name="io.github.hidroh.calendar.MainActivityEvent"
-            android:theme="@style/AppThemee"/>
+            android:theme="@style/AppThemee" />
+        <activity
+            android:name="io.github.hidroh.calendar.EditActivity"
+            android:theme="@style/AppThemee"
+            android:windowSoftInputMode="adjustResize" />
         <activity
             android:name="smart.social.worker.FieldWork"
             android:windowSoftInputMode="stateHidden" />
         <activity
+            android:name="smart.social.worker.Research"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="smart.social.worker.Assignment"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
             android:name="smart.social.worker.StudentRegistration"
-            android:windowSoftInputMode="adjustResize"/>
+            android:windowSoftInputMode="adjustResize" />
         <activity
             android:name="smart.social.worker.ProfileActivity"
-            android:windowSoftInputMode="adjustResize"/>
+            android:windowSoftInputMode="adjustResize" />
         <activity
             android:name="smart.social.worker.ToolReport"
             android:windowSoftInputMode="stateHidden" />
         <activity
             android:name="smart.social.worker.FinalReport"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="smart.social.worker.allstudent.MainActivityAllStudent"
             android:windowSoftInputMode="stateHidden" />
         <activity
             android:name="smart.social.worker.HistoricalTimelinePhoto"
@@ -96,18 +125,44 @@
         <activity
             android:name="smart.social.worker.TeamMember"
             android:windowSoftInputMode="stateHidden" />
+
+        <activity
+            android:name="smart.social.worker.map.MapListActivityImpl"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="smart.social.worker.map.MainActivityRoute"
+            android:windowSoftInputMode="stateHidden" />
+
         <activity
             android:name="smart.social.worker.Observation"
             android:windowSoftInputMode="stateHidden" />
         <activity
             android:name="smart.social.worker.MainActivityVideo"
-            android:windowSoftInputMode="stateHidden"
-            android:theme="@style/Base.Theme.AppCompat.Dialog"/>
-        <activity android:name="smart.social.worker.table.ui.SampleActivity"
-            android:theme="@style/AppThemeNew"/>
+            android:theme="@style/Base.Theme.AppCompat.Dialog"
+            android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name="smart.social.worker.MapsFragActivity" />
+            android:name="smart.social.worker.table.ui.SampleActivity"
+            android:theme="@style/AppThemeNew" />
+        <activity android:name="smart.social.worker.MapsFragActivity" />
         <activity android:name="katomaran.evao.lib.qrmodule.activity.QrScannerActivity" />
+        <activity
+            android:name=".forms.MainActivityFragment"
+            android:icon="@drawable/holyicon"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".forms.ActivityMediaRef"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.androidadvance.androidsurvey.SurveyActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:windowSoftInputMode="stateHidden"></activity>
+
+        <activity
+            android:name="smart.social.worker.MainActivityYoutubeVideo"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="Trending Now"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
 
         <provider
             android:name="android.support.v4.content.FileProvider"

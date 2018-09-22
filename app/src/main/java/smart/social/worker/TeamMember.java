@@ -34,6 +34,7 @@ import java.util.List;
 import java.util.Locale;
 
 import de.hdodenhof.circleimageview.CircleImageView;
+import smart.social.worker.app.GlideApp;
 import smart.social.worker.db.DbMember;
 import smart.social.worker.db.DbStudent;
 
@@ -176,7 +177,7 @@ public class TeamMember extends AppCompatActivity {
             socialmedia.setText(member.getSocialmedia());
             geotag.setText(member.getGeotag());
             pincode.setText(member.getGeotag());
-            Glide.with(TeamMember.this).load(member.getImage())
+            GlideApp.with(TeamMember.this).load(member.getImage())
                     .centerCrop()
                     .dontAnimate()
                     .thumbnail(0.5f)
@@ -243,7 +244,7 @@ public class TeamMember extends AppCompatActivity {
                 PickImageDialog.build(setup).setOnPickResult(new IPickResult() {
                     @Override
                     public void onPickResult(PickResult pickResult) {
-                        Glide.with(TeamMember.this).load(pickResult.getUri())
+                        GlideApp.with(TeamMember.this).load(pickResult.getUri())
                                 .centerCrop()
                                 .dontAnimate()
                                 .thumbnail(0.5f)

@@ -33,7 +33,6 @@ import com.android.volley.Request;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
-import com.bumptech.glide.Glide;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
@@ -61,9 +60,9 @@ import java.util.List;
 import java.util.Map;
 
 import de.hdodenhof.circleimageview.CircleImageView;
-import io.github.hidroh.calendar.MainActivityEvent;
 import smart.social.worker.app.AppConfig;
 import smart.social.worker.app.AppController;
+import smart.social.worker.app.GlideApp;
 import smart.social.worker.db.DbProfile;
 import smart.social.worker.db.DbStudent;
 import katomaran.evao.lib.qrmodule.encoding.QrGenerator;
@@ -720,7 +719,7 @@ public class ProfileActivity extends AppCompatActivity implements OnMapReadyCall
                 JSONObject jsonObject = new JSONObject(data.get(3));
                 name.setText(jsonObject.getString("name"));
                 description.setText(jsonObject.getString("description"));
-                Glide.with(ProfileActivity.this).load(jsonObject.getString("image"))
+                GlideApp.with(ProfileActivity.this).load(jsonObject.getString("image"))
                         .centerCrop()
                         .dontAnimate()
                         .thumbnail(0.5f)
@@ -765,7 +764,7 @@ public class ProfileActivity extends AppCompatActivity implements OnMapReadyCall
                 PickImageDialog.build(setup).setOnPickResult(new IPickResult() {
                     @Override
                     public void onPickResult(PickResult pickResult) {
-                        Glide.with(ProfileActivity.this).load(pickResult.getUri())
+                        GlideApp.with(ProfileActivity.this).load(pickResult.getUri())
                                 .centerCrop()
                                 .dontAnimate()
                                 .thumbnail(0.5f)
@@ -785,7 +784,7 @@ public class ProfileActivity extends AppCompatActivity implements OnMapReadyCall
                 PickImageDialog.build(setup).setOnPickResult(new IPickResult() {
                     @Override
                     public void onPickResult(PickResult pickResult) {
-                        Glide.with(ProfileActivity.this).load(pickResult.getUri())
+                        GlideApp.with(ProfileActivity.this).load(pickResult.getUri())
                                 .centerCrop()
                                 .dontAnimate()
                                 .thumbnail(0.5f)
@@ -830,7 +829,7 @@ public class ProfileActivity extends AppCompatActivity implements OnMapReadyCall
                 JSONObject jsonObject = new JSONObject(data.get(3));
                 name.setText(jsonObject.getString("name"));
                 description.setText(jsonObject.getString("description"));
-                Glide.with(ProfileActivity.this).load(jsonObject.getString("image"))
+                GlideApp.with(ProfileActivity.this).load(jsonObject.getString("image"))
                         .centerCrop()
                         .dontAnimate()
                         .thumbnail(0.5f)
@@ -875,7 +874,7 @@ public class ProfileActivity extends AppCompatActivity implements OnMapReadyCall
                 PickImageDialog.build(setup).setOnPickResult(new IPickResult() {
                     @Override
                     public void onPickResult(PickResult pickResult) {
-                        Glide.with(ProfileActivity.this).load(pickResult.getUri())
+                        GlideApp.with(ProfileActivity.this).load(pickResult.getUri())
                                 .centerCrop()
                                 .dontAnimate()
                                 .thumbnail(0.5f)
@@ -895,7 +894,7 @@ public class ProfileActivity extends AppCompatActivity implements OnMapReadyCall
                 PickImageDialog.build(setup).setOnPickResult(new IPickResult() {
                     @Override
                     public void onPickResult(PickResult pickResult) {
-                        Glide.with(ProfileActivity.this).load(pickResult.getUri())
+                        GlideApp.with(ProfileActivity.this).load(pickResult.getUri())
                                 .centerCrop()
                                 .dontAnimate()
                                 .thumbnail(0.5f)
@@ -940,7 +939,7 @@ public class ProfileActivity extends AppCompatActivity implements OnMapReadyCall
                 JSONObject jsonObject = new JSONObject(data.get(3));
                 name.setText(jsonObject.getString("name"));
                 description.setText(jsonObject.getString("description"));
-                Glide.with(ProfileActivity.this).load(jsonObject.getString("image"))
+                GlideApp.with(ProfileActivity.this).load(jsonObject.getString("image"))
                         .centerCrop()
                         .dontAnimate()
                         .thumbnail(0.5f)
@@ -985,7 +984,7 @@ public class ProfileActivity extends AppCompatActivity implements OnMapReadyCall
                 PickImageDialog.build(setup).setOnPickResult(new IPickResult() {
                     @Override
                     public void onPickResult(PickResult pickResult) {
-                        Glide.with(ProfileActivity.this).load(pickResult.getUri())
+                        GlideApp.with(ProfileActivity.this).load(pickResult.getUri())
                                 .centerCrop()
                                 .dontAnimate()
                                 .thumbnail(0.5f)
@@ -1005,7 +1004,7 @@ public class ProfileActivity extends AppCompatActivity implements OnMapReadyCall
                 PickImageDialog.build(setup).setOnPickResult(new IPickResult() {
                     @Override
                     public void onPickResult(PickResult pickResult) {
-                        Glide.with(ProfileActivity.this).load(pickResult.getUri())
+                        GlideApp.with(ProfileActivity.this).load(pickResult.getUri())
                                 .centerCrop()
                                 .dontAnimate()
                                 .thumbnail(0.5f)
@@ -1050,7 +1049,7 @@ public class ProfileActivity extends AppCompatActivity implements OnMapReadyCall
                 JSONObject jsonObject = new JSONObject(data.get(3));
                 name.setText(jsonObject.getString("name"));
                 description.setText(jsonObject.getString("description"));
-                Glide.with(ProfileActivity.this).load(jsonObject.getString("image"))
+                GlideApp.with(ProfileActivity.this).load(jsonObject.getString("image"))
                         .centerCrop()
                         .dontAnimate()
                         .thumbnail(0.5f)
@@ -1095,7 +1094,7 @@ public class ProfileActivity extends AppCompatActivity implements OnMapReadyCall
                 PickImageDialog.build(setup).setOnPickResult(new IPickResult() {
                     @Override
                     public void onPickResult(PickResult pickResult) {
-                        Glide.with(ProfileActivity.this).load(pickResult.getUri())
+                        GlideApp.with(ProfileActivity.this).load(pickResult.getUri())
                                 .centerCrop()
                                 .dontAnimate()
                                 .thumbnail(0.5f)
@@ -1115,7 +1114,7 @@ public class ProfileActivity extends AppCompatActivity implements OnMapReadyCall
                 PickImageDialog.build(setup).setOnPickResult(new IPickResult() {
                     @Override
                     public void onPickResult(PickResult pickResult) {
-                        Glide.with(ProfileActivity.this).load(pickResult.getUri())
+                        GlideApp.with(ProfileActivity.this).load(pickResult.getUri())
                                 .centerCrop()
                                 .dontAnimate()
                                 .thumbnail(0.5f)
@@ -1160,7 +1159,7 @@ public class ProfileActivity extends AppCompatActivity implements OnMapReadyCall
                 JSONObject jsonObject = new JSONObject(data.get(3));
                 name.setText(jsonObject.getString("name"));
                 description.setText(jsonObject.getString("description"));
-                Glide.with(ProfileActivity.this).load(jsonObject.getString("image"))
+                GlideApp.with(ProfileActivity.this).load(jsonObject.getString("image"))
                         .centerCrop()
                         .dontAnimate()
                         .thumbnail(0.5f)
@@ -1205,7 +1204,7 @@ public class ProfileActivity extends AppCompatActivity implements OnMapReadyCall
                 PickImageDialog.build(setup).setOnPickResult(new IPickResult() {
                     @Override
                     public void onPickResult(PickResult pickResult) {
-                        Glide.with(ProfileActivity.this).load(pickResult.getUri())
+                        GlideApp.with(ProfileActivity.this).load(pickResult.getUri())
                                 .centerCrop()
                                 .dontAnimate()
                                 .thumbnail(0.5f)
@@ -1225,7 +1224,7 @@ public class ProfileActivity extends AppCompatActivity implements OnMapReadyCall
                 PickImageDialog.build(setup).setOnPickResult(new IPickResult() {
                     @Override
                     public void onPickResult(PickResult pickResult) {
-                        Glide.with(ProfileActivity.this).load(pickResult.getUri())
+                        GlideApp.with(ProfileActivity.this).load(pickResult.getUri())
                                 .centerCrop()
                                 .dontAnimate()
                                 .thumbnail(0.5f)
@@ -1270,7 +1269,7 @@ public class ProfileActivity extends AppCompatActivity implements OnMapReadyCall
                 JSONObject jsonObject = new JSONObject(data.get(3));
                 name.setText(jsonObject.getString("name"));
                 description.setText(jsonObject.getString("description"));
-                Glide.with(ProfileActivity.this).load(jsonObject.getString("image"))
+                GlideApp.with(ProfileActivity.this).load(jsonObject.getString("image"))
                         .centerCrop()
                         .dontAnimate()
                         .thumbnail(0.5f)
@@ -1315,7 +1314,7 @@ public class ProfileActivity extends AppCompatActivity implements OnMapReadyCall
                 PickImageDialog.build(setup).setOnPickResult(new IPickResult() {
                     @Override
                     public void onPickResult(PickResult pickResult) {
-                        Glide.with(ProfileActivity.this).load(pickResult.getUri())
+                        GlideApp.with(ProfileActivity.this).load(pickResult.getUri())
                                 .centerCrop()
                                 .dontAnimate()
                                 .thumbnail(0.5f)
@@ -1335,7 +1334,7 @@ public class ProfileActivity extends AppCompatActivity implements OnMapReadyCall
                 PickImageDialog.build(setup).setOnPickResult(new IPickResult() {
                     @Override
                     public void onPickResult(PickResult pickResult) {
-                        Glide.with(ProfileActivity.this).load(pickResult.getUri())
+                        GlideApp.with(ProfileActivity.this).load(pickResult.getUri())
                                 .centerCrop()
                                 .dontAnimate()
                                 .thumbnail(0.5f)
@@ -1380,7 +1379,7 @@ public class ProfileActivity extends AppCompatActivity implements OnMapReadyCall
                 JSONObject jsonObject = new JSONObject(data.get(3));
                 name.setText(jsonObject.getString("name"));
                 description.setText(jsonObject.getString("description"));
-                Glide.with(ProfileActivity.this).load(jsonObject.getString("image"))
+                GlideApp.with(ProfileActivity.this).load(jsonObject.getString("image"))
                         .centerCrop()
                         .dontAnimate()
                         .thumbnail(0.5f)
@@ -1425,7 +1424,7 @@ public class ProfileActivity extends AppCompatActivity implements OnMapReadyCall
                 PickImageDialog.build(setup).setOnPickResult(new IPickResult() {
                     @Override
                     public void onPickResult(PickResult pickResult) {
-                        Glide.with(ProfileActivity.this).load(pickResult.getUri())
+                        GlideApp.with(ProfileActivity.this).load(pickResult.getUri())
                                 .centerCrop()
                                 .dontAnimate()
                                 .thumbnail(0.5f)
@@ -1445,7 +1444,7 @@ public class ProfileActivity extends AppCompatActivity implements OnMapReadyCall
                 PickImageDialog.build(setup).setOnPickResult(new IPickResult() {
                     @Override
                     public void onPickResult(PickResult pickResult) {
-                        Glide.with(ProfileActivity.this).load(pickResult.getUri())
+                        GlideApp.with(ProfileActivity.this).load(pickResult.getUri())
                                 .centerCrop()
                                 .dontAnimate()
                                 .thumbnail(0.5f)
@@ -1490,7 +1489,7 @@ public class ProfileActivity extends AppCompatActivity implements OnMapReadyCall
                 JSONObject jsonObject = new JSONObject(data.get(3));
                 name.setText(jsonObject.getString("name"));
                 description.setText(jsonObject.getString("description"));
-                Glide.with(ProfileActivity.this).load(jsonObject.getString("image"))
+                GlideApp.with(ProfileActivity.this).load(jsonObject.getString("image"))
                         .centerCrop()
                         .dontAnimate()
                         .thumbnail(0.5f)
@@ -1535,7 +1534,7 @@ public class ProfileActivity extends AppCompatActivity implements OnMapReadyCall
                 PickImageDialog.build(setup).setOnPickResult(new IPickResult() {
                     @Override
                     public void onPickResult(PickResult pickResult) {
-                        Glide.with(ProfileActivity.this).load(pickResult.getUri())
+                        GlideApp.with(ProfileActivity.this).load(pickResult.getUri())
                                 .centerCrop()
                                 .dontAnimate()
                                 .thumbnail(0.5f)
@@ -1555,7 +1554,7 @@ public class ProfileActivity extends AppCompatActivity implements OnMapReadyCall
                 PickImageDialog.build(setup).setOnPickResult(new IPickResult() {
                     @Override
                     public void onPickResult(PickResult pickResult) {
-                        Glide.with(ProfileActivity.this).load(pickResult.getUri())
+                        GlideApp.with(ProfileActivity.this).load(pickResult.getUri())
                                 .centerCrop()
                                 .dontAnimate()
                                 .thumbnail(0.5f)
@@ -1600,7 +1599,7 @@ public class ProfileActivity extends AppCompatActivity implements OnMapReadyCall
                 JSONObject jsonObject = new JSONObject(data.get(3));
                 name.setText(jsonObject.getString("name"));
                 description.setText(jsonObject.getString("description"));
-                Glide.with(ProfileActivity.this).load(jsonObject.getString("image"))
+                GlideApp.with(ProfileActivity.this).load(jsonObject.getString("image"))
                         .centerCrop()
                         .dontAnimate()
                         .thumbnail(0.5f)
@@ -1645,7 +1644,7 @@ public class ProfileActivity extends AppCompatActivity implements OnMapReadyCall
                 PickImageDialog.build(setup).setOnPickResult(new IPickResult() {
                     @Override
                     public void onPickResult(PickResult pickResult) {
-                        Glide.with(ProfileActivity.this).load(pickResult.getUri())
+                        GlideApp.with(ProfileActivity.this).load(pickResult.getUri())
                                 .centerCrop()
                                 .dontAnimate()
                                 .thumbnail(0.5f)
@@ -1665,7 +1664,7 @@ public class ProfileActivity extends AppCompatActivity implements OnMapReadyCall
                 PickImageDialog.build(setup).setOnPickResult(new IPickResult() {
                     @Override
                     public void onPickResult(PickResult pickResult) {
-                        Glide.with(ProfileActivity.this).load(pickResult.getUri())
+                        GlideApp.with(ProfileActivity.this).load(pickResult.getUri())
                                 .centerCrop()
                                 .dontAnimate()
                                 .thumbnail(0.5f)
@@ -1738,7 +1737,7 @@ public class ProfileActivity extends AppCompatActivity implements OnMapReadyCall
                 }
                 if (season.getText().toString().length() > 0) {
                     imagelin.setVisibility(View.VISIBLE);
-                    Glide.with(ProfileActivity.this).load(jsonObject.getString("image"))
+                    GlideApp.with(ProfileActivity.this).load(jsonObject.getString("image"))
                             .centerCrop()
                             .dontAnimate()
                             .thumbnail(0.5f)
@@ -1861,7 +1860,7 @@ public class ProfileActivity extends AppCompatActivity implements OnMapReadyCall
                 PickImageDialog.build(setup).setOnPickResult(new IPickResult() {
                     @Override
                     public void onPickResult(PickResult pickResult) {
-                        Glide.with(ProfileActivity.this).load(pickResult.getUri())
+                        GlideApp.with(ProfileActivity.this).load(pickResult.getUri())
                                 .centerCrop()
                                 .dontAnimate()
                                 .thumbnail(0.5f)
@@ -1881,7 +1880,7 @@ public class ProfileActivity extends AppCompatActivity implements OnMapReadyCall
                 PickImageDialog.build(setup).setOnPickResult(new IPickResult() {
                     @Override
                     public void onPickResult(PickResult pickResult) {
-                        Glide.with(ProfileActivity.this).load(pickResult.getUri())
+                        GlideApp.with(ProfileActivity.this).load(pickResult.getUri())
                                 .centerCrop()
                                 .dontAnimate()
                                 .thumbnail(0.5f)
@@ -2011,7 +2010,7 @@ public class ProfileActivity extends AppCompatActivity implements OnMapReadyCall
                 JSONObject jsonObject = new JSONObject(data.get(3));
                 name.setText(jsonObject.getString("name"));
                 description.setText(jsonObject.getString("description"));
-                Glide.with(ProfileActivity.this).load(jsonObject.getString("image"))
+                GlideApp.with(ProfileActivity.this).load(jsonObject.getString("image"))
                         .centerCrop()
                         .dontAnimate()
                         .thumbnail(0.5f)
@@ -2056,7 +2055,7 @@ public class ProfileActivity extends AppCompatActivity implements OnMapReadyCall
                 PickImageDialog.build(setup).setOnPickResult(new IPickResult() {
                     @Override
                     public void onPickResult(PickResult pickResult) {
-                        Glide.with(ProfileActivity.this).load(pickResult.getUri())
+                        GlideApp.with(ProfileActivity.this).load(pickResult.getUri())
                                 .centerCrop()
                                 .dontAnimate()
                                 .thumbnail(0.5f)
@@ -2076,7 +2075,7 @@ public class ProfileActivity extends AppCompatActivity implements OnMapReadyCall
                 PickImageDialog.build(setup).setOnPickResult(new IPickResult() {
                     @Override
                     public void onPickResult(PickResult pickResult) {
-                        Glide.with(ProfileActivity.this).load(pickResult.getUri())
+                        GlideApp.with(ProfileActivity.this).load(pickResult.getUri())
                                 .centerCrop()
                                 .dontAnimate()
                                 .thumbnail(0.5f)
@@ -2121,7 +2120,7 @@ public class ProfileActivity extends AppCompatActivity implements OnMapReadyCall
                 JSONObject jsonObject = new JSONObject(data.get(3));
                 name.setText(jsonObject.getString("name"));
                 description.setText(jsonObject.getString("description"));
-                Glide.with(ProfileActivity.this).load(jsonObject.getString("image"))
+                GlideApp.with(ProfileActivity.this).load(jsonObject.getString("image"))
                         .centerCrop()
                         .dontAnimate()
                         .thumbnail(0.5f)
@@ -2166,7 +2165,7 @@ public class ProfileActivity extends AppCompatActivity implements OnMapReadyCall
                 PickImageDialog.build(setup).setOnPickResult(new IPickResult() {
                     @Override
                     public void onPickResult(PickResult pickResult) {
-                        Glide.with(ProfileActivity.this).load(pickResult.getUri())
+                        GlideApp.with(ProfileActivity.this).load(pickResult.getUri())
                                 .centerCrop()
                                 .dontAnimate()
                                 .thumbnail(0.5f)
@@ -2186,7 +2185,7 @@ public class ProfileActivity extends AppCompatActivity implements OnMapReadyCall
                 PickImageDialog.build(setup).setOnPickResult(new IPickResult() {
                     @Override
                     public void onPickResult(PickResult pickResult) {
-                        Glide.with(ProfileActivity.this).load(pickResult.getUri())
+                        GlideApp.with(ProfileActivity.this).load(pickResult.getUri())
                                 .centerCrop()
                                 .dontAnimate()
                                 .thumbnail(0.5f)

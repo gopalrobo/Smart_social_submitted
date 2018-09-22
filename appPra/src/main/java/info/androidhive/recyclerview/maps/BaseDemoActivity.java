@@ -31,7 +31,7 @@ public abstract class BaseDemoActivity extends FragmentActivity implements OnMap
     private GoogleMap mMap;
 
     protected int getLayoutId() {
-        return R.layout.map;
+        return R.layout.map_pra;
     }
 
     @Override

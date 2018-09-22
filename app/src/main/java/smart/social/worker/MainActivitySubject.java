@@ -1,20 +1,16 @@
 package smart.social.worker;
 
 
-import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
-import android.view.Menu;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
-import android.widget.TextView;
-import android.widget.Toast;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -23,7 +19,8 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Iterator;
-import java.util.Set;
+
+import smart.social.worker.attend.SampleToolbarActivity;
 
 public class MainActivitySubject extends AppCompatActivity {
     SharedPreferences sharedpreferences;
@@ -174,7 +171,7 @@ public class MainActivitySubject extends AppCompatActivity {
                     result.put("subchapter", subchapterSpin.getSelectedItem().toString());
                     editor.putString(tittle, result.toString());
                     editor.commit();
-                    Intent io = new Intent(MainActivitySubject.this, AttendancePage.class);
+                    Intent io = new Intent(MainActivitySubject.this, SampleToolbarActivity.class);
                     startActivity(io);
                 } catch (Exception e) {
                     Log.e("error", e.toString());

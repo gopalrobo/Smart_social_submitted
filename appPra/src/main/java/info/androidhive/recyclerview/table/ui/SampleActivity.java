@@ -1,6 +1,5 @@
 package info.androidhive.recyclerview.table.ui;
 
-import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.Toast;
@@ -17,7 +16,7 @@ public class SampleActivity extends AppCompatActivity implements
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sample);
+        setContentView(R.layout.activity_sample_pra);
 
         if (savedInstanceState == null) {
             getSupportFragmentManager()

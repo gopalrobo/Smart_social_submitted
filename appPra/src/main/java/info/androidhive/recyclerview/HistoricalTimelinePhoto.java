@@ -54,7 +54,7 @@ public class HistoricalTimelinePhoto extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.historical_timeline_photo);
+        setContentView(R.layout.historical_timeline_photo_pra);
         gps = new GPSTracker(HistoricalTimelinePhoto.this);
         dbImage = new DbImage(this);
         sharedpreferences = getSharedPreferences(mypreference,
@@ -121,7 +121,7 @@ public class HistoricalTimelinePhoto extends AppCompatActivity {
         imagePath = "";
         AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(HistoricalTimelinePhoto.this);
         LayoutInflater inflater = HistoricalTimelinePhoto.this.getLayoutInflater();
-        final View dialogView = inflater.inflate(R.layout.addimage_popup, null);
+        final View dialogView = inflater.inflate(R.layout.addimage_popup_pra, null);
         final ImageView itemclose = (ImageView) dialogView.findViewById(R.id.itemclose);
         final CustomFontEditText description = (CustomFontEditText) dialogView.findViewById(R.id.description);
         final LinearLayout imagelin = (LinearLayout) dialogView.findViewById(R.id.imglin);

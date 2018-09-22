@@ -54,7 +54,7 @@ public class PlotNewAdapter extends RecyclerView.Adapter<PlotNewAdapter.MyViewHo
     @Override
     public MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View itemView = LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.item_plot_horizontal, parent, false);
+                .inflate(R.layout.item_plot_horizontal_pra, parent, false);
 
         return new MyViewHolder(itemView);
     }

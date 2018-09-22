@@ -20,6 +20,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import smart.social.worker.db.DbStudent;
+import smart.social.worker.forms.MainActivityFragment;
 
 /**
  * Created by whit3hawks on 11/16/16.
@@ -77,7 +78,7 @@ public class FingerprintHandler extends FingerprintManager.AuthenticationCallbac
             SharedPreferences.Editor editor = sharedpreferences.edit();
             editor.putString(vrpid, vrpList.get(0).get(0));
             editor.commit();
-            Intent io = new Intent(context, MainActivity.class);
+            Intent io = new Intent(context, MainActivityFragment.class);
             context.startActivity(io);
             ((Activity) context).finish();
         } else {

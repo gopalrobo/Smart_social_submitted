@@ -13,6 +13,7 @@ import com.bumptech.glide.Glide;
 import java.util.ArrayList;
 
 import de.hdodenhof.circleimageview.CircleImageView;
+import smart.social.worker.app.GlideApp;
 
 public class ProfileAdapter extends RecyclerView.Adapter<ProfileAdapter.MyViewHolder> {
 
@@ -50,7 +51,7 @@ public class ProfileAdapter extends RecyclerView.Adapter<ProfileAdapter.MyViewHo
     @Override
     public MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View itemView = LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.item_plot_horizontal, parent, false);
+                .inflate(R.layout.item_plot_horizontal_pra, parent, false);
 
         return new MyViewHolder(itemView);
     }
@@ -60,7 +61,7 @@ public class ProfileAdapter extends RecyclerView.Adapter<ProfileAdapter.MyViewHo
         Plot plot = moviesList.get(position);
         holder.plotname.setText(plot.getPlotname());
         holder.plotarea.setText(plot.getPlotarea());
-        Glide.with(mainActivityUser).load(plot.getPlotimage())
+        GlideApp.with(mainActivityUser).load(plot.getPlotimage())
                 .dontAnimate()
                 .thumbnail(0.5f)
                 .placeholder(R.drawable.profile)

@@ -54,6 +54,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
+import smart.social.worker.app.GlideApp;
 import smart.social.worker.db.DbImage;
 import smart.social.worker.db.DbStudent;
 import smart.social.worker.maps.BaseDemoActivity;
@@ -109,7 +110,7 @@ public class CustomMarkerClusteringDemoActivity extends BaseDemoActivity impleme
         protected void onBeforeClusterItemRendered(Person person, MarkerOptions markerOptions) {
             // Draw a single person.
             // Set the info window to show their name.
-            Glide.with(CustomMarkerClusteringDemoActivity.this).load(person.profilePhoto)
+            GlideApp.with(CustomMarkerClusteringDemoActivity.this).load(person.profilePhoto)
                     .placeholder(R.drawable.profile)
                     .into(mImageView);
             Bitmap icon = mIconGenerator.makeIcon();
@@ -131,7 +132,7 @@ public class CustomMarkerClusteringDemoActivity extends BaseDemoActivity impleme
                 drawable.setBounds(0, 0, width, height);
                 profilePhotos.add(drawable);
                 if (i == 0)
-                    Glide.with(CustomMarkerClusteringDemoActivity.this).load(cluster.getItems().iterator().next().profilePhoto)
+                    GlideApp.with(CustomMarkerClusteringDemoActivity.this).load(cluster.getItems().iterator().next().profilePhoto)
                             .placeholder(R.drawable.profile)
                             .into(mClusterImageView);
                 i++;

@@ -68,7 +68,7 @@ public class MainActivityEventCalendarSelectionTest {
 
         // calendar selection should have 1 checked, 2 unchecked
         CalendarSelectionView selectionView =
-                (CalendarSelectionView) activity.findViewById(R.id.list_view_calendar);
+                (CalendarSelectionView) activity.findViewById(R.id.list_view_calendarEvent);
         ResourceCursorAdapter adapter = (ResourceCursorAdapter) selectionView.getAdapter();
         assertThat(adapter.getCount()).isEqualTo(2);
         assertTrue(selectionView.isItemChecked(0));
@@ -88,7 +88,7 @@ public class MainActivityEventCalendarSelectionTest {
         // initial state
         controller.create().start().postCreate(null).resume();
         CalendarSelectionView selectionView =
-                (CalendarSelectionView) activity.findViewById(R.id.list_view_calendar);
+                (CalendarSelectionView) activity.findViewById(R.id.list_view_calendarEvent);
         assertTrue(selectionView.isItemChecked(0));
 
         // clicking item should toggle its checked status
@@ -111,7 +111,7 @@ public class MainActivityEventCalendarSelectionTest {
 
         // toggle off
         CalendarSelectionView selectionView =
-                (CalendarSelectionView) activity.findViewById(R.id.list_view_calendar);
+                (CalendarSelectionView) activity.findViewById(R.id.list_view_calendarEvent);
         shadowOf(selectionView).performItemClick(0);
         shadowOf(selectionView).performItemClick(1);
 

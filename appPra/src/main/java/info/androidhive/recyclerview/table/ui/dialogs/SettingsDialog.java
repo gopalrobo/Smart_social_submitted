@@ -83,7 +83,7 @@ public class SettingsDialog extends DialogFragment implements View.OnClickListen
                              @Nullable Bundle savedInstanceState) {
         //noinspection ConstantConditions
         getDialog().getWindow().setBackgroundDrawable(new ColorDrawable(android.graphics.Color.TRANSPARENT));
-        View view = inflater.inflate(R.layout.dialog_settings, container, false);
+        View view = inflater.inflate(R.layout.dialog_settings_pra, container, false);
         swSolidRow = (SwitchCompat) view.findViewById(R.id.swSolidRow);
         swFixedHeaders = (SwitchCompat) view.findViewById(R.id.swFixedHeaders);
         swRtlDirection = (SwitchCompat) view.findViewById(R.id.swRtlDirection);

@@ -14,9 +14,13 @@
             <option value="$PROJECT_DIR$/ask" />
             <option value="$PROJECT_DIR$/library-gmail" />
             <option value="$PROJECT_DIR$/library-tableformat" />
+            <option value="$PROJECT_DIR$/multichoicerecyclerview" />
             <option value="$PROJECT_DIR$/multisnaprecyclerview" />
+            <option value="$PROJECT_DIR$/photoview" />
             <option value="$PROJECT_DIR$/qrmodule" />
             <option value="$PROJECT_DIR$/rosetta" />
+            <option value="$PROJECT_DIR$/surveylib" />
+            <option value="$PROJECT_DIR$/youtubeparser" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

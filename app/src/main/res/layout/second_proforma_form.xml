@@ -1,0 +1,1610 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/nestedScroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Case Name"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/age"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Age/Sex"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/dateofVisit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Date"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/caseNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Case No"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Address"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/referralResource"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Referral Resource"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Phone No"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/annualIncome"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Annual Income"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/compliant"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Compliant"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NATAL HISTORY"
+                android:textColor="@color/primaryTextColor"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pre Natal History"
+                android:textColor="@color/primaryTextColor"
+                android:textStyle="bold" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/historyOfMiscarriage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="History of Miscarriage"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/medications"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Medications"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/radiation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Radiation"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/viralInfections"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Viral Infections"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/excessiveVomiting"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Excessive Vomiting"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/bleeding"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Bleeding"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/hypertension"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Hypertension"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/hyperglycemia"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Hyperglycemia"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/consanguinity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Consanguinity"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/othersPreNatal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Others"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Peri Natal History"
+                android:textColor="@color/primaryTextColor"
+                android:textStyle="bold" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/termOfDelivery"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Term of Delivery"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/labour"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Labour"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/birthCry"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Birth Cry"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/birthWeight"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="BirthWeight"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/birthAsphyxia"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Birth Asphyxia"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/neonatalJaundice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Neonatal Jaundice"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/rhIncompatibility"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Rh incompatibility"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/APGARScore"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="APGAR Score"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/congenitalAnomalies"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Congenital Anomalies"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/othersPeriNatal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Others"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Post Natal History"
+                android:textColor="@color/primaryTextColor"
+                android:textStyle="bold" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/headInjury"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Head Injury"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/convulsion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Convulsion"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/emotionalTrauma"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Emotional Trauma"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/earInfection"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Ear Infection"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/othersPostNatal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Others"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Development History"
+                android:textColor="@color/primaryTextColor"
+                android:textStyle="bold" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/motorDevelopment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Motor Development"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/speechLanguageDevelopment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Speech &amp; Language Development"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Motor Skills"
+                android:textColor="@color/primaryTextColor"
+                android:textStyle="bold" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/grossMotorSkills"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Gross Motor Skills"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/fineMotorSkills"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Fine Motor Skills"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/handedness"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Handedness"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/sensorySkills"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Sensory Skills"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Auditory Skills"
+                android:textColor="@color/primaryTextColor"
+                android:textStyle="bold" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/auditoryAwareness"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Auditory Awareness"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/localization"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Localization"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/auditoryDiscrimination"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Auditory Discrimination"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/auditoryComprelsenation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Auditory Comprelsenation"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/auditoryIdentification"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Auditory Identification"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/understandingSpeech"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Understanding speech in noise"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/auditoryMemorySequencing"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Auditory memory &amp; Sequencing"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SOCIAL,EMOTIONAL&amp;BEHAVIORAL HISTORY"
+                android:textColor="@color/primaryTextColor"
+                android:textStyle="bold" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/recognizesParents"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Recognizes Parents"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/refusesToGoStrangers"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Refuses to go strangers"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/makesEyeContact"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Makes Eye Contact"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/PrefersToPlayByHimself"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Prefers to Play by himself"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/withdrawn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Withdrawn"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/restless"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Restless"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/stereotypicBehaviors"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Stereotypic Behaviors"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/indulgesInBizarreActivities"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Indulges in Bizarre Activities"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/socializeWell"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Socialize Well"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/exhibitsTemperTantrum"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Exhibits Temper Tantrum"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/shiftsFrequently"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Shifts Frequently"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/aggressive"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Aggressive"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/inappropriateEmotions"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Inappropriate Emotions"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/othersSocial"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Others"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PREREQUISITES FOR SPEECH &amp; LANGUAGE DEVELOPMENT"
+                android:textColor="@color/primaryTextColor"
+                android:textStyle="bold" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/attention"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Attention"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/imitation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Imitation"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/objectTracking"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Object Tracking"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/objectPermanence"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Object Permanence"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/mensToEndRelation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Mens to end Relation"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/oromotorSkills"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="OROMOTOR SKILLS(including vegetative 7amp; swallowing skills)"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/communicationBehaviours"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Communication behaviours (Verbal/Non verbal/both)"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/expressiveLanguage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Expressive Language"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/testAdministered"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Test Administered"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/receptiveLanguage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Receptive Language"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/provisionalDiagnosis"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Provisional Diagnosis"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/recommendations"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Recommendations"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/studentsClinician"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Students Clinician"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/clinicalSupervisor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Clinical Supervisor"
+                    android:inputType="textCapWords"
+                    android:textColorHint="#c6c6c6"
+                    android:textSize="@dimen/textsize" />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+    <TextView
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="bottom"
+        android:background="#009a9a"
+        android:gravity="center"
+        android:letterSpacing="0.2"
+        android:padding="12dp"
+        android:text="SUBMIT"
+        android:textColor="#d9e5f3"
+        android:textStyle="bold" />
+
+</RelativeLayout>

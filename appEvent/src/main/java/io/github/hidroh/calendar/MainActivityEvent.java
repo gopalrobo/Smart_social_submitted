@@ -99,7 +99,7 @@ public class MainActivityEvent extends AppCompatActivity implements LoaderManage
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setUpPreferences();
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main_event);
        setSupportActionBar((Toolbar) findViewById(R.id.toolbar));
         //noinspection ConstantConditions
         getSupportActionBar().setDisplayOptions(
@@ -136,7 +136,7 @@ public class MainActivityEvent extends AppCompatActivity implements LoaderManage
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu_main, menu);
+        getMenuInflater().inflate(R.menu.menu_main_event, menu);
         return super.onCreateOptionsMenu(menu);
     }
 
@@ -287,7 +287,7 @@ public class MainActivityEvent extends AppCompatActivity implements LoaderManage
 
     private void setUpContentView() {
         mCoordinatorLayout = findViewById(R.id.coordinator_layout);
-        mCalendarSelectionView = (CalendarSelectionView) findViewById(R.id.list_view_calendar);
+        mCalendarSelectionView = (CalendarSelectionView) findViewById(R.id.list_view_calendarEvent);
         //noinspection ConstantConditions
         mCalendarSelectionView.setOnSelectionChangeListener(mCalendarSelectionListener);
         mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);

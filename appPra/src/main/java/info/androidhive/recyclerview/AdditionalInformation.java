@@ -30,7 +30,7 @@ public class AdditionalInformation extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.additional_info);
+        setContentView(R.layout.additional_info_pra);
         dbReport = new DbReport(this);
         sharedpreferences = getSharedPreferences(mypreference,
                 Context.MODE_PRIVATE);

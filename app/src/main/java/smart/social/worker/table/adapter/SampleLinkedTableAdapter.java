@@ -2,10 +2,13 @@ package smart.social.worker.table.adapter;
 
 import android.content.Context;
 import android.content.res.Resources;
+import android.graphics.drawable.Drawable;
 import android.graphics.drawable.GradientDrawable;
 import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
 import android.support.v4.graphics.ColorUtils;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,14 +16,16 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.DataSource;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
-import com.bumptech.glide.load.resource.drawable.GlideDrawable;
+import com.bumptech.glide.load.engine.GlideException;
 import com.bumptech.glide.request.RequestListener;
 import com.bumptech.glide.request.target.Target;
 import com.cleveroad.adaptivetablelayout.LinkedAdaptiveTableAdapter;
 import com.cleveroad.adaptivetablelayout.ViewHolderImpl;
 
 import smart.social.worker.R;
+import smart.social.worker.app.GlideApp;
 import smart.social.worker.table.datasource.TableDataSource;
 
 public class SampleLinkedTableAdapter extends LinkedAdaptiveTableAdapter<ViewHolderImpl> {
@@ -93,23 +98,27 @@ public class SampleLinkedTableAdapter extends LinkedAdaptiveTableAdapter<ViewHol
         vh.tvText.setVisibility(View.VISIBLE);
         vh.ivImage.setVisibility(View.VISIBLE);
         vh.tvText.setText(itemData);
-        Glide.with(vh.ivImage.getContext())
+        GlideApp.with(vh.ivImage.getContext())
                 .load(itemData)
                 .fitCenter()
                 .diskCacheStrategy(DiskCacheStrategy.ALL)
-                .listener(new RequestListener<String, GlideDrawable>() {
+                .listener(new RequestListener<Drawable>() {
                     @Override
-                    public boolean onException(Exception e, String model, Target<GlideDrawable> target, boolean isFirstResource) {
+                    public boolean onLoadFailed(@Nullable GlideException e, Object model, Target<Drawable> target, boolean isFirstResource) {
+
                         vh.ivImage.setVisibility(View.INVISIBLE);
                         vh.tvText.setVisibility(View.VISIBLE);
                         return false;
+
                     }
 
                     @Override
-                    public boolean onResourceReady(GlideDrawable resource, String model, Target<GlideDrawable> target, boolean isFromMemoryCache, boolean isFirstResource) {
+                    public boolean onResourceReady(Drawable resource, Object model, Target<Drawable> target, DataSource dataSource, boolean isFirstResource) {
+                        //loaded do something
                         vh.ivImage.setVisibility(View.VISIBLE);
                         vh.tvText.setVisibility(View.INVISIBLE);
                         return false;
+
                     }
                 })
                 .into(vh.ivImage);

@@ -129,7 +129,7 @@ public class MapsFragActivity extends BaseActivity implements OnMapReadyCallback
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_mapfrg);
+        setContentView(R.layout.activity_main_mapfrg_pra);
 
         pDialog = new ProgressDialog(this);
         pDialog.setCancelable(false);

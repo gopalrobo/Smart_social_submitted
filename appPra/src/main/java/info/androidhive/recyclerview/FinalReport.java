@@ -41,7 +41,7 @@ public class FinalReport extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.final_report);
+        setContentView(R.layout.final_report_pra);
         dbReport = new DbReport(this);
         dbImage = new DbImage(this);
         sharedpreferences = getSharedPreferences(mypreference,

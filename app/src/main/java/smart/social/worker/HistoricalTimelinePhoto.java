@@ -30,6 +30,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import de.hdodenhof.circleimageview.CircleImageView;
+import smart.social.worker.app.GlideApp;
 import smart.social.worker.db.DbImage;
 
 /**
@@ -147,7 +148,7 @@ public class HistoricalTimelinePhoto extends AppCompatActivity {
                 JSONObject jsonObject = new JSONObject(data);
                 geotag.setText(jsonObject.getString("geotag"));
                 description.setText(jsonObject.getString("description"));
-                Glide.with(HistoricalTimelinePhoto.this).load(jsonObject.getString("image"))
+                GlideApp.with(HistoricalTimelinePhoto.this).load(jsonObject.getString("image"))
                         .centerCrop()
                         .dontAnimate()
                         .thumbnail(0.5f)
@@ -204,7 +205,7 @@ public class HistoricalTimelinePhoto extends AppCompatActivity {
                 PickImageDialog.build(setup).setOnPickResult(new IPickResult() {
                     @Override
                     public void onPickResult(PickResult pickResult) {
-                        Glide.with(HistoricalTimelinePhoto.this).load(pickResult.getUri())
+                        GlideApp.with(HistoricalTimelinePhoto.this).load(pickResult.getUri())
                                 .centerCrop()
                                 .dontAnimate()
                                 .thumbnail(0.5f)

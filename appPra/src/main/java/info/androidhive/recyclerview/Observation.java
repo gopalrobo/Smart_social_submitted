@@ -29,7 +29,7 @@ public class Observation extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.observation);
+        setContentView(R.layout.observation_pra);
         dbReport = new DbReport(this);
         sharedpreferences = getSharedPreferences(mypreference,
                 Context.MODE_PRIVATE);

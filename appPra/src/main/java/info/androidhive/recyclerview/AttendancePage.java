@@ -58,7 +58,7 @@ public class AttendancePage extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.attendance_page);
+        setContentView(R.layout.attendance_page_pra);
         gps = new GPSTracker(AttendancePage.this);
         dbReport = new DbReport(this);
         dbImage = new DbImage(this);
@@ -179,7 +179,7 @@ public class AttendancePage extends AppCompatActivity {
         imagePath = "";
         AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(AttendancePage.this);
         LayoutInflater inflater = AttendancePage.this.getLayoutInflater();
-        final View dialogView = inflater.inflate(R.layout.addimage_popup, null);
+        final View dialogView = inflater.inflate(R.layout.addimage_popup_pra, null);
         final ImageView itemclose = (ImageView) dialogView.findViewById(R.id.itemclose);
         final CustomFontEditText description = (CustomFontEditText) dialogView.findViewById(R.id.description);
         final LinearLayout imagelin = (LinearLayout) dialogView.findViewById(R.id.imglin);
