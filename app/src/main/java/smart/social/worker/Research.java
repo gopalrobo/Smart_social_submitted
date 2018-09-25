@@ -41,7 +41,7 @@ public class Research extends AppCompatActivity {
         }
 
 
-        getSupportActionBar().setTitle("BUSSW");
+        getSupportActionBar().setTitle("HCC SSW");
         TextView submit = (TextView) findViewById(R.id.submit);
 //        final TextInputEditText planForTheDay = (TextInputEditText) findViewById(R.id.planForTheDay);
 //        final TextInputEditText technicalDetails = (TextInputEditText) findViewById(R.id.technicalDetails);

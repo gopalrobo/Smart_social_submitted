@@ -26,6 +26,7 @@ import smart.social.worker.Pra;
 import smart.social.worker.R;
 import smart.social.worker.Research;
 import smart.social.worker.TeamMember;
+import smart.social.worker.ToolReport;
 import smart.social.worker.VideoClick;
 
 public class SemesterOneAdapter extends RecyclerView.Adapter<SemesterOneAdapter.MyViewHolder> {
@@ -127,7 +128,8 @@ public class SemesterOneAdapter extends RecyclerView.Adapter<SemesterOneAdapter.
                     SharedPreferences.Editor editor = sharedpreferences.edit();
                     editor.putString(tittle, "SEMESTER 1");
                     editor.commit();
-                    Intent io = new Intent(mContext, MainActivitySubject.class);
+                    //  Intent io = new Intent(mContext, MainActivitySubject.class);
+                    Intent io = new Intent(mContext, ToolReport.class);
                     mContext.startActivity(io);
                 }
             }

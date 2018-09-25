@@ -26,6 +26,7 @@ import smart.social.worker.Pra;
 import smart.social.worker.R;
 import smart.social.worker.Research;
 import smart.social.worker.TeamMember;
+import smart.social.worker.ToolReport;
 import smart.social.worker.VideoClick;
 
 public class SemesterTwoAdapter extends RecyclerView.Adapter<SemesterTwoAdapter.MyViewHolder> {
@@ -125,8 +126,35 @@ public class SemesterTwoAdapter extends RecyclerView.Adapter<SemesterTwoAdapter.
                     SharedPreferences.Editor editor = sharedpreferences.edit();
                     editor.putString(tittle, "SEMESTER 2");
                     editor.commit();
-                    Intent io = new Intent(mContext, MainActivitySubject.class);
+                    //  Intent io = new Intent(mContext, MainActivitySubject.class);
+                    Intent io = new Intent(mContext, ToolReport.class);
                     mContext.startActivity(io);
+                }else {
+                    JSONObject result = new JSONObject();
+                    try {
+                        result.put("semester","SEMESTER 1");
+                        result.put("subject", "Field");
+                        result.put("chapter", "Field");
+                        sharedpreferences = mContext.getSharedPreferences(mypreference,
+                                Context.MODE_PRIVATE);
+                        SharedPreferences.Editor editor = sharedpreferences.edit();
+                        editor.putString(tittle, result.toString());
+                        editor.commit();
+                        if (pra.getTitle().contains("Field")) {
+                            Intent io = new Intent(mContext, FieldWork.class);
+                            mContext.startActivity(io);
+                        } else if (pra.getTitle().contains("Research")) {
+                            Intent io = new Intent(mContext, Research.class);
+                            mContext.startActivity(io);
+                        } else if (pra.getTitle().contains("Assignment")) {
+                            Intent io = new Intent(mContext, Assignment.class);
+                            mContext.startActivity(io);
+                        } else if (pra.getTitle().contains("survey")) {
+                            videoClick.tittleClick(position);
+                        }
+                    } catch (JSONException e) {
+                        e.printStackTrace();
+                    }
                 }
             }
         });

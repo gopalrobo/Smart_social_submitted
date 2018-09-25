@@ -27,7 +27,7 @@
             <FrameLayout
                 android:id="@+id/frame"
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
+                android:layout_height="400dp"
                 android:orientation="vertical">
 
                 <fragment
@@ -56,7 +56,7 @@
                 android:layout_margin="5dp"
                 android:background="#000"
                 android:elevation="5dp"
-                android:visibility="visible">
+                android:visibility="gone">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -121,6 +121,7 @@
                 android:layout_below="@+id/the_menu"
                 android:layout_margin="5dp"
                 android:background="#000"
+                android:visibility="gone"
                 android:elevation="5dp">
 
                 <LinearLayout
@@ -187,7 +188,7 @@
                 android:layout_margin="5dp"
                 android:background="#000"
                 android:elevation="5dp"
-                android:visibility="visible">
+                android:visibility="gone">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -253,7 +254,7 @@
                 android:layout_margin="5dp"
                 android:background="#000"
                 android:elevation="5dp"
-                android:visibility="visible">
+                android:visibility="gone">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -318,6 +319,7 @@
                 android:layout_below="@+id/the_menu"
                 android:layout_margin="5dp"
                 android:background="#000"
+                android:visibility="gone"
                 android:elevation="5dp">
 
                 <LinearLayout
@@ -385,7 +387,7 @@
                 android:layout_margin="5dp"
                 android:background="#000"
                 android:elevation="5dp"
-                android:visibility="visible">
+                android:visibility="gone">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -442,7 +444,7 @@
                 android:layout_margin="5dp"
                 android:background="#000"
                 android:elevation="5dp"
-                android:visibility="visible">
+                android:visibility="gone">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -508,7 +510,7 @@
                 android:layout_margin="5dp"
                 android:background="#000"
                 android:elevation="5dp"
-                android:visibility="visible">
+                android:visibility="gone">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -838,7 +840,7 @@
                 android:layout_margin="5dp"
                 android:background="#000"
                 android:elevation="5dp"
-                android:visibility="visible">
+                android:visibility="gone">
 
                 <LinearLayout
                     android:layout_width="match_parent"

@@ -41,7 +41,7 @@ public class Assignment extends AppCompatActivity {
         }
 
 
-        getSupportActionBar().setTitle("BUSSW");
+        getSupportActionBar().setTitle("HCC SSW");
         TextView submit = (TextView) findViewById(R.id.submit);
 //        final EditText planForTheDay = (EditText) findViewById(R.id.planForTheDay);
 //        final EditText technicalDetails = (EditText) findViewById(R.id.technicalDetails);
