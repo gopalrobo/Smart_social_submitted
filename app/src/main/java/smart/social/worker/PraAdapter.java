@@ -3,7 +3,6 @@ package smart.social.worker;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -19,6 +18,8 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.util.List;
+
+import smart.social.worker.field.FieldWork;
 
 public class PraAdapter extends RecyclerView.Adapter<PraAdapter.MyViewHolder> {
 

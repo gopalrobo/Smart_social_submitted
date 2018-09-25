@@ -1,10 +1,18 @@
 package smart.social.worker.app;
 
 import android.content.Context;
+import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.Gravity;
+import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.fourmob.datetimepicker.date.DatePickerDialog;
+
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -96,6 +104,31 @@ public class AppConfig {
         TextView tv = (TextView) toast.getView().findViewById(android.R.id.message);
         toast.getView().setBackgroundResource(R.drawable.shape_toast);
         toast.show();
+    }
+
+
+    public static void setDateEditText(final EditText editText, AppCompatActivity appCompatActivity) {
+        Calendar now = Calendar.getInstance();
+        int year = now.get(Calendar.YEAR);
+        int month = now.get(Calendar.MONTH); // Note: zero based!
+        int day = now.get(Calendar.DAY_OF_MONTH);
+        DatePickerDialog datePickerDialog = DatePickerDialog.newInstance(new DatePickerDialog.OnDateSetListener() {
+            @Override
+            public void onDateSet(DatePickerDialog datePickerDialog, int year, int month, int day) {
+                try {
+                    String dateString = String.valueOf(day) + "-" + String.valueOf(month + 1) + "-" + String.valueOf(year);
+                    SimpleDateFormat sdfSource = new SimpleDateFormat("dd-MM-yy");
+                    Date date = sdfSource.parse(dateString);
+                    SimpleDateFormat resultSource = new SimpleDateFormat("E, dd-MMM-yy");
+                    editText.setText(resultSource.format(date));
+                } catch (Exception e) {
+                    Log.e("Exception", e.toString());
+                }
+            }
+        }, year, month, day);
+        datePickerDialog.setYearRange(1917, 2030);
+        datePickerDialog.setCloseOnSingleTapDay(true);
+        datePickerDialog.show(appCompatActivity.getSupportFragmentManager(), "3000");
     }
 
 }

@@ -10,7 +10,6 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.google.android.youtube.player.YouTubePlayer;
 
@@ -20,14 +19,13 @@ import org.json.JSONObject;
 import java.util.List;
 
 import smart.social.worker.Assignment;
-import smart.social.worker.FieldWork;
+import smart.social.worker.field.FieldWork;
 import smart.social.worker.MainActivitySubject;
 import smart.social.worker.Pra;
 import smart.social.worker.R;
 import smart.social.worker.Research;
-import smart.social.worker.TeamMember;
-import smart.social.worker.ToolReport;
 import smart.social.worker.VideoClick;
+import smart.social.worker.field.MainActivityField;
 
 public class SemesterThreeAdapter extends RecyclerView.Adapter<SemesterThreeAdapter.MyViewHolder> {
 
@@ -122,10 +120,10 @@ public class SemesterThreeAdapter extends RecyclerView.Adapter<SemesterThreeAdap
                     sharedpreferences = mContext.getSharedPreferences(mypreference,
                             Context.MODE_PRIVATE);
                     SharedPreferences.Editor editor = sharedpreferences.edit();
-                    editor.putString(tittle, "SEMESTER 4");
+                    editor.putString(tittle, "SEMESTER 3");
                     editor.commit();
                     //  Intent io = new Intent(mContext, MainActivitySubject.class);
-                    Intent io = new Intent(mContext, ToolReport.class);
+                    Intent io = new Intent(mContext, MainActivitySubject.class);
                     mContext.startActivity(io);
                 } else {
                     JSONObject result = new JSONObject();
@@ -140,7 +138,7 @@ public class SemesterThreeAdapter extends RecyclerView.Adapter<SemesterThreeAdap
                         editor.commit();
 
                         if (pra.getTitle().contains("Field")) {
-                            Intent io = new Intent(mContext, FieldWork.class);
+                            Intent io = new Intent(mContext, MainActivityField.class);
                             mContext.startActivity(io);
                         } else if (pra.getTitle().contains("Research")) {
                             Intent io = new Intent(mContext, Research.class);

@@ -130,7 +130,8 @@
                             <android.support.design.widget.TextInputEditText
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:hint="Arrival" />
+                                android:hint="Arrival"
+                                android:id="@+id/arrival"/>
                         </android.support.design.widget.TextInputLayout>
 
                         <android.support.design.widget.TextInputLayout
@@ -141,7 +142,8 @@
                             <android.support.design.widget.TextInputEditText
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:hint="Departure" />
+                                android:hint="Departure"
+                                android:id="@+id/departure"/>
                         </android.support.design.widget.TextInputLayout>
 
                         <android.support.design.widget.TextInputLayout

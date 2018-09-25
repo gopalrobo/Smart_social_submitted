@@ -116,7 +116,7 @@ public class SemesterFourFragment extends Fragment implements VideoClick {
         sharedpreferences = getActivity().getSharedPreferences(mypreference,
                 Context.MODE_PRIVATE);
         SharedPreferences.Editor editor = sharedpreferences.edit();
-        editor.putString(tittle, praList.get(position).getTitle());
+        editor.putString(tittle, "SEMESTER 4");
         editor.commit();
         Intent io = new Intent(getActivity(), CustomMarkerClusteringDemoActivity.class);
         io.putExtra("tittle", praList.get(position).getTitle());
@@ -128,7 +128,7 @@ public class SemesterFourFragment extends Fragment implements VideoClick {
         sharedpreferences = getActivity().getSharedPreferences(mypreference,
                 Context.MODE_PRIVATE);
         SharedPreferences.Editor editor = sharedpreferences.edit();
-        editor.putString(tittle, praList.get(position).getTitle());
+        editor.putString(tittle, "SEMESTER 4");
         editor.commit();
         Intent io = new Intent(getActivity(), FinalReport.class);
         startActivity(io);

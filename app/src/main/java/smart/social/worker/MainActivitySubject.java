@@ -20,7 +20,7 @@ import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-import smart.social.worker.attend.SampleToolbarActivity;
+import smart.social.worker.field.FieldWork;
 
 public class MainActivitySubject extends AppCompatActivity {
     SharedPreferences sharedpreferences;
@@ -171,7 +171,7 @@ public class MainActivitySubject extends AppCompatActivity {
                     result.put("subchapter", subchapterSpin.getSelectedItem().toString());
                     editor.putString(tittle, result.toString());
                     editor.commit();
-                    Intent io = new Intent(MainActivitySubject.this, SampleToolbarActivity.class);
+                    Intent io = new Intent(MainActivitySubject.this, ToolReport.class);
                     startActivity(io);
                 } catch (Exception e) {
                     Log.e("error", e.toString());

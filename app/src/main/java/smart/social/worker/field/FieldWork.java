@@ -1,4 +1,4 @@
-package smart.social.worker;
+package smart.social.worker.field;
 
 import android.content.Context;
 import android.content.Intent;
@@ -9,11 +9,14 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.TextView;
 
 import org.json.JSONObject;
 
+import smart.social.worker.R;
 import smart.social.worker.allstudent.MainActivityAllStudent;
+import smart.social.worker.app.AppConfig;
 import smart.social.worker.db.DbReport;
 import smart.social.worker.forms.MainActivityFragment;
 import smart.social.worker.map.MapListActivityImpl;
@@ -112,6 +115,26 @@ public class FieldWork extends AppCompatActivity {
             }
         });
 
+
+        final EditText arrival=(EditText)findViewById(R.id.arrival);
+        arrival.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+            @Override
+            public void onFocusChange(View v, boolean hasFocus) {
+                if (hasFocus) {
+                    AppConfig.setDateEditText(arrival, FieldWork.this);
+                }
+            }
+        });
+
+        final EditText departure=(EditText)findViewById(R.id.departure);
+        departure.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+            @Override
+            public void onFocusChange(View v, boolean hasFocus) {
+                if (hasFocus) {
+                    AppConfig.setDateEditText(departure,FieldWork.this);
+                }
+            }
+        });
     }
 
 

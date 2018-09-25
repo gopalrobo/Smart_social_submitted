@@ -804,6 +804,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    app:passwordToggleEnabled="true"
                     android:layout_weight="0.25">
 
                     <smart.social.worker.CustomFontEditText
@@ -813,7 +814,7 @@
                         android:layout_gravity="center"
                         android:backgroundTint="@color/colorAccent"
                         android:hint="Password"
-                        android:inputType="textCapWords"
+                        android:inputType="textPassword"
                         android:textColorHint="#c6c6c6"
                         android:textSize="@dimen/textsize" />
 
@@ -842,16 +843,17 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    app:passwordToggleEnabled="true"
                     android:layout_weight="0.25">
 
                     <smart.social.worker.CustomFontEditText
                         android:id="@+id/confirmpassword"
                         android:layout_width="match_parent"
+                        android:inputType="textPassword"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:backgroundTint="@color/colorAccent"
                         android:hint="Confirm Password"
-                        android:inputType="textCapWords"
                         android:textColorHint="#c6c6c6"
                         android:textSize="@dimen/textsize" />
 

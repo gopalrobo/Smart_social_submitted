@@ -10,23 +10,14 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.google.android.youtube.player.YouTubePlayer;
 
-import org.json.JSONException;
-import org.json.JSONObject;
-
 import java.util.List;
 
-import smart.social.worker.Assignment;
-import smart.social.worker.FieldWork;
 import smart.social.worker.MainActivitySubject;
 import smart.social.worker.Pra;
 import smart.social.worker.R;
-import smart.social.worker.Research;
-import smart.social.worker.TeamMember;
-import smart.social.worker.ToolReport;
 import smart.social.worker.VideoClick;
 
 public class SemesterOneAdapter extends RecyclerView.Adapter<SemesterOneAdapter.MyViewHolder> {
@@ -129,7 +120,7 @@ public class SemesterOneAdapter extends RecyclerView.Adapter<SemesterOneAdapter.
                     editor.putString(tittle, "SEMESTER 1");
                     editor.commit();
                     //  Intent io = new Intent(mContext, MainActivitySubject.class);
-                    Intent io = new Intent(mContext, ToolReport.class);
+                    Intent io = new Intent(mContext, MainActivitySubject.class);
                     mContext.startActivity(io);
                 }
             }
