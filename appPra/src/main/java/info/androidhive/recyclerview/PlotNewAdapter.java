@@ -17,6 +17,7 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 
 import de.hdodenhof.circleimageview.CircleImageView;
+import info.androidhive.recyclerview.app.GlideApp;
 
 public class PlotNewAdapter extends RecyclerView.Adapter<PlotNewAdapter.MyViewHolder> {
 
@@ -66,7 +67,7 @@ public class PlotNewAdapter extends RecyclerView.Adapter<PlotNewAdapter.MyViewHo
             JSONObject fPlotDetailJson = new JSONObject(plotDetail.getFPlotDetail().toString());
             holder.plotname.setText(fPlotDetailJson.getString("plotname"));
             holder.plotarea.setText(fPlotDetailJson.getString("plotarea"));
-            Glide.with(mainActivityUser).load(fPlotDetailJson.getString("ploturl"))
+            GlideApp.with(mainActivityUser).load(fPlotDetailJson.getString("ploturl"))
                     .dontAnimate()
                     .thumbnail(0.5f)
                     .placeholder(R.drawable.profile)

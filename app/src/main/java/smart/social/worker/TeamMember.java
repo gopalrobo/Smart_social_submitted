@@ -20,7 +20,6 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.bumptech.glide.Glide;
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
@@ -34,7 +33,7 @@ import java.util.List;
 import java.util.Locale;
 
 import de.hdodenhof.circleimageview.CircleImageView;
-import smart.social.worker.app.GlideApp;
+import info.androidhive.recyclerview.app.GlideApp;
 import smart.social.worker.db.DbMember;
 import smart.social.worker.db.DbStudent;
 

@@ -16,6 +16,7 @@ import android.os.Bundle;
 import android.security.keystore.KeyGenParameterSpec;
 import android.security.keystore.KeyPermanentlyInvalidatedException;
 import android.security.keystore.KeyProperties;
+import android.support.annotation.RequiresApi;
 import android.support.design.widget.TextInputLayout;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
@@ -87,6 +88,7 @@ public class FingerprintActivity extends AppCompatActivity {
     private RadioButton student;
     private RadioButton Faculty;
 
+    @RequiresApi(api = Build.VERSION_CODES.M)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -211,11 +213,12 @@ public class FingerprintActivity extends AppCompatActivity {
 
 
         // Initializing both Android Keyguard Manager and Fingerprint Manager
-        KeyguardManager keyguardManager = (KeyguardManager) getSystemService(KEYGUARD_SERVICE);
+        KeyguardManager keyguardManager = null;
         FingerprintManager fingerprintManager = null;
         try {
+            keyguardManager = (KeyguardManager) getSystemService(KEYGUARD_SERVICE);
             fingerprintManager = (FingerprintManager) getSystemService(FINGERPRINT_SERVICE);
-        } catch (Error|Exception e) {
+        } catch (Error | Exception e) {
             Log.e("xxxxxxxxxxxxxx", e.toString());
         }
         textView = (TextView) findViewById(R.id.errorText);

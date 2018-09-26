@@ -32,7 +32,7 @@
         android:name="android.support.VERSION"
         android:value="25.3.1" />
     <meta-data
-        android:name="smart.social.worker.app.MyAppGlideModule"
+        android:name="info.androidhive.recyclerview.app.MyAppGlideModule"
         android:value="GlideModule" />
 
     <uses-feature
@@ -44,6 +44,7 @@
         android:icon="@drawable/holyicon"
         android:label="@string/app_name"
         android:supportsRtl="true"
+        tools:replace="android:name"
         android:theme="@style/AppTheme">
 
         <meta-data

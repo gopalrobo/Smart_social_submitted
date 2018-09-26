@@ -21,12 +21,12 @@ import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.google.gson.Gson;
 
 import de.hdodenhof.circleimageview.CircleImageView;
+import info.androidhive.recyclerview.app.GlideApp;
 import smart.social.worker.FingerprintActivity;
 import smart.social.worker.ProfileActivity;
 import smart.social.worker.R;
 import smart.social.worker.Student;
 import smart.social.worker.app.AppConfig;
-import smart.social.worker.app.GlideApp;
 import smart.social.worker.db.DbStudent;
 
 import static smart.social.worker.app.AppConfig.mypreference;

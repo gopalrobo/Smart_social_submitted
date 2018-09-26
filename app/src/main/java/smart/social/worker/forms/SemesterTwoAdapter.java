@@ -127,10 +127,18 @@ public class SemesterTwoAdapter extends RecyclerView.Adapter<SemesterTwoAdapter.
                     //  Intent io = new Intent(mContext, MainActivitySubject.class);
                     Intent io = new Intent(mContext, MainActivitySubject.class);
                     mContext.startActivity(io);
-                }else {
+                } else if (pra.getTitle().equalsIgnoreCase("pra")) {
+                    sharedpreferences = mContext.getSharedPreferences(mypreference,
+                            Context.MODE_PRIVATE);
+                    SharedPreferences.Editor editor = sharedpreferences.edit();
+                    editor.putString(tittle, pra.getTitle());
+                    editor.commit();
+                    Intent io = new Intent(mContext, info.androidhive.recyclerview.MainActivity.class);
+                    mContext.startActivity(io);
+                } else {
                     JSONObject result = new JSONObject();
                     try {
-                        result.put("semester","SEMESTER 2");
+                        result.put("semester", "SEMESTER 2");
                         result.put("subject", "Field");
                         result.put("chapter", "Field");
                         sharedpreferences = mContext.getSharedPreferences(mypreference,

@@ -60,12 +60,12 @@ import java.util.List;
 import java.util.Map;
 
 import de.hdodenhof.circleimageview.CircleImageView;
+import info.androidhive.recyclerview.app.GlideApp;
+import katomaran.evao.lib.qrmodule.encoding.QrGenerator;
 import smart.social.worker.app.AppConfig;
 import smart.social.worker.app.AppController;
-import smart.social.worker.app.GlideApp;
 import smart.social.worker.db.DbProfile;
 import smart.social.worker.db.DbStudent;
-import katomaran.evao.lib.qrmodule.encoding.QrGenerator;
 
 /**
  * Created by vidhushi.g on 8/10/17.
@@ -2964,10 +2964,16 @@ public class ProfileActivity extends AppCompatActivity implements OnMapReadyCall
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
+        String gps="";
+        if(student.getGeotag().split(",")[0].length()>6){
+           gps= student.getGeotag().split(",")[0].substring(0, 7) + "," + student.getGeotag().split(",")[1].substring(0, 7);
+        }else{
+            gps=student.getGeotag().split(",")[0] + "," + student.getGeotag().split(",")[1];
+        }
         MarkerOptions marker = new MarkerOptions()
                 .position(new LatLng(Double.parseDouble(student.getGeotag().split(",")[0]), Double.parseDouble(student.getGeotag().split(",")[1])))
                 .title(student.getStudentname())
-                .snippet(student.getGeotag().split(",")[0].substring(0, 7) + "," + student.getGeotag().split(",")[1].substring(0, 7));
+                .snippet(gps);
         marker.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED));
         googleMap.addMarker(marker).showInfoWindow();
         CameraPosition cameraPosition = new CameraPosition.Builder().target(

@@ -46,6 +46,7 @@ public class AppConfig {
     public static String URL_FARMER_DETAIL = "http://" + ipcloud + "/get_vrp_details.php";
 
     public static String URL_ALL_PROFILE = "http://" + ipcloud + "/get_all_profile.php";
+    public static String URL_ALL_VRPS = "http://" + ipcloud + "/get_all_vrps.php";
     public static String URL_PROFILE_CREATE = "http://" + ipcloud + "/create_profile.php";
     public static String URL_PROFILE_UPDATE = "http://" + ipcloud + "/update_profile.php";
 

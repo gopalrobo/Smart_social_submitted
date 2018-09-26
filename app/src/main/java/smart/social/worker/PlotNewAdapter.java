@@ -9,15 +9,14 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.bumptech.glide.Glide;
-
 import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.util.ArrayList;
 
 import de.hdodenhof.circleimageview.CircleImageView;
-import smart.social.worker.app.GlideApp;
+import info.androidhive.recyclerview.app.GlideApp;
+
 
 public class PlotNewAdapter extends RecyclerView.Adapter<PlotNewAdapter.MyViewHolder> {
 

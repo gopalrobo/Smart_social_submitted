@@ -1,4 +1,4 @@
-package smart.social.worker.app;
+package info.androidhive.recyclerview.app;
 
 import com.bumptech.glide.annotation.GlideModule;
 import com.bumptech.glide.module.AppGlideModule;

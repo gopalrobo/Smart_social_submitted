@@ -16,7 +16,6 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.bumptech.glide.Glide;
 import com.takusemba.multisnaprecyclerview.MultiSnapRecyclerView;
 import com.vansuita.pickimage.bean.PickResult;
 import com.vansuita.pickimage.bundle.PickSetup;
@@ -30,7 +29,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import de.hdodenhof.circleimageview.CircleImageView;
-import smart.social.worker.app.GlideApp;
+import info.androidhive.recyclerview.app.GlideApp;
 import smart.social.worker.db.DbImage;
 
 /**

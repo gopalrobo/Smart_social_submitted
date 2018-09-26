@@ -84,6 +84,11 @@ public class SemesterTwoFragment extends Fragment implements VideoClick {
 
         pra = new Pra("Summer Internship", "oKbj3y-LUbw", "", "http://www.hcctrichy.ac.in/social-work/");
         praList.add(pra);
+
+        pra = new Pra("PRA", "oKbj3y-LUbw", "", "http://www.hcctrichy.ac.in/social-work/");
+        praList.add(pra);
+
+
         mAdapter.notifyDataSetChanged();
     }
 

@@ -48,13 +48,13 @@ import java.util.Map;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 import fr.arnaudguyon.xmltojsonlib.XmlToJson;
+import info.androidhive.recyclerview.app.GlideApp;
+import katomaran.evao.lib.qrmodule.activity.QrScannerActivity;
 import smart.social.worker.app.AppConfig;
 import smart.social.worker.app.AppController;
-import smart.social.worker.app.GlideApp;
 import smart.social.worker.db.DbStudent;
 import smart.social.worker.forms.MainActivityFragment;
 import smart.social.worker.service.HttpService;
-import katomaran.evao.lib.qrmodule.activity.QrScannerActivity;
 
 /**
  * Created by vidhushi.g on 4/10/17.
@@ -272,10 +272,10 @@ public class StudentRegistration extends AppCompatActivity
                 email.setText(student.getGmail());
                 studentname.setText(student.getStudentname());
                 degreeName.setText(student.getDegreeName());
-                percentGpa.setText(student.getDegreeName());
-                classMark.setText(student.getDegreeName());
-                religion.setText(student.getDegreeName());
-                caste.setText(student.getDegreeName());
+                percentGpa.setText(student.getPercentGpa());
+                classMark.setText(student.getClassMark());
+                religion.setText(student.getReligion());
+                caste.setText(student.getCaste());
                 sex.setText(student.getSex());
                 fathername.setText(student.getFathername());
                 mobile.setText(student.getMobile());

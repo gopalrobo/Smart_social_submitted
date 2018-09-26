@@ -29,7 +29,6 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-import com.bumptech.glide.Glide;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
@@ -54,7 +53,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
-import smart.social.worker.app.GlideApp;
+import info.androidhive.recyclerview.app.GlideApp;
 import smart.social.worker.db.DbImage;
 import smart.social.worker.db.DbStudent;
 import smart.social.worker.maps.BaseDemoActivity;

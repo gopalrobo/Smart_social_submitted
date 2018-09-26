@@ -5,6 +5,7 @@ package smart.social.worker.off;
  */
 public class Officer {
     private String name, designation, senior;
+    private String password;
 
     public Officer() {
     }
@@ -37,5 +38,13 @@ public class Officer {
 
     public void setSenior(String senior) {
         this.senior = senior;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
     }
 }

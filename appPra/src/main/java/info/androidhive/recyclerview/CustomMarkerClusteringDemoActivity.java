@@ -29,7 +29,6 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-import com.bumptech.glide.Glide;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
@@ -54,6 +53,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
+import info.androidhive.recyclerview.app.GlideApp;
 import info.androidhive.recyclerview.db.DbImage;
 import info.androidhive.recyclerview.db.DbVrp;
 import info.androidhive.recyclerview.maps.BaseDemoActivity;
@@ -109,7 +109,7 @@ public class CustomMarkerClusteringDemoActivity extends BaseDemoActivity impleme
         protected void onBeforeClusterItemRendered(Person person, MarkerOptions markerOptions) {
             // Draw a single person.
             // Set the info window to show their name.
-            Glide.with(CustomMarkerClusteringDemoActivity.this).load(person.profilePhoto)
+            GlideApp.with(CustomMarkerClusteringDemoActivity.this).load(person.profilePhoto)
                     .placeholder(R.drawable.profile)
                     .into(mImageView);
             Bitmap icon = mIconGenerator.makeIcon();
@@ -131,7 +131,7 @@ public class CustomMarkerClusteringDemoActivity extends BaseDemoActivity impleme
                 drawable.setBounds(0, 0, width, height);
                 profilePhotos.add(drawable);
                 if (i == 0)
-                    Glide.with(CustomMarkerClusteringDemoActivity.this).load(cluster.getItems().iterator().next().profilePhoto)
+                    GlideApp.with(CustomMarkerClusteringDemoActivity.this).load(cluster.getItems().iterator().next().profilePhoto)
                             .placeholder(R.drawable.profile)
                             .into(mClusterImageView);
                 i++;

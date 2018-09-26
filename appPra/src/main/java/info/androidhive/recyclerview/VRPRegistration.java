@@ -49,6 +49,7 @@ import de.hdodenhof.circleimageview.CircleImageView;
 import fr.arnaudguyon.xmltojsonlib.XmlToJson;
 import info.androidhive.recyclerview.app.AppConfig;
 import info.androidhive.recyclerview.app.AppController;
+import info.androidhive.recyclerview.app.GlideApp;
 import info.androidhive.recyclerview.db.DbVrp;
 import info.androidhive.recyclerview.service.HttpService;
 import katomaran.evao.lib.qrmodule.activity.QrScannerActivity;
@@ -219,7 +220,7 @@ public class VRPRegistration extends AppCompatActivity
                 PickImageDialog.build(setup).setOnPickResult(new IPickResult() {
                     @Override
                     public void onPickResult(PickResult pickResult) {
-                        Glide.with(VRPRegistration.this).load(pickResult.getUri())
+                        GlideApp.with(VRPRegistration.this).load(pickResult.getUri())
                                 .centerCrop()
                                 .dontAnimate()
                                 .thumbnail(0.5f)
@@ -287,7 +288,7 @@ public class VRPRegistration extends AppCompatActivity
 
                 password.setText(dbVrp.getDataByvrpid(sharedpreferences.getString(vrpid, "")).get(2));
                 confirmpassword.setText(dbVrp.getDataByvrpid(sharedpreferences.getString(vrpid, "")).get(2));
-                Glide.with(VRPRegistration.this).load(imageUri)
+                GlideApp.with(VRPRegistration.this).load(imageUri)
                         .centerCrop()
                         .dontAnimate()
                         .thumbnail(0.5f)

@@ -12,6 +12,8 @@ import com.bumptech.glide.Glide;
 
 import java.util.ArrayList;
 
+import info.androidhive.recyclerview.app.GlideApp;
+
 public class TeamMemberAdapter extends RecyclerView.Adapter<TeamMemberAdapter.MyViewHolder> {
 
     private Context mainActivityUser;
@@ -81,7 +83,7 @@ public class TeamMemberAdapter extends RecyclerView.Adapter<TeamMemberAdapter.My
         holder.weblink.setText(member.getSocialmedia());
         holder.geotag.setText(member.getGeotag());
         holder.pincode.setText(member.getPincode());
-        Glide.with(mainActivityUser).load(member.getImage())
+        GlideApp.with(mainActivityUser).load(member.getImage())
                 .thumbnail(0.5f)
                 .placeholder(R.drawable.profilemember)
                 .into(holder.image);

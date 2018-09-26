@@ -9,14 +9,13 @@ import android.widget.ImageView;
 import android.widget.RatingBar;
 import android.widget.TextView;
 
-import com.bumptech.glide.Glide;
 import java.lang.ref.WeakReference;
 import java.util.List;
 
 import de.hdodenhof.circleimageview.CircleImageView;
+import info.androidhive.recyclerview.app.GlideApp;
 import smart.social.worker.R;
 import smart.social.worker.Student;
-import smart.social.worker.app.GlideApp;
 
 public class HeaderAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     private static final int TYPE_HEADER = 0;

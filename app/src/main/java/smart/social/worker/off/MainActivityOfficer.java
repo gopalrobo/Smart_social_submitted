@@ -20,6 +20,7 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.google.gson.Gson;
+import com.google.gson.JsonObject;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -30,8 +31,10 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import info.androidhive.recyclerview.Vrp;
 import smart.social.worker.MainActivity;
 import smart.social.worker.R;
+import smart.social.worker.Student;
 import smart.social.worker.app.AppConfig;
 import smart.social.worker.app.AppController;
 import smart.social.worker.db.DbStudent;
@@ -116,7 +119,9 @@ public class MainActivityOfficer extends AppCompatActivity {
                 Officer officer = officerList.get(position);
                 toolbar.setTitle(officer.getName());
                 if (officer.getSenior().equals("st")) {
-                    LoginUser("Gopal", "1234");
+                    getAllVrps();
+                } else if (officer.getDesignation().toLowerCase().equals("student")) {
+                    LoginUser(officer.getName(), officer.getPassword());
                 } else {
                     getAllFeeds(officer.getSenior());
                 }
@@ -128,10 +133,12 @@ public class MainActivityOfficer extends AppCompatActivity {
             }
         }));
 
-        if (!sharedpreferences.getString(seniorid, "").equals("vi")) {
+        if (sharedpreferences.getString(seniorid, "").equals("st")) {
+            getAllVrps();
+        } else if (!sharedpreferences.getString(seniorid, "").equals("vi")) {
             getAllFeeds(sharedpreferences.getString(seniorid, ""));
         } else {
-            LoginUser("Jeeva", "1234");
+            getAllVrps();
         }
     }
 
@@ -158,7 +165,7 @@ public class MainActivityOfficer extends AppCompatActivity {
                         return;
                     }
                     String str = localJSONObject1.getString("message");
-                    Toast.makeText(getApplicationContext(), str, 1).show();
+                    Toast.makeText(getApplicationContext(), str, Toast.LENGTH_SHORT).show();
                     return;
                 } catch (JSONException localJSONException) {
                     localJSONException.printStackTrace();
@@ -168,7 +175,7 @@ public class MainActivityOfficer extends AppCompatActivity {
                 , new Response.ErrorListener() {
             public void onErrorResponse(VolleyError paramVolleyError) {
                 Log.e("tag", "Fetch Error: " + paramVolleyError.getMessage());
-                Toast.makeText(getApplicationContext(), paramVolleyError.getMessage(), 1).show();
+                Toast.makeText(getApplicationContext(), paramVolleyError.getMessage(), Toast.LENGTH_SHORT).show();
                 hideDialog();
             }
         }) {
@@ -253,6 +260,72 @@ public class MainActivityOfficer extends AppCompatActivity {
     }
 
 
+    private void getAllVrps() {
+        // Tag used to cancel the request
+        String tag_string_req = "req_login";
+
+        pDialog.setMessage("Login ...");
+        showDialog();
+
+        StringRequest strReq = new StringRequest(Request.Method.POST,
+                AppConfig.URL_ALL_VRPS, new Response.Listener<String>() {
+
+            @Override
+            public void onResponse(String response) {
+                Log.d(TAG, "Login Response: " + response.toString());
+                hideDialog();
+
+                try {
+                    JSONObject jObj = new JSONObject(response);
+                    int success = jObj.getInt("success");
+                    if (success == 1) {
+                        officerList = new ArrayList<>();
+                        JSONArray vrp = jObj.getJSONArray("vrps");
+                        for (int i = 0; i < vrp.length(); i++) {
+                            JSONObject jsonObject=vrp.getJSONObject(i);
+                            String data = jsonObject.getString("data");
+                            String pass = jsonObject.getString("password");
+
+                            Student student = new Gson().fromJson(data, Student.class);
+                            Officer officer = new Officer(student.getStudentname(),
+                                    "Student", "Faculty");
+                            officer.setPassword(pass);
+                            officerList.add(officer);
+                        }
+                        mAdapter.notifyData(officerList);
+                    } else {
+                        Toast.makeText(getApplicationContext(), "Invalid credentials", Toast.LENGTH_SHORT).show();
+                    }
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+
+            }
+        }, new Response.ErrorListener() {
+
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                Log.e(TAG, "Login Error: " + error.getMessage());
+                Toast.makeText(getApplicationContext(),
+                        error.getMessage(), Toast.LENGTH_LONG).show();
+                hideDialog();
+            }
+        }) {
+
+            @Override
+            protected Map<String, String> getParams() {
+                // Posting params to register url
+                Map<String, String> params = new HashMap<String, String>();
+                return params;
+            }
+
+        };
+
+        // Adding request to request queue
+        AppController.getInstance().addToRequestQueue(strReq, tag_string_req);
+    }
+
+
     private void hideDialog() {
         if (this.pDialog.isShowing())
             this.pDialog.dismiss();
@@ -262,7 +335,6 @@ public class MainActivityOfficer extends AppCompatActivity {
         if (!this.pDialog.isShowing())
             this.pDialog.show();
     }
-
 
 
 }

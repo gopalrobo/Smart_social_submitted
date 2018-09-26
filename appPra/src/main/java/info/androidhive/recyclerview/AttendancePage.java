@@ -32,6 +32,7 @@ import java.util.List;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 import info.androidhive.recyclerview.app.AppConfig;
+import info.androidhive.recyclerview.app.GlideApp;
 import info.androidhive.recyclerview.db.DbImage;
 import info.androidhive.recyclerview.db.DbReport;
 
@@ -205,7 +206,7 @@ public class AttendancePage extends AppCompatActivity {
                 JSONObject jsonObject = new JSONObject(data);
                 geotag.setText(jsonObject.getString("geotag"));
                 description.setText(jsonObject.getString("description"));
-                Glide.with(AttendancePage.this).load(jsonObject.getString("image"))
+                GlideApp.with(AttendancePage.this).load(jsonObject.getString("image"))
                         .centerCrop()
                         .dontAnimate()
                         .thumbnail(0.5f)
@@ -262,7 +263,7 @@ public class AttendancePage extends AppCompatActivity {
                 PickImageDialog.build(setup).setOnPickResult(new IPickResult() {
                     @Override
                     public void onPickResult(PickResult pickResult) {
-                        Glide.with(AttendancePage.this).load(pickResult.getUri())
+                        GlideApp.with(AttendancePage.this).load(pickResult.getUri())
                                 .centerCrop()
                                 .dontAnimate()
                                 .thumbnail(0.5f)

@@ -8,12 +8,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.bumptech.glide.Glide;
-
 import java.util.ArrayList;
 
 import de.hdodenhof.circleimageview.CircleImageView;
-import smart.social.worker.app.GlideApp;
+import info.androidhive.recyclerview.app.GlideApp;
+
 
 public class ProfileAdapter extends RecyclerView.Adapter<ProfileAdapter.MyViewHolder> {
 
