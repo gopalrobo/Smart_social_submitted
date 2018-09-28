@@ -19,7 +19,9 @@ import org.json.JSONObject;
 
 import java.util.List;
 
-import smart.social.worker.field.FieldWork;
+import smart.social.worker.assignment.AssignmentActivity;
+import smart.social.worker.field.FieldWorkActivity;
+import smart.social.worker.research.ResearchActivity;
 
 public class PraAdapter extends RecyclerView.Adapter<PraAdapter.MyViewHolder> {
 
@@ -142,13 +144,13 @@ public class PraAdapter extends RecyclerView.Adapter<PraAdapter.MyViewHolder> {
                         editor.putString(tittle, result.toString());
                         editor.commit();
                         if (pra.getGenre().equals("Field")) {
-                            Intent io = new Intent(mContext, FieldWork.class);
+                            Intent io = new Intent(mContext, FieldWorkActivity.class);
                             mContext.startActivity(io);
-                        } else if (pra.getGenre().equals("Research")) {
-                            Intent io = new Intent(mContext, Research.class);
+                        } else if (pra.getGenre().equals("ResearchActivity")) {
+                            Intent io = new Intent(mContext, ResearchActivity.class);
                             mContext.startActivity(io);
-                        }else if (pra.getGenre().equals("Assignment")) {
-                            Intent io = new Intent(mContext, Assignment.class);
+                        }else if (pra.getGenre().equals("AssignmentActivity")) {
+                            Intent io = new Intent(mContext, AssignmentActivity.class);
                             mContext.startActivity(io);
                         }else if (pra.getGenre().equals("survey")) {
                             videoClick.tittleClick(position);

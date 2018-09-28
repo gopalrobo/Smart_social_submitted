@@ -58,6 +58,7 @@
                         app:counterMaxLength="150">
 
                         <android.support.design.widget.TextInputEditText
+                            android:id="@+id/title"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:hint="Start..." />
@@ -94,6 +95,7 @@
 
                         <android.support.design.widget.TextInputEditText
 
+                            android:id="@+id/disclaimer"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:hint="Start..." />
@@ -131,6 +133,7 @@
 
                         <android.support.design.widget.TextInputEditText
 
+                            android:id="@+id/acknowledgement"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:hint="Start..." />
@@ -168,6 +171,7 @@
 
                         <android.support.design.widget.TextInputEditText
 
+                            android:id="@+id/contents"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:hint="Start..." />
@@ -204,6 +208,7 @@
 
                         <android.support.design.widget.TextInputEditText
 
+                            android:id="@+id/preface"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:hint="Start..." />
@@ -239,7 +244,7 @@
                         app:counterMaxLength="3000">
 
                         <android.support.design.widget.TextInputEditText
-
+                            android:id="@+id/executiveSummary"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:hint="Start..." />
@@ -275,7 +280,7 @@
                         app:counterMaxLength="10000">
 
                         <android.support.design.widget.TextInputEditText
-
+                            android:id="@+id/introduction"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:hint="Start..." />
@@ -311,7 +316,7 @@
                         app:counterMaxLength="10000">
 
                         <android.support.design.widget.TextInputEditText
-
+                            android:id="@+id/hypothesis"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:hint="Start..." />
@@ -348,6 +353,7 @@
 
                         <android.support.design.widget.TextInputEditText
 
+                            android:id="@+id/researchMethodology"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:hint="Start..." />
@@ -383,7 +389,7 @@
                         app:counterMaxLength="20000">
 
                         <android.support.design.widget.TextInputEditText
-
+                            android:id="@+id/researchFindings"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:hint="Start..." />
@@ -419,7 +425,7 @@
                         app:counterMaxLength="10000">
 
                         <android.support.design.widget.TextInputEditText
-
+                            android:id="@+id/conclusion"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:hint="Start..." />
@@ -455,7 +461,7 @@
                         app:counterMaxLength="150">
 
                         <android.support.design.widget.TextInputEditText
-
+                            android:id="@+id/reference"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:hint="Start..." />
@@ -489,7 +495,7 @@
                         android:layout_height="wrap_content">
 
                         <android.support.design.widget.TextInputEditText
-
+                            android:id="@+id/annexure1"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:hint="Start..." />
@@ -523,7 +529,7 @@
                         android:layout_height="wrap_content">
 
                         <android.support.design.widget.TextInputEditText
-
+                            android:id="@+id/annexure2"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:hint="Start..." />
@@ -557,7 +563,7 @@
                         android:layout_height="wrap_content">
 
                         <android.support.design.widget.TextInputEditText
-
+                            android:id="@+id/annexure3"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:hint="Start..." />

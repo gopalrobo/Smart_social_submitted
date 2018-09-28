@@ -97,7 +97,7 @@ public class MainSubjectFragment extends Fragment implements VideoClick {
         pra = new Pra("ASSIGNMENT", "Assignment", "true", "https://sites.google.com/site/faopratoolkit/transect-walk");
         praList.add(pra);
 
-        pra = new Pra("RESEARCH", "Research", "true", "https://sites.google.com/site/faopratoolkit/transect-walk");
+        pra = new Pra("RESEARCH", "ResearchActivity", "true", "https://sites.google.com/site/faopratoolkit/transect-walk");
         praList.add(pra);
 
         pra = new Pra("SURVEY", "survey", "true", "https://sites.google.com/site/faopratoolkit/transect-walk");

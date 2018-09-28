@@ -19,6 +19,8 @@ import smart.social.worker.MainActivitySubject;
 import smart.social.worker.Pra;
 import smart.social.worker.R;
 import smart.social.worker.VideoClick;
+import smart.social.worker.group.GroupProjectActivity;
+import smart.social.worker.observation.ObservationVisitActivity;
 
 public class SemesterOneAdapter extends RecyclerView.Adapter<SemesterOneAdapter.MyViewHolder> {
 
@@ -77,7 +79,6 @@ public class SemesterOneAdapter extends RecyclerView.Adapter<SemesterOneAdapter.
         }
 
 
-
         holder.title.setText(pra.getTitle());
         holder.infolin.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -121,6 +122,24 @@ public class SemesterOneAdapter extends RecyclerView.Adapter<SemesterOneAdapter.
                     editor.commit();
                     //  Intent io = new Intent(mContext, MainActivitySubject.class);
                     Intent io = new Intent(mContext, MainActivitySubject.class);
+                    mContext.startActivity(io);
+                } else if (pra.getTitle().equalsIgnoreCase("Group Project")) {
+                    sharedpreferences = mContext.getSharedPreferences(mypreference,
+                            Context.MODE_PRIVATE);
+                    SharedPreferences.Editor editor = sharedpreferences.edit();
+                    editor.putString(tittle, "SEMESTER 1");
+                    editor.commit();
+                    //  Intent io = new Intent(mContext, MainActivitySubject.class);
+                    Intent io = new Intent(mContext, GroupProjectActivity.class);
+                    mContext.startActivity(io);
+                } else if (pra.getTitle().equalsIgnoreCase("Observation Visits")) {
+                    sharedpreferences = mContext.getSharedPreferences(mypreference,
+                            Context.MODE_PRIVATE);
+                    SharedPreferences.Editor editor = sharedpreferences.edit();
+                    editor.putString(tittle, "SEMESTER 1");
+                    editor.commit();
+                    //  Intent io = new Intent(mContext, MainActivitySubject.class);
+                    Intent io = new Intent(mContext, ObservationVisitActivity.class);
                     mContext.startActivity(io);
                 }
             }

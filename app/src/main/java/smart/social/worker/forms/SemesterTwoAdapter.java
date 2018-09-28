@@ -18,13 +18,12 @@ import org.json.JSONObject;
 
 import java.util.List;
 
-import smart.social.worker.Assignment;
-import smart.social.worker.field.FieldWork;
 import smart.social.worker.MainActivitySubject;
 import smart.social.worker.Pra;
 import smart.social.worker.R;
-import smart.social.worker.Research;
+import smart.social.worker.research.ResearchActivity;
 import smart.social.worker.VideoClick;
+import smart.social.worker.assignment.MainActivityAssignment;
 import smart.social.worker.field.MainActivityField;
 
 public class SemesterTwoAdapter extends RecyclerView.Adapter<SemesterTwoAdapter.MyViewHolder> {
@@ -145,15 +144,16 @@ public class SemesterTwoAdapter extends RecyclerView.Adapter<SemesterTwoAdapter.
                                 Context.MODE_PRIVATE);
                         SharedPreferences.Editor editor = sharedpreferences.edit();
                         editor.putString(tittle, result.toString());
+                        editor.putString("semester", "SEMESTER 2");
                         editor.commit();
                         if (pra.getTitle().contains("Field")) {
                             Intent io = new Intent(mContext, MainActivityField.class);
                             mContext.startActivity(io);
-                        } else if (pra.getTitle().contains("Research")) {
-                            Intent io = new Intent(mContext, Research.class);
+                        } else if (pra.getTitle().contains("ResearchActivity")) {
+                            Intent io = new Intent(mContext, ResearchActivity.class);
                             mContext.startActivity(io);
                         } else if (pra.getTitle().contains("Assignment")) {
-                            Intent io = new Intent(mContext, Assignment.class);
+                            Intent io = new Intent(mContext, MainActivityAssignment.class);
                             mContext.startActivity(io);
                         } else if (pra.getTitle().contains("survey")) {
                             videoClick.tittleClick(position);

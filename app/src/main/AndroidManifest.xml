@@ -97,13 +97,22 @@
             android:theme="@style/AppThemee"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="smart.social.worker.field.FieldWork"
+            android:name="smart.social.worker.field.FieldWorkActivity"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name="smart.social.worker.Research"
+            android:name="smart.social.worker.group.GroupProjectActivity"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name="smart.social.worker.Assignment"
+            android:name="smart.social.worker.observation.ObservationVisitActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="smart.social.worker.assignment.MainActivityAssignment"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="smart.social.worker.research.ResearchActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="smart.social.worker.assignment.AssignmentActivity"
             android:windowSoftInputMode="stateHidden" />
         <activity
             android:name="smart.social.worker.StudentRegistration"

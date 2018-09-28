@@ -16,54 +16,6 @@
             android:orientation="vertical">
 
             <android.support.v7.widget.CardView
-                android:id="@+id/card1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="5dp"
-                android:elevation="10dp"
-                android:foreground="?attr/selectableItemBackground"
-                card_view:cardCornerRadius="5dp">
-
-                <LinearLayout
-
-                    android:layout_width="match_parent"
-                    android:layout_height="60dp"
-                    android:layout_gravity="center"
-                    android:background="#fff"
-                    android:foreground="?attr/selectableItemBackground"
-                    android:gravity="center"
-                    android:orientation="horizontal">
-
-                    <android.support.design.widget.FloatingActionButton
-                        android:id="@+id/studentgroup"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:layout_marginRight="5dp"
-                        android:layout_weight="1"
-                        android:background="@color/viewBg"
-                        app:backgroundTint="@color/viewBg"
-                        app:elevation="2.0dip"
-                        app:fabSize="mini"
-                        app:rippleColor="@color/soft_grey"
-                        app:srcCompat="@drawable/student_group" />
-
-                    <android.support.design.widget.FloatingActionButton
-                        android:id="@+id/studentRoute"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:layout_marginRight="5dp"
-                        android:layout_weight="1"
-                        android:background="@color/viewBg"
-                        app:backgroundTint="@color/viewBg"
-                        app:elevation="2.0dip"
-                        app:fabSize="mini"
-                        app:rippleColor="@color/soft_grey"
-                        app:srcCompat="@drawable/address_map" />
-
-                </LinearLayout>
-            </android.support.v7.widget.CardView>
-
-            <android.support.v7.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp">
@@ -80,17 +32,19 @@
                         android:layout_marginTop="5dp"
                         android:background="@android:color/transparent"
                         android:gravity="center"
-                        android:hint="Name of Organization"
+                        android:hint="Name of the Agency"
                         android:textColorHint="#000"
                         android:textSize="17dp" />
 
                     <android.support.design.widget.TextInputLayout
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
+                        android:layout_height="wrap_content"
+                        app:counterEnabled="true"
+                        app:counterMaxLength="100">
 
                         <android.support.design.widget.TextInputEditText
+                            android:id="@+id/agencyName"
                             android:layout_width="match_parent"
-                            android:id="@+id/organizationName"
                             android:layout_height="wrap_content"
                             android:hint="Start..." />
                     </android.support.design.widget.TextInputLayout>
@@ -114,7 +68,116 @@
                         android:layout_marginTop="5dp"
                         android:background="@android:color/transparent"
                         android:gravity="center"
-                        android:hint="Date of Field work"
+                        android:hint="Year of Establishment"
+                        android:textColorHint="#000"
+                        android:textSize="17dp" />
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:counterEnabled="true"
+                        app:counterMaxLength="100">
+
+                        <android.support.design.widget.TextInputEditText
+                            android:id="@+id/establishmentYear"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Start..." />
+                    </android.support.design.widget.TextInputLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:background="@android:color/transparent"
+                        android:gravity="center"
+                        android:hint="Organigram"
+                        android:textColorHint="#000"
+                        android:textSize="17dp" />
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:counterEnabled="true"
+                        app:counterMaxLength="100">
+
+                        <android.support.design.widget.TextInputEditText
+                            android:id="@+id/organigram"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Start..." />
+                    </android.support.design.widget.TextInputLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:background="@android:color/transparent"
+                        android:gravity="center"
+                        android:hint="Working areas"
+                        android:textColorHint="#000"
+                        android:textSize="17dp" />
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:counterEnabled="true"
+                        app:counterMaxLength="100">
+
+                        <android.support.design.widget.TextInputEditText
+                            android:id="@+id/workingAreas"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Start..." />
+                    </android.support.design.widget.TextInputLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:background="@android:color/transparent"
+                        android:gravity="center"
+                        android:hint="Target Group"
                         android:textColorHint="#000"
                         android:textSize="17dp" />
 
@@ -126,38 +189,17 @@
                         <android.support.design.widget.TextInputLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_weight="1">
+                            android:layout_weight="1"
+                            app:counterEnabled="true"
+                            app:counterMaxLength="100">
 
                             <android.support.design.widget.TextInputEditText
+                                android:id="@+id/targetGroup"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:hint="Arrival"
-                                android:id="@+id/arrival"/>
+                                android:hint="Start..." />
                         </android.support.design.widget.TextInputLayout>
 
-                        <android.support.design.widget.TextInputLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1">
-
-                            <android.support.design.widget.TextInputEditText
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:hint="Departure"
-                                android:id="@+id/departure"/>
-                        </android.support.design.widget.TextInputLayout>
-
-                        <android.support.design.widget.TextInputLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1">
-
-                            <android.support.design.widget.TextInputEditText
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:id="@+id/totalHours"
-                                android:hint="Total hours" />
-                        </android.support.design.widget.TextInputLayout>
                     </LinearLayout>
                 </LinearLayout>
             </android.support.v7.widget.CardView>
@@ -179,41 +221,7 @@
                         android:layout_marginTop="5dp"
                         android:background="@android:color/transparent"
                         android:gravity="center"
-                        android:hint="Date of submission"
-                        android:textColorHint="#000"
-                        android:textSize="17dp" />
-
-                    <android.support.design.widget.TextInputLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
-
-                        <android.support.design.widget.TextInputEditText
-                            android:layout_width="match_parent"
-                            android:id="@+id/dateOfSubmission"
-                            android:layout_height="wrap_content"
-                            android:hint="Start..." />
-                    </android.support.design.widget.TextInputLayout>
-                </LinearLayout>
-            </android.support.v7.widget.CardView>
-
-            <android.support.v7.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_marginTop="5dp"
-                        android:background="@android:color/transparent"
-                        android:gravity="center"
-                        android:hint="Plan for the Day(with time)"
+                        android:hint="Current Projects Activities"
                         android:textColorHint="#000"
                         android:textSize="17dp" />
 
@@ -221,12 +229,12 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         app:counterEnabled="true"
-                        app:counterMaxLength="500">
+                        app:counterMaxLength="300">
 
                         <android.support.design.widget.TextInputEditText
+                            android:id="@+id/currentProjectsActivities"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:id="@+id/planForTheDay"
                             android:hint="Start..." />
                     </android.support.design.widget.TextInputLayout>
                 </LinearLayout>
@@ -249,7 +257,7 @@
                         android:layout_marginTop="5dp"
                         android:background="@android:color/transparent"
                         android:gravity="center"
-                        android:hint="Technical Details"
+                        android:hint="Role of social worker"
                         android:textColorHint="#000"
                         android:textSize="17dp" />
 
@@ -260,9 +268,9 @@
                         app:counterMaxLength="1000">
 
                         <android.support.design.widget.TextInputEditText
+                            android:id="@+id/roleSocialWorker"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:id="@+id/technicalDetails"
                             android:hint="Start..." />
                     </android.support.design.widget.TextInputLayout>
                 </LinearLayout>
@@ -285,7 +293,43 @@
                         android:layout_marginTop="5dp"
                         android:background="@android:color/transparent"
                         android:gravity="center"
-                        android:hint="Future Plan"
+                        android:hint="Observations"
+                        android:textColorHint="#000"
+                        android:textSize="17dp" />
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:counterEnabled="true"
+                        app:counterMaxLength="1500">
+
+                        <android.support.design.widget.TextInputEditText
+                            android:id="@+id/observations"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Start..." />
+                    </android.support.design.widget.TextInputLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:background="@android:color/transparent"
+                        android:gravity="center"
+                        android:hint="Learnings"
                         android:textColorHint="#000"
                         android:textSize="17dp" />
 
@@ -296,93 +340,20 @@
                         app:counterMaxLength="1000">
 
                         <android.support.design.widget.TextInputEditText
+                            android:id="@+id/learnings"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:id="@+id/futurePlan"
                             android:hint="Start..." />
                     </android.support.design.widget.TextInputLayout>
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
-            <android.support.v7.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_marginTop="5dp"
-                        android:background="@android:color/transparent"
-                        android:gravity="center"
-                        android:hint="Conclusion"
-                        android:textColorHint="#000"
-                        android:textSize="17dp" />
-
-                    <android.support.design.widget.TextInputLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        app:counterEnabled="true"
-                        app:counterMaxLength="1000">
-
-                        <android.support.design.widget.TextInputEditText
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:id="@+id/conclusion"
-                            android:hint="Start..." />
-                    </android.support.design.widget.TextInputLayout>
-                </LinearLayout>
-            </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="5dp">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_marginTop="5dp"
-                        android:background="@android:color/transparent"
-                        android:gravity="center"
-                        android:hint="Supervisor Remarks"
-                        android:textColorHint="#000"
-                        android:textSize="17dp" />
-
-                    <android.support.design.widget.TextInputLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        app:counterEnabled="true"
-                        app:counterMaxLength="500">
-
-                        <android.support.design.widget.TextInputEditText
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:id="@+id/supervisorRemarks"
-                            android:hint="Start..." />
-                    </android.support.design.widget.TextInputLayout>
-                </LinearLayout>
-            </android.support.v7.widget.CardView>
-
-            <android.support.v7.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_marginBottom="20dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp">
+                android:layout_margin="5dp"
+                android:visibility="invisible">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -409,7 +380,6 @@
                         <android.support.design.widget.TextInputEditText
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:id="@+id/facultyRemarks"
                             android:hint="Start..." />
                     </android.support.design.widget.TextInputLayout>
                 </LinearLayout>

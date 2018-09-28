@@ -2919,7 +2919,7 @@ public class ProfileActivity extends AppCompatActivity implements OnMapReadyCall
         waterresourcesList.add(plot);
         plot = new Plot("", "Assignments", "", "0%", null);
         waterresourcesList.add(plot);
-        plot = new Plot("", "Research Project", "", "0%", null);
+        plot = new Plot("", "ResearchActivity Project", "", "0%", null);
         waterresourcesList.add(plot);
         plot = new Plot("", "Field Work", "", "0%", null);
         waterresourcesList.add(plot);

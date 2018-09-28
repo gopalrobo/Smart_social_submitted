@@ -50,6 +50,21 @@ public class AppConfig {
     public static String URL_PROFILE_CREATE = "http://" + ipcloud + "/create_profile.php";
     public static String URL_PROFILE_UPDATE = "http://" + ipcloud + "/update_profile.php";
 
+    public static String URL_CREATE_GROUP = "http://" + ipcloud + "/create_group_project.php";
+    public static String URL_GET_GROUP = "http://" + ipcloud + "/get_group_project.php";
+
+    public static String URL_CREATE_OBSERVISIT = "http://" + ipcloud + "/create_observation_visit.php";
+    public static String URL_GET_OBSERVISIT  = "http://" + ipcloud + "/get_observation_visit.php";
+
+    public static String URL_CREATE_FIELD_WORK = "http://" + ipcloud + "/create_field_work.php";
+    public static String URL_GET_FIELD_WORK= "http://" + ipcloud + "/get_field_work.php";
+
+    public static String URL_CREATE_ASSIGNMENT = "http://" + ipcloud + "/create_assignment.php";
+    public static String URL_GET_ASSIGNMENT= "http://" + ipcloud + "/get_assignment.php";
+
+    public static String URL_CREATE_RESEARCH = "http://" + ipcloud + "/create_research.php";
+    public static String URL_GET_RESEARCH= "http://" + ipcloud + "/get_research.php";
+
     // server URL configuration
     public static final String URL_REQUEST_SMS = "http://" + ipcloud + "/request_sms.php";
     public static final String URL_VERIFY_OTP = "http://" + ipcloud + "/verify_otp.php";

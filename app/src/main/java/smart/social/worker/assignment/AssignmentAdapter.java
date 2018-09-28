@@ -1,4 +1,4 @@
-package smart.social.worker.field;
+package smart.social.worker.assignment;
 
 import android.content.Context;
 import android.content.Intent;
@@ -14,7 +14,7 @@ import java.util.List;
 import smart.social.worker.Pra;
 import smart.social.worker.R;
 
-public class FieldWorkAdapter extends RecyclerView.Adapter<FieldWorkAdapter.MyViewHolder> {
+public class AssignmentAdapter extends RecyclerView.Adapter<AssignmentAdapter.MyViewHolder> {
 
 
     private List<Pra> moviesList;
@@ -33,7 +33,7 @@ public class FieldWorkAdapter extends RecyclerView.Adapter<FieldWorkAdapter.MyVi
     }
 
 
-    public FieldWorkAdapter(List<Pra> moviesList, Context mContext) {
+    public AssignmentAdapter(List<Pra> moviesList, Context mContext) {
         this.moviesList = moviesList;
         this.mContext = mContext;
         sharedpreferences = mContext.getSharedPreferences(mypreference,
@@ -63,7 +63,7 @@ public class FieldWorkAdapter extends RecyclerView.Adapter<FieldWorkAdapter.MyVi
                 editor.putString("sheetno", "Sheet "+String.valueOf(position+1));
                 editor.commit();
 
-                Intent intent = new Intent(mContext, FieldWorkActivity.class);
+                Intent intent = new Intent(mContext, AssignmentActivity.class);
                 mContext.startActivity(intent);
             }
         });

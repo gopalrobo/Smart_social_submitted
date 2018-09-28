@@ -125,6 +125,8 @@ Step 2: Observe and Record all information during Informal Exposure Walk.\n\n\n\
     <string name="additionalInfo">additionalinfo</string>
     <string name="toolreport">toolreport</string>
     <string name="observation">observation</string>
+    <string name="groupProject">GroupProject</string>
+    <string name="observationVisit">observationVisit</string>
     <string name="fieldWork">fieldWork</string>
     <string name="attendance">attendance</string>
     <string name="history">history</string>
