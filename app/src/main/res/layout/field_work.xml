@@ -89,10 +89,13 @@
                         android:layout_height="wrap_content">
 
                         <android.support.design.widget.TextInputEditText
-                            android:layout_width="match_parent"
                             android:id="@+id/organizationName"
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:hint="Start..." />
+                            android:hint="Start..."
+                            android:longClickable="false"
+
+                            android:textColor="@color/hint_color" />
                     </android.support.design.widget.TextInputLayout>
                 </LinearLayout>
             </android.support.v7.widget.CardView>
@@ -129,10 +132,13 @@
                             android:layout_weight="1">
 
                             <android.support.design.widget.TextInputEditText
+                                android:id="@+id/arrival"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:hint="Arrival"
-                                android:id="@+id/arrival"/>
+                                android:longClickable="false"
+
+                                android:textColor="@color/hint_color" />
                         </android.support.design.widget.TextInputLayout>
 
                         <android.support.design.widget.TextInputLayout
@@ -141,10 +147,13 @@
                             android:layout_weight="1">
 
                             <android.support.design.widget.TextInputEditText
+                                android:id="@+id/departure"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:hint="Departure"
-                                android:id="@+id/departure"/>
+                                android:longClickable="false"
+
+                                android:textColor="@color/hint_color" />
                         </android.support.design.widget.TextInputLayout>
 
                         <android.support.design.widget.TextInputLayout
@@ -153,10 +162,13 @@
                             android:layout_weight="1">
 
                             <android.support.design.widget.TextInputEditText
+                                android:id="@+id/totalHours"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:id="@+id/totalHours"
-                                android:hint="Total hours" />
+                                android:hint="Total hours"
+                                android:longClickable="false"
+
+                                android:textColor="@color/hint_color" />
                         </android.support.design.widget.TextInputLayout>
                     </LinearLayout>
                 </LinearLayout>
@@ -188,10 +200,13 @@
                         android:layout_height="wrap_content">
 
                         <android.support.design.widget.TextInputEditText
-                            android:layout_width="match_parent"
                             android:id="@+id/dateOfSubmission"
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:hint="Start..." />
+                            android:hint="Start..."
+                            android:longClickable="false"
+
+                            android:textColor="@color/hint_color" />
                     </android.support.design.widget.TextInputLayout>
                 </LinearLayout>
             </android.support.v7.widget.CardView>
@@ -224,10 +239,13 @@
                         app:counterMaxLength="500">
 
                         <android.support.design.widget.TextInputEditText
+                            android:id="@+id/planForTheDay"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:id="@+id/planForTheDay"
-                            android:hint="Start..." />
+                            android:hint="Start..."
+                            android:longClickable="false"
+
+                            android:textColor="@color/hint_color" />
                     </android.support.design.widget.TextInputLayout>
                 </LinearLayout>
             </android.support.v7.widget.CardView>
@@ -260,10 +278,13 @@
                         app:counterMaxLength="1000">
 
                         <android.support.design.widget.TextInputEditText
+                            android:id="@+id/technicalDetails"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:id="@+id/technicalDetails"
-                            android:hint="Start..." />
+                            android:hint="Start..."
+                            android:longClickable="false"
+
+                            android:textColor="@color/hint_color" />
                     </android.support.design.widget.TextInputLayout>
                 </LinearLayout>
             </android.support.v7.widget.CardView>
@@ -296,10 +317,13 @@
                         app:counterMaxLength="1000">
 
                         <android.support.design.widget.TextInputEditText
+                            android:id="@+id/futurePlan"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:id="@+id/futurePlan"
-                            android:hint="Start..." />
+                            android:hint="Start..."
+                            android:longClickable="false"
+
+                            android:textColor="@color/hint_color" />
                     </android.support.design.widget.TextInputLayout>
                 </LinearLayout>
             </android.support.v7.widget.CardView>
@@ -332,10 +356,13 @@
                         app:counterMaxLength="1000">
 
                         <android.support.design.widget.TextInputEditText
+                            android:id="@+id/conclusion"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:id="@+id/conclusion"
-                            android:hint="Start..." />
+                            android:hint="Start..."
+                            android:longClickable="false"
+
+                            android:textColor="@color/hint_color" />
                     </android.support.design.widget.TextInputLayout>
                 </LinearLayout>
             </android.support.v7.widget.CardView>
@@ -368,21 +395,144 @@
                         app:counterMaxLength="500">
 
                         <android.support.design.widget.TextInputEditText
+                            android:id="@+id/supervisorRemarks"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:id="@+id/supervisorRemarks"
-                            android:hint="Start..." />
+                            android:hint="Start..."
+                            android:longClickable="false"
+
+                            android:textColor="@color/hint_color"/>
                     </android.support.design.widget.TextInputLayout>
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_marginBottom="20dp"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
                 android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp">
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:background="@android:color/transparent"
+                        android:gravity="center"
+                        android:hint="Faculty Remarks"
+                        android:textColorHint="#000"
+                        android:textSize="17dp" />
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:counterEnabled="true"
+                        app:counterMaxLength="500">
+
+                        <android.support.design.widget.TextInputEditText
+                            android:id="@+id/facultyRemarks"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Start..."
+                            android:longClickable="false"
+
+                            android:textColor="@color/hint_color"/>
+                    </android.support.design.widget.TextInputLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:background="@android:color/transparent"
+                        android:gravity="center"
+                        android:hint="Staff"
+                        android:textColorHint="#000"
+                        android:textSize="17dp" />
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:counterEnabled="true"
+                        app:counterMaxLength="1000">
+
+                        <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                            android:id="@+id/staff"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Select Staff"
+                            android:longClickable="false"
+
+                            android:textColor="@color/hint_color"/>
+                    </android.support.design.widget.TextInputLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:background="@android:color/transparent"
+                        android:gravity="center"
+                        android:hint="Marks"
+                        android:textColorHint="#000"
+                        android:textSize="17dp" />
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:counterEnabled="true"
+                        app:counterMaxLength="1000">
+
+                        <android.support.design.widget.TextInputEditText
+                            android:id="@+id/marks"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Start..."
+                            android:longClickable="false"
+
+                            android:textColor="@color/hint_color"/>
+                    </android.support.design.widget.TextInputLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:visibility="invisible">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -409,8 +559,10 @@
                         <android.support.design.widget.TextInputEditText
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:id="@+id/facultyRemarks"
-                            android:hint="Start..." />
+                            android:hint="Start..."
+                            android:longClickable="false"
+
+                            android:textColor="@color/hint_color"/>
                     </android.support.design.widget.TextInputLayout>
                 </LinearLayout>
             </android.support.v7.widget.CardView>
@@ -419,16 +571,38 @@
 
     </ScrollView>
 
-    <TextView
-        android:id="@+id/submit"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:background="@color/accent"
-        android:gravity="center"
-        android:padding="15dp"
-        android:text="SUBMIT"
-        android:textColor="#fff"
-        android:textSize="14dp"
-        android:textStyle="bold" />
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/accent"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="SUBMIT"
+            android:textColor="#fff"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/draft"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/accent"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="DRAFT"
+            android:textColor="#fff"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+    </LinearLayout>
 </RelativeLayout>

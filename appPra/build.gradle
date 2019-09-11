@@ -1,12 +1,12 @@
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 27
-    buildToolsVersion '27.0.3'
+    compileSdkVersion 28
+    buildToolsVersion '28.0.3'
 
     defaultConfig {
         minSdkVersion 17
-        targetSdkVersion 27
+        targetSdkVersion 28
         versionCode 1
         versionName "1.0"
     }
@@ -21,37 +21,43 @@ android {
 dependencies {
     // implementation fileTree(include: ['*.jar'], dir: 'libs')
     testImplementation 'junit:junit:4.12'
-    implementation 'com.android.support:appcompat-v7:27.0.2'
-    implementation 'com.android.support:design:27.0.2'
-    implementation 'com.android.support:recyclerview-v7:27.0.2'
-    implementation 'com.android.support:cardview-v7:27.0.2'
-    implementation 'de.hdodenhof:circleimageview:2.2.0'
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support:design:28.0.0'
+    implementation 'com.android.support:recyclerview-v7:28.0.0'
+    implementation 'com.android.support:cardview-v7:28.0.0'
+    implementation project(':circleimageview')
     // implementation project(':library-map')
     implementation 'com.github.bumptech.glide:glide:4.6.1'
     //    implementation 'com.github.bumptech.glide:glide:3.7.0'
     implementation 'com.github.bumptech.glide:compiler:4.6.1'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.6.1'
     implementation project(':multisnaprecyclerview')
-    implementation('com.github.bkhezry:ExtraMapUtils:v1.2.0') {
-        exclude group: 'com.android.support'
-    }
+    implementation project(':library-map')
+
     implementation 'com.github.smart-fun:XmlToJson:1.1.1'
-    implementation 'com.github.flavienlaurent.datetimepicker:library:0.0.2'
     implementation project(path: ':library-gmail')
     implementation 'com.squareup.retrofit2:converter-gson:2.1.0'
     implementation 'com.mcxiaoke.volley:library-aar:1.0.0'
     //implementation project(':library')
     implementation project(':rosetta')
     implementation 'com.github.jrvansuita:PickImage:+'
-    implementation 'com.facebook.android:facebook-android-sdk:4.24.0'
+
+    implementation project(':datetimepicker-library')
+
+    implementation ('com.facebook.android:facebook-android-sdk:4.24.0')
+    {
+        exclude group: 'com.android.support'
+    }
     implementation project(':qrmodule')
     implementation project(':library-tableformat')
-    implementation('com.schibstedspain.android:android-reactive-location:0.10.1') {
-        exclude group: 'com.google.android.gms'
-    }
+    implementation project(':android-reactive-location')
     implementation 'com.tbruyelle.rxpermissions:rxpermissions:0.9.4@aar'
-    implementation 'com.google.maps.android:android-maps-utils:0.5+'
-    def playServicesVersion = '10.2.0'
-    implementation "com.google.android.gms:play-services-location:$playServicesVersion"
+    implementation project(':library')
+
+    implementation 'com.google.android.gms:play-services-location:11.0.4'
+    implementation 'com.google.android.gms:play-services-maps:11.0.4'
+    implementation 'com.google.android.gms:play-services-places:11.0.4'
+
+    implementation 'io.reactivex:rxjava:1.1.9'
     implementation files('/../app/libs/YouTubeAndroidPlayerApi.jar')
 }

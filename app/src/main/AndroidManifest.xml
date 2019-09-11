@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="smart.social.worker">
+    package="smart.msocial.worker">
 
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
@@ -31,6 +31,7 @@
     <meta-data
         android:name="android.support.VERSION"
         android:value="25.3.1" />
+
     <meta-data
         android:name="info.androidhive.recyclerview.app.MyAppGlideModule"
         android:value="GlideModule" />
@@ -38,14 +39,19 @@
     <uses-feature
         android:glEsVersion="0x00020000"
         android:required="true" />
+
     <application
-        android:name="smart.social.worker.app.AppController"
+        android:name="smart.msocial.worker.app.AppController"
         android:allowBackup="true"
-        android:icon="@drawable/holyicon"
+        android:icon="@drawable/mssw_logo"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        tools:replace="android:name"
-        android:theme="@style/AppTheme">
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:name">
+
+               <uses-library android:name="org.apache.http.legacy" android:required="false" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
@@ -53,7 +59,7 @@
 
 
         <activity
-            android:name="smart.social.worker.SplashScreen"
+            android:name="smart.msocial.worker.SplashScreen"
             android:label="@string/app_name"
             android:theme="@style/AppThemee">
             <intent-filter>
@@ -63,30 +69,30 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="smart.social.worker.FingerprintActivity"
-            android:logo="@drawable/holyicon"
-            android:label="@string/app_name" />
+            android:name="smart.msocial.worker.FingerprintActivity"
+            android:label="@string/app_name"
+            android:logo="@drawable/holyicon" />
 
         <activity
-            android:name="smart.social.worker.field.MainActivityField"
-            android:logo="@drawable/holyicon"
-            android:label="@string/app_name" />
+            android:name="smart.msocial.worker.field.MainActivityField"
+            android:label="@string/app_name"
+            android:logo="@drawable/holyicon" />
 
         <activity
-            android:name="smart.social.worker.MainActivity"
+            android:name="smart.msocial.worker.MainActivity"
             android:label="@string/app_name" />
         <activity
-            android:name="smart.social.worker.MainActivitySubject"
+            android:name="smart.msocial.worker.MainActivitySubject"
             android:label="@string/app_name" />
         <activity
-            android:name="smart.social.worker.AttendancePage"
+            android:name="smart.msocial.worker.AttendancePage"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name="smart.social.worker.attend.SampleToolbarActivity"
+            android:name="smart.msocial.worker.attend.SampleToolbarActivity"
             android:theme="@style/AppThemeAttend"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name="smart.social.worker.off.MainActivityOfficer"
+            android:name="smart.msocial.worker.off.MainActivityOfficer"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
@@ -97,76 +103,169 @@
             android:theme="@style/AppThemee"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="smart.social.worker.field.FieldWorkActivity"
+            android:name="smart.msocial.worker.field.FieldWorkActivity"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name="smart.social.worker.group.GroupProjectActivity"
+            android:name="smart.msocial.worker.group.GroupProjectActivity"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name="smart.social.worker.observation.ObservationVisitActivity"
+            android:name="smart.msocial.worker.observation.ObservationVisitActivity"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name="smart.social.worker.assignment.MainActivityAssignment"
+            android:name="smart.msocial.worker.observation.MainActivityObservation"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name="smart.social.worker.research.ResearchActivity"
-            android:windowSoftInputMode="stateHidden" />
-        <activity
-            android:name="smart.social.worker.assignment.AssignmentActivity"
-            android:windowSoftInputMode="stateHidden" />
-        <activity
-            android:name="smart.social.worker.StudentRegistration"
-            android:windowSoftInputMode="adjustResize" />
-        <activity
-            android:name="smart.social.worker.ProfileActivity"
-            android:windowSoftInputMode="adjustResize" />
-        <activity
-            android:name="smart.social.worker.ToolReport"
-            android:windowSoftInputMode="stateHidden" />
-        <activity
-            android:name="smart.social.worker.FinalReport"
-            android:windowSoftInputMode="stateHidden" />
-        <activity
-            android:name="smart.social.worker.allstudent.MainActivityAllStudent"
-            android:windowSoftInputMode="stateHidden" />
-        <activity
-            android:name="smart.social.worker.HistoricalTimelinePhoto"
-            android:windowSoftInputMode="stateHidden" />
-        <activity
-            android:name="smart.social.worker.CustomMarkerClusteringDemoActivity"
-            android:windowSoftInputMode="stateHidden" />
-        <activity
-            android:name="smart.social.worker.AdditionalInformation"
-            android:windowSoftInputMode="stateHidden" />
-        <activity
-            android:name="smart.social.worker.TeamMember"
+            android:name="smart.msocial.worker.communityPlace.MainActivityCommPlacement"
             android:windowSoftInputMode="stateHidden" />
 
         <activity
-            android:name="smart.social.worker.map.MapListActivityImpl"
+            android:name="smart.msocial.worker.communityPlace.CommunityPlaceActivity"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name="smart.social.worker.map.MainActivityRoute"
+            android:name="smart.msocial.worker.schoolPlace.MainActivitySchoolPlacement"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="smart.msocial.worker.internship.MainActivityInternship"
             android:windowSoftInputMode="stateHidden" />
 
         <activity
-            android:name="smart.social.worker.Observation"
+            android:name="smart.msocial.worker.placement.MainActivityplacement"
+            android:windowSoftInputMode="stateHidden" />
+
+        <activity
+            android:name="smart.msocial.worker.staff.MainActivityStaffFragment"
+            android:windowSoftInputMode="stateHidden" />
+
+        <activity
+            android:name="smart.msocial.worker.placement.PlacementActivity"
+            android:windowSoftInputMode="stateHidden" />
+
+        <activity
+            android:name="smart.msocial.worker.schoolPlace.SchoolPlaceActivity"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name="smart.social.worker.MainActivityVideo"
+            android:name="smart.msocial.worker.assignment.MainActivityAssignment"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="smart.msocial.worker.research.ResearchActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="smart.msocial.worker.assignment.AssignmentActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="smart.msocial.worker.StudentRegistration"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="smart.msocial.worker.ProfileActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="smart.msocial.worker.ToolReport"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="smart.msocial.worker.FinalReport"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="smart.msocial.worker.allstudent.MainActivityAllStudent"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="smart.msocial.worker.staff.StaffRegistration"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="smart.msocial.worker.HistoricalTimelinePhoto"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="smart.msocial.worker.CustomMarkerClusteringDemoActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="smart.msocial.worker.AdditionalInformation"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="smart.msocial.worker.TeamMember"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="smart.msocial.worker.observation.MainActivityObservationStaff"
+            android:windowSoftInputMode="stateHidden" />
+
+        <activity
+            android:name="smart.msocial.worker.observation.ObservationVisitActivityStaff"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="smart.msocial.worker.assignment.AssignmentActivityStaff"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="smart.msocial.worker.assignment.MainActivityAssignmentStaff"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="smart.msocial.worker.group.GroupProjectActivityStaff"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="smart.msocial.worker.group.MainActivityGroupProjectStaff"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="smart.msocial.worker.communityPlace.CommunityPlacementActivityStaff"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="smart.msocial.worker.communityPlace.MainActivityCommunityPlaceStaff"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="smart.msocial.worker.schoolPlace.SchoolPlacementActivityStaff"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="smart.msocial.worker.schoolPlace.MainActivitySchoolPlaceStaff"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="smart.msocial.worker.map.MapListActivityImpl"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="smart.msocial.worker.field.FieldWorkActivityStaff"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="smart.msocial.worker.internship.MainActivityInternshipStaff"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="smart.msocial.worker.field.MainActivityFieldWorkStaff"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="smart.msocial.worker.placement.BlockPlacementActivityStaff"
+            android:windowSoftInputMode="stateHidden" />
+
+        <activity
+            android:name="smart.msocial.worker.placement.MainActivityBlockPlaceStaff"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="smart.msocial.worker.research.ResearchActivityStaff"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="smart.msocial.worker.research.MainActivityResearchStaff"
+            android:windowSoftInputMode="stateHidden" />
+
+        <activity
+            android:name="smart.msocial.worker.map.MainActivityRoute"
+            android:windowSoftInputMode="stateHidden" />
+
+        <activity android:name=".concurrent.ConcurrentActivityStaff"/>
+        <activity android:name=".concurrent.ConcurrentActivity"/>
+        <activity android:name=".concurrent.MainActivityConCurrent"/>
+        <activity android:name=".concurrent.MainActivityConcurrentStaff"/>
+
+        <activity
+            android:name="smart.msocial.worker.Observation"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="smart.msocial.worker.MainActivityVideo"
             android:theme="@style/Base.Theme.AppCompat.Dialog"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name="smart.social.worker.table.ui.SampleActivity"
+            android:name="smart.msocial.worker.table.ui.SampleActivity"
             android:theme="@style/AppThemeNew" />
-        <activity android:name="smart.social.worker.MapsFragActivity" />
+        <activity android:name="smart.msocial.worker.MapsFragActivity" />
         <activity android:name="katomaran.evao.lib.qrmodule.activity.QrScannerActivity" />
         <activity
-            android:name=".forms.MainActivityFragment"
+            android:name="smart.msocial.worker.forms.MainActivityFragment"
             android:icon="@drawable/holyicon"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".forms.ActivityMediaRef"
+            android:name="smart.msocial.worker.forms.ActivityMediaRef"
             android:theme="@style/AppTheme" />
         <activity
             android:name="com.androidadvance.androidsurvey.SurveyActivity"
@@ -174,11 +273,20 @@
             android:windowSoftInputMode="stateHidden"></activity>
 
         <activity
-            android:name="smart.social.worker.MainActivityYoutubeVideo"
+            android:name="smart.msocial.worker.MainActivityYoutubeVideo"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:label="Trending Now"
             android:theme="@style/AppTheme"
             android:windowSoftInputMode="adjustResize|stateHidden" />
+        <provider
+            android:name=".app.GenericFileProvider"
+            android:authorities="${applicationId}.smart.msocial.worker.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
 
         <provider
             android:name="android.support.v4.content.FileProvider"
@@ -196,7 +304,7 @@
             android:value="facebook_app_id" />
 
         <!-- SMS Receiver -->
-        <receiver android:name="smart.social.worker.receiver.SmsReceiver">
+        <receiver android:name="smart.msocial.worker.receiver.SmsReceiver">
             <intent-filter android:priority="99999">
                 <action android:name="android.provider.Telephony.SMS_RECEIVED" />
             </intent-filter>
@@ -205,7 +313,7 @@
 
         <!-- Intent service -->
         <service
-            android:name="smart.social.worker.service.HttpService"
+            android:name="smart.msocial.worker.service.HttpService"
             android:exported="false" />
     </application>
 

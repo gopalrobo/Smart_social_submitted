@@ -111,48 +111,48 @@
             <android.support.design.widget.FloatingActionButton
                 android:id="@+id/semester1"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="wrap_content"
                 android:layout_marginRight="5dp"
                 android:layout_weight="1"
                 app:backgroundTint="@color/white"
                 app:elevation="2.0dip"
-                app:fabSize="mini"
+                app:fabSize="normal"
                 app:rippleColor="@color/soft_grey"
                 app:srcCompat="@drawable/one" />
 
             <android.support.design.widget.FloatingActionButton
                 android:id="@+id/semester2"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="wrap_content"
                 android:layout_marginRight="5dp"
                 android:layout_weight="1"
                 app:backgroundTint="@color/white"
                 app:elevation="2.0dip"
-                app:fabSize="mini"
+                app:fabSize="normal"
                 app:rippleColor="@color/soft_grey"
                 app:srcCompat="@drawable/two" />
 
             <android.support.design.widget.FloatingActionButton
                 android:id="@+id/semester3"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="wrap_content"
                 android:layout_marginRight="5dp"
                 android:layout_weight="1"
                 app:backgroundTint="@color/white"
                 app:elevation="2.0dip"
-                app:fabSize="mini"
+                app:fabSize="normal"
                 app:rippleColor="@color/soft_grey"
                 app:srcCompat="@drawable/three" />
 
             <android.support.design.widget.FloatingActionButton
                 android:id="@+id/semester4"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="wrap_content"
                 android:layout_marginRight="5dp"
                 android:layout_weight="1"
                 app:backgroundTint="@color/white"
                 app:elevation="2.0dip"
-                app:fabSize="mini"
+                app:fabSize="normal"
                 app:rippleColor="@color/soft_grey"
                 app:srcCompat="@drawable/four" />
         </LinearLayout>

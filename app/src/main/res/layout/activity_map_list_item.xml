@@ -1,4 +1,4 @@
-<smart.social.worker.map.MapCardView xmlns:android="http://schemas.android.com/apk/res/android"
+<smart.msocial.worker.map.MapCardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:card_view="http://schemas.android.com/apk/res-auto"
     xmlns:map="http://schemas.android.com/apk/res-auto"
     android:id="@+id/card_view"
@@ -40,4 +40,4 @@
             android:text="Time : 2018 Mon Jul 23 09:00:00 to 06:00:00" />
 
     </RelativeLayout>
-</smart.social.worker.map.MapCardView>
+</smart.msocial.worker.map.MapCardView>

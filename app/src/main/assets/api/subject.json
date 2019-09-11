@@ -1,2424 +1,1441 @@
 {
   "SEMESTER 1": {
-    "INTRODUCTION TO SOCIAL WORK AND SOCIETY": {
-      "CODE": "P15SW1MCT01",
+    "SOCIAL WORK PROFESSION": {
+      "CODE": "MS/15C/101",
       "HRS/WEEK": "6",
-      "CREDIT": "5",
+      "CREDIT": "3",
       "MARKS": "100",
-      "Objectives": "1.\tTo  introduce  the  students  to  Social   Work  its  concepts  and  Historical  development.\n2.\tTo highlight the students on Social Work as a Profession.\n3.\tTo  familiarize  the  students  on the  fields  of  Social  Work  and  settings  of practice.\n4.\tTo introduce to the students society and its concepts.\n5.\tTo educate the students on the various social problems in India.",
+      "Objectives": "1.\tTo gain an understanding about social work and related concepts.\n2.\tTo provide information about evolution of social work in the West and in India and its emergence as a profession\n3.\tTo recognize the need and importance of social work education and training.\n4.\tTo understand various models of professional practices and its applications.\n5.\tTo gain an insight into personality requirements and code of ethics.",
       "UNITS": {
-        "UNIT I : INTRODUCTION TO SOCIAL WORK": {
-          "1.1. Meaning and definition of Social Work": [
-            "1.1.1. Definition",
-            "1.1.2. General objective of Social Work",
-            "1.1.3. Specific objectives of Social Work",
-            "1.1.4. Difference between Social Work and Social Service"
-          ],
-          "1.2. Social Work theories – Importance of linking Theory and Practice": [
-          ],
-          "1.3. Principles & Values relating to Social Work": [
-          ],
-          "1.4. Related concepts": [
-            "1.4.1. Social Service",
-            "1.4.2. Social Welfare",
-            "1.4.3. Social Security",
-            "1.4.4. Social Defense",
-            "1.4.5. Social Justice",
-            "1.4.6. Social Development",
-            "1.4.7. Social Reform",
-            "1.5. Historical development of Social Work in India, USA and England"
+        "UNIT I : Introduction": {
+          "1.1. Social work": [
+            "1.1.1. Concepts related to Social Work"
           ]
         },
-        "UNIT II: SOCIAL WORK PHILOSOPHY AND PRINCIPLES": {
-          "2.1. Philosophy of Social Work": [
+        "UNIT II: Social Work Practice.": {
+          "2.1. Introduction to the Methods of Social Work": [
           ],
-          "2.2. Functions of Social Work": [
+          "2.2. Fields of Social Work": [
+            "2.2.1. Emerging areas of Social Work"
           ],
-          "2.3. Tools & Techniques of Social Work": [
-          ],
-          "2.4. Code of Ethics": [
-          ],
-          "2.5. Fieldwork and Supervision": [
+          "2.3. Social Work as a profession": [
           ]
         },
-        "UNIT III: PROFESSIONAL SOCIAL WORK": {
-          "3.1. Inter disciplinary nature of Social  Work  & its  relationship  with  other    Professions": [
+        "UNIT III: Theories and models of Social Work": {
+          "3.1. Theories and Perspectives": [
           ],
-          "3.2. Problems faced by Social Work Profession in India": [
-          ],
-          "3.3. Methods of Social Work": [
-          ],
-          "3.4. Fields of Social Work ": [
-            "3.4.1. Communities (urban, emerging rurban, rural, tribal, coastal & nomadic)",
-            "3.4.2. Industries",
-            "3.4.3. Hospitals",
-            "3.4.4. Correctional Institutions",
-            "3.4.5. Rehabilitation Institutions"
-          ],
-          "3.5. Settings of practice": [
-            "3.5.1. Social Casework",
-            "3.5.2. Social Group work",
-            "3.5.3. Community Organization",
-            "3.5.4. Social welfare Administration",
-            "3.5.5. Social Action & Social Research"
+          "3.2. Models and Approaches": [
           ]
         },
-        "UNIT IV: INTRODUCTION TO SOCIOLOGICAL CONCEPTS": {
-          "4.1. Society": [
-          ],
-          "4.2. Social structure (urban, emerging rurban, rural, tribal, coastal & nomadic)": [
-          ],
-          "4.3. Social stratification in India": [
-          ],
-          "4.4. Social change & Social Control": [
-          ],
-          "4.5. Social system": [
+        "UNIT IV: Social reform and Social movements in India": {
+          "4.1. Indian social reformers and their contributions": [
           ]
         },
-        "UNIT V:  SOCIAL PROBLEMS IN INDIA": {
-          "5.1. Social problems": [
-            "5.1.1. Major social problems – Meaning and Concepts",
-            [
-              "5.1.1.1. Poverty",
-              "5.1.1.2. Over  population",
-              "5.1.1.3. Beggary",
-              "5.1.1.4. Illiteracy",
-              "5.1.1.5. Dowry",
-              "5.1.1.6. Unemployment",
-              "5.1.1.7. Corruption",
-              "5.1.1.8. Drug abuse & Alcoholism",
-              "5.1.1.9. AIDS",
-              "5.1.1.10. Social Justice",
-              "5.1.1.11. Crime in Social Network",
-              "5.1.1.12. Crimes against women",
-              "5.1.1.13. Depression",
-              "5.1.1.14. Privacy"
-            ],
-            "5.1.2. Nature of social problems",
-            "5.1.3. Causes of social problems"
-          ],
-          "5.2. Ecological and Health problems": [
-          ],
-          "5.3. Problems of vulnerable groups: Women, Children, Aged, Persons with Disabled & Transgender": [
-          ],
-          "5.4. Social deviance: Types & Causes of social deviance": [
-          ],
-          "5.5. Human Rights Problems": [
+        "UNIT V:  Social Welfare Programmes": {
+          "5.1. Development planning": [
           ]
         }
       }
     },
     "SOCIAL WORK WITH INDIVIDUALS": {
-      "CODE": "P16SW1MCT02",
+      "CODE": "MS/15C/102",
       "HRS/WEEK": "6",
-      "CREDIT": "5",
+      "CREDIT": "3",
       "MARKS": "100",
-      "Objectives": "1.\tTo make the students to understand the basic components in Social Case Work.\n2.\tTo enable the students to understand the Case Work processes.\n3.\tTo familiarize the students about Case Work theories, therapies and intervention techniques.\n4.\tTo equip the students about tools of working with individuals and groups.\n5.\tTo give a knowledge on Social Casework practice in different settings.",
+      "Objectives": "1.\tTo understand case work as a method of social work and to understand values and principles of working with individuals.\n2.\tTo develop the ability to critically analyze problems of individuals and factors affecting them.\n3.\tTo enhance understanding of the basic concepts, tools and techniques in working with individuals in problem solving and in developmental work.\n4.\tTo develop appropriate skills and attitudes to work with individuals.\n5.\tTo identify the various situations and settings where the method could be used in the context of social realities of the country.",
       "UNITS": {
-        " UNIT I : SOCIAL CASE WORK-I": {
-          "1.1. Introduction to Case Work": [
-            "1.1.1. Definition",
-            "1.1.2. Assumptions",
-            "1.1.3. Principles",
-            "1.1.4. Limitations",
-            "1.1.5. History of Social Case Work"
-          ],
-          "1.2. Basic concepts of Social Casework": [
-            "1.2.1. Human needs",
-            "1.2.2. Personality Structure",
-            "1.2.3. Defense Mechanisms",
-            "1.2.4. Social role"
-          ],
-          "1.3. Basic components of Social Work": [
-            "1.3.1. Person",
-            "1.3.2. Problem",
-            "1.3.4. Place",
-            "1.3.5. Process"
-          ],
-          "1.4. Characteristics of Professional Relationship": [
-            "1.4.1. Core Relationship Qualities",
-            [
-              "1.4.1.1. Warmth",
-              "1.4.1.2. Empathy",
-              "1.4.1.3 Genuineness",
-              "1.4.1.4 Unconditional positive regard"
-            ],
-            "1.4.2. Focused Relationship Qualities",
-            [
-              "1.4.2.1. Dealing with Resistance",
-              "1.4.2.2. Self disclosure",
-              "1.4.2.3. Mirroring",
-              "1.4.2.4. Contextualizing &Accompaniment",
-              "1.4.2.5. Reinforcement and celebration"
-            ],
-            "1.4.3. Transference and Counter Transference",
-            [
-            ]
-          ],
-          "1.5. Schools of Social Case Work": [
-            "1.5.1. Diagnostic School",
-            "1.5.2. Functional School",
-            "1.5.3. Difference between diagnostic and Functional School"
+        " UNIT I : Introduction": {
+          "1.1 Case Work": [
           ]
         },
-        "UNIT II: SOCIAL CASE WORK-II": {
-          "2.1. Social Case work process-Social Investigation": [
+        "UNIT II: Case worker Client Relationship": {
+          "2.1. Case Worker-Client Relationship": [
           ],
-          "2.2. Social Case work process-Social Diagnosis": [
-          ],
-          "2.3. Social Case work process-Social Treatment": [
-          ],
-          "2.4. Casework Interview -Meaning, Types": [
-          ],
-          "2.5. Casework Communication Components-   listening,-paraphrasing,leading, interpreting, questioning, clarifying, confronting, summarizing": [
+          "2.2. Characteristics of professional relationship": [
           ]
         },
-        "UNIT III : INTRODUCTION  AND ORIENTATION TO   THE THERAPIES IN  SOCIAL CASE WORK": {
-          "3.1. Social Case Work Therapy -I": [
-            "3.1.1. Cognitive theory",
-            "3.1.2. Behavior theory"
-          ],
-          "3.2. Social Case Work Therapy  -II": [
-            "3.2.1. Transactional Analysis",
-            "3.2.2. System Theory"
-          ],
-          "3.3. Social Case Work Therapy  -III": [
-            "3.3.1. Reality Therapy",
-            "3.3.2Gestalt.  Therapy"
-          ],
-          "3.4. Social Case Work Therapy  -IV": [
-            "3.4.1. Rational –Emotive Therapy",
-            "3.4.2. Person-Centered Therapy"
-          ],
-          "3.5. Intervention Techniques in Social Case work": [
-            "3.5.1. Ego-Modification techniques, Ventilation, Emotional Catharsis",
-            "3.5.2. Motivation, Modeling , Partialising (Structuring)",
-            "3.5.3. Differentiation of self -Education, and Relaxation Techniques"
+        "UNIT III : Case Work Process": {
+          "3.1. Case work process": [
+            "3.1.1. Intake: Study",
+            "3.1.2. Collateral contacts Assessment/Social Diagnosis"
           ]
         },
-        "UNIT IV : SKILLS AND TOOLS  TO  WORK WITH INDIVIDUALS(With  Spl Ref to field work Components)": {
-          "4.1. Core Skills of Social Work –Meaning - How to develop Skills": [
+        "UNIT IV : Case Work Approaches": {
+          "4.1. Approaches to Practice": [
           ],
-          "4.2. Assessment Skill and Self Management Skill": [
-          ],
-          "4.3. Recording and Reporting": [
-          ],
-          "4.4. Home Visit and Collateral Contact": [
-          ],
-          "4.5. Resource Mobilization and Networking": [
+          "4.2. Recording in Case Work": [
           ]
         },
-        "UNIT V: SOCIAL CASE WORK PRACTICE IN DIFFERENT SETTINGS": {
-          "5.1. School Setting": [
-            "5.1.1. Child Guidance Clinic",
-            "5.1.2. School"
+        "UNIT V: Case Work in Various Settings": {
+          "5.1. Application of Social Case Work in different settings & Clientele groups": [
           ],
-          "5.2. Correctional Setting": [
-            "5.2.1. Observation Home",
-            "5.2.2. Prison",
-            "5.2.3. Legal Aid Clinic"
-          ],
-          "5.3. Rehabilitation Setting": [
-            "5.3.1. Disability",
-            "5.3.2. Disaster"
-          ],
-          "5.4. Clinical Setting": [
-            "5.4.1. General Medical Setting",
-            "5.4.2. Psychiatric Setting,",
-            "5.4.3. De -addiction Setting"
-          ],
-          "5.5. Industrial setting": [
+          "5.2. Family and Child Welfare settings": [
           ]
         }
       }
     },
-    "PSYCHOLOGY AND HUMAN DEVELOPMENT": {
-      "CODE": "P15SW1MCT03",
+    "SOCIAL WORK WITH GROUPS": {
+      "CODE": "MS/15C/103",
       "HRS/WEEK": "6",
-      "CREDIT": "5",
+      "CREDIT": "3",
       "MARKS": "100",
-      "Objectives": "1.\tTo understand the introduction to concepts of Psychology.\n2.\tTo understand concepts in understanding Psychology.\n3.\tTo explain the characteristics of Personality and Theories of Personality.\n4.\tTo enable students to develop insight into Human growth.\n5.\tTo develop their self concept and maintain better the Making and Shaping of the Self",
+      "Objectives": "1.\tTo understand group work as a method of social work and to understand values and principles of working with groups.\n2.\tTo develop the ability to critically analyse problems of groups and factors affecting them.\n3.\tTo enhance understanding of the basic concepts, tools and techniques in working with groups in problem solving and in developmental work.\n4.\tTo develop appropriate skills and attitudes to work with groups.\n5.\tTo identify the various situations and settings where the method could be used in the context of social realities of the country.",
       "UNITS": {
-        "Unit I : Introduction to Psychology": {
-          "1.1. Psychology: meaning nature, scope & utility": [
+        "Unit I : Groups and Group Work": {
+          "1.1. Social Group": [
           ],
-          "1.2. Subfields / branches of Psychology": [
+          "1.2. Group Formation Phases": [
           ],
-          "1.3. Schools of Psychology": [
-          ],
-          "1.4. Relevance of Psychology for understanding Self": [
-          ],
-          "1.5. Relevance of Psychology for understanding Others": [
+          "1.3. Social Group Work": [
           ]
         },
-        "UNIT II : Early Growth & Development ": {
-          "2.1. Concepts of growth & maturation": [
+        "UNIT II : Group Dynamics ": {
+          "2.1. Group Dynamics": [
           ],
-          "2.2. Developmental mile stones": [
+          "2.2. Group Process": [
           ],
-          "2.3. Pre-natal Period": [
-          ],
-          "2.4. Peri-natal period": [
-          ],
-          "2.5. Infancy & Babyhood": [
+          "2.3. Leadership in group": [
           ]
         },
-        "UNIT III :  Early Growth and Development Cont..": {
-          "3.1. Child hood": [
+        "UNIT III :  Group Work process": {
+          "3.1. Group Work Process": [
+            "3.1.1. Planning Phase",
+            "3.1.2. Beginning Phase",
+            "3.1.3. Middle Phase"
           ],
-          "3.2. Adolescence stage": [
-          ],
-          "3.3. Adult hood": [
-          ],
-          "3.4. Middle Age": [
-          ],
-          "3.5. Old age": [
+          "3.2. Ending Phase": [
           ]
         },
-        "UNIT IV : Understanding Psychology": {
-          "4.1. Attention": [
+        "UNIT IV : Group Work Models and Types": {
+          "4.1. Models": [
           ],
-          "4.2. Cognition and Perception": [
+          "4.2. Treatment groups": [
           ],
-          "4.3. Remembering and Forgetting": [
-          ],
-          "4.4. Motivation and Intelligence": [
-          ],
-          "4.5. Instincts and Emotions": [
+          "4.3. Group work recording": [
           ]
         },
-        "UNIT V : Personality theories": {
-          "5.1. Understanding Personality : Concepts, Definitions": [
-          ],
-          "5.2. Personality Traits": [
-          ],
-          "5.3. Types of Personality": [
-          ],
-          "5.4. Psycho dynamic theories, Humanistic &   Behavioral Theories": [
-          ],
-          "5.5. Measurement of Personality-Projective Techniques": [
+        "UNIT V : Group Work in various settings": {
+          "5.1. Group Work Settings and Practice": [
           ]
         }
       }
     },
-    "SOCIAL WORK   WITH GROUPS": {
-      "CODE": "P16SW1MCT04        ",
+    "SOCIOLOGY": {
+      "CODE": "MS/15ID/104",
       "HRS/WEEK": "6",
-      "CREDIT": "5",
+      "CREDIT": "2",
       "MARKS": "100",
-      "Objectives": "1.\tTo make the students understand the basic components of Social Group Work.\n2.\tTo enable the students to understand the Group Work processes and programme planning.\n3.\tTo familiarize the students about group and basic components of Group Worker.\n4.\tTo acquaint the students regarding theories and therapeutic intervention for Social Group Work.\n5.\tTo equip the students about Social Group Work practice in different settings",
+      "Objectives": "1.\tTo provide the students of social work a sociological perspective on Indian Society, its structure and dynamics.\n2.\tTo sensitize the students of social work to the pressing social issues present in the Indian Society.\n3.\tTo enhance an analytical understanding among the students about the Indian society to aid in better professional practice.",
       "UNITS": {
-        "UNIT I :SOCIAL GROUP WORK": {
-          "1.1. Meaning of Group, Establishing a group, Types of groups": [
+        "UNIT I :Introduction": {
+          "1.1. Sociology": [
           ],
-          "1.2. Group Process and Group Dynamics": [
-          ],
-          "1.3. Social Group Work: Definition, Purpose, Objectives and Principles": [
-          ],
-          "1.4. History and Growth of Social Group work": [
-          ],
-          "1.5. Group leadership: Concept, Theories and Types": [
+          "1.2. Fundamental concepts": [
           ]
         },
-        "UNIT II : SOCIAL GROUP WORK PROCESS & PROGRAMME PLANNING ": {
-          "2.1. Planning Phase: Establishing group purpose, recruiting members, composing group,preparing the environment": [
-          ],
-          "2.2. Beginning Phase: defining purpose of the group, goal setting, contracting, motivation,expectation-demand for work, assessment process": [
-          ],
-          "2.3. Middle Phase: functioning of group, intervention and problem solving with group members": [
-          ],
-          "2.4. Ending Phase: Evaluation – for planning the group, determining the effectiveness and Termination of group": [
-          ],
-          "2.5. Programme Planning in Social Group Work": [
+        "UNIT II : Institution, Culture and Society": {
+          "2.1. Institutions": [
           ]
         },
-        "UNIT III : GROUP WORKER": {
-          "3.1. Skills and Functions of Group worker": [
+        "UNIT III : Social Control": {
+          "3.1. Means of social control": [
           ],
-          "3.2. Group work Supervision and Evaluation": [
-          ],
-          "3.3. Recording in Group Work": [
-          ],
-          "3.4. Role of Group Worker": [
-          ],
-          "3.5. Skills and Qualities of Group worker": [
+          "3.2. Agencies of social control": [
           ]
         },
-        "UNIT IV : THEORIES AND THERAPEUTIC INTERVENTION FOR SOCIAL GROUP WORK": {
-          "4.1. Field Theory & Conflict Theory": [
+        "UNIT IV : Social Change and Social Movements": {
+          "4.1. Social Change": [
           ],
-          "4.2. Behavior & Systems Theory": [
+          "4.2. Social movements": [
           ],
-          "4.3. Psychodynamic Therapy": [
-          ],
-          "4.4. Group Work Model: Social, Remedial and Reciprocal models": [
-          ],
-          "4.5. Family & Marital Therapy": [
+          "4.3. Major Social movements in India": [
           ]
         },
-        "UNIT V : SOCIAL GROUP WORK PRACTICE IN DIFFERENT SETTINGS": {
-          "5.1. School Setting": [
+        "UNIT V : Social Problems and developmental issues": {
+          "5.1. Social problems": [
           ],
-          "5.2. Institutional Setting": [
+          "5.2. General social problems": [
           ],
-          "5.3. Community Setting": [
-          ],
-          "5.4. Clinical Setting": [
-          ],
-          "5.5. Industrial Setting": [
+          "5.3. Developmental issues": [
           ]
+        }
+      }
+    },
+    "PSYCHOLOGY": {
+      "CODE": "MS/15ID/105",
+      "HRS/WEEK": "6",
+      "CREDIT": "2",
+      "MARKS": "100",
+      "Objectives": "1.\tTo develop an in-depth understanding on the concepts of psychology.\n2.\tTo understand the life span of individuals.\n3.\tTo gain insight on various factors contributing for the personality of an individual.\n4.\tTo facilitate the integration of above knowledge with social work practice.",
+      "UNITS": {
+        "UNIT I :Psychology": {
+          "1.1. Psychology": [
+          ],
+          "1.2. Behaviour": [
+          ],
+          "1.3. Attitude": [
+          ]
+        },
+        "UNIT II : Life span of an Individual: conception – old age": {
+        },
+        "UNIT III : Learning & Memory": {
+          "3.1. Learning": [
+            "3.1.1. Basic Principles and Types"
+          ],
+          "3.2. Memory": [
+            "3.2.1. The Stages of Memory",
+            "3.2.2. The Information Processing Approach"
+          ]
+        },
+        "UNIT IV : Emotion & Motivation": {
+          "4.1. Emotion": [
+          ],
+          "4.2. Motivation": [
+          ]
+        },
+        "UNIT V : Thinking & Perception": {
+          "5.1. Thinking": [
+            "5.1.1. Tools of Thinking"
+          ],
+          "5.2. Perception": [
+            "5.2.1. Attention process",
+            "5.2.2. Determinants of Perception"
+          ],
+          "5.3. Personality": [
+          ]
+        }
+      }
+    },
+    "FIELD WORK- I": {
+      "CODE": "MS/15C/106",
+      "HRS/WEEK": "2",
+      "CREDIT": "2",
+      "MARKS": "100",
+      "Objectives": "The field work during this semester is an overall design for providing an exposure to:1.The field of professional social work. n2. tDifferent fields of social work practice. n3. tUnderstand the basic skills required for the practice of social work, and N4. tTo encourage the learner to become a professional social worker.",
+      "UNITS": {
+        "UNIT I :OBSERVATION VISITS TO DIFFERENT SOCIAL WELFARE AGENCIES.": {
+        },
+        "UNIT II : RURAL CAMP": {
+        },
+        "UNIT III : PROJECT FIELD WORK": {
+        }
+      }
+    },
+    "SOFT SKILLS -I FOCUS AREA: PERSONAL & INTER-PERSONAL CONNECT": {
+      "CODE": "MS/15S/107",
+      "HRS/WEEK": "6",
+      "CREDIT": "2",
+      "MARKS": "100",
+      "Objectives": "1.\tTo enable the students to analyse their self and create positive self..\n2.\tTo sensitize students to the nuances of the four basic communication skills- Listening, Speaking, Reading and Writing.\n3.\tTo enable students to understand others.",
+      "UNITS": {
+        "UNIT I :Understanding self through a SWOT": {
+        },
+        "UNIT II : Communication": {
+        },
+        "UNIT III : Presentation skills": {
+        },
+        "UNIT IV : Interpersonal Skills I": {
+        },
+        "UNIT V : Interpersonal Skills II": {
         }
       }
     }
   },
   "SEMESTER 2": {
-    "SOCIAL WORK RESEARCH AND STATISTICS": {
-      "CODE": "P15SW2MCT06",
+    "SOCIAL WORK WITH COMMUNITIES": {
+      "CODE": "MS/15C/201",
       "HRS/WEEK": "6",
-      "CREDIT": "5",
+      "CREDIT": "3",
       "MARKS": "100",
-      "Objectives": "1.\tTo familiarize the students with the Research introduction.\n.\tTo impart knowledge on Research design and sampling design.\n3.\tTo enable the students to write a measurement in Research.\n4.\tTo give a knowledge on the methods of Data Collection.\n5.\tTo create an understanding on Statistical Analysis and Computer Data Analysis.",
+      "Objectives": "1.\tTo develop an understanding of the concepts related to working with communities and the processes involved in it.\n2.\tTo make students understand the use and practice of community organization in various fields of social work.\n3.\tTo provide the knowledge about the role of social worker in social change and social development.\n4.\tTo familiarize the emerging trends and experiments in community organization.\n5.\tTo introduce various aspects of social action as an effective method of social work.",
       "UNITS": {
-        "UNIT I : SOCIAL WORK RESEARCH - AN INTRODUCTION": {
-          "1.1. Meaning objectives, types & approaches of Research": [
+        "UNIT I : Introduction": {
+          "1.1. Community": [
           ],
-          "1.2. Concept of Social Research, Social Science Research": [
+          "1.2. Community Leadership": [
           ],
-          "1.3. Research process": [
-          ],
-          "1.4. Relevance of Research Methodology for Social Work discipline": [
-          ],
-          "1.5. Significance and Scope of Research": [
+          "1.3. Community organization": [
           ]
         },
-        "UNIT II: RESEARCH DESIGNS & SAMPLING DESIGNS": {
-          "2.1. Concepts relating to Research Design": [
+        "UNIT II: Phases and Models of Community Organisation": {
+          "2.1. Community organization as a Para-political Process": [
+            "2.1.1. Community Power Structure"
           ],
-          "2.2. Different relating to Research Design": [
+          "2.2. Phases in community organization": [
           ],
-          "2.3. Basic principles of Experimental design": [
-          ],
-          "2.4. Sampling designs": [
-            "2.4.1. Types, implication, criteria for selecting a sampling procedure"
-          ],
-          "2.5. Steps in sampling design & characteristics of a good sampling design": [
+          "2.3. Skills in Community Organization": [
           ]
         },
-        "UNIT III : Qualitative and Quantitative Methods": {
-          "3.1. Qualitative and Quantitative Research: concepts and features": [
+        "UNIT III : Approaches, Methods and Models of Community Organization": {
+          "3.1. Approaches": [
           ],
-          "3.2. Strategies observed in qualitative research": [
-            "3.2.1. Content analysis and Ranking",
-            "3.2.2. Case study",
-            "3.2.3. Participant observation",
-            "3.2.4. Focused Group discussion",
-            "3.2.5. PRA  and RRA (concepts, merits and demerits)"
+          "3.2. Models": [
           ],
-          "3.3. Triangulation methods or mixed methodology": [
-          ],
-          "3.4. Variables and its Types; Reliability and Validity": [
-          ],
-          "3.5. Levels of measurement": [
+          "3.3. Methods": [
           ]
         },
-        "UNIT IV : METHODS OF DATA COLIECTION": {
-          "4.1. Data Collection - Primary Data & Secondary Data": [
-          ],
-          "4.2. Collections of data through Questionnaires and Schedules": [
-          ],
-          "4.3. Difference between Questionnaire and Interview Schedule/or types of IS": [
-          ],
-          "4.4. Survey method of Data collection": [
-          ],
-          "4.5. Pilot study and Pretest": [
+        "UNIT IV : Social Action": {
+          "4.1. Social Action": [
+            "4.1.1. Approaches to social action"
           ]
         },
-        "UNIT V :STATISTICS IN RESEARCH and VARIOUS REPORTING STYLE": {
-          "5.1. SPSS – meaning and application in Research": [
-          ],
-          "5.2. Measures of Central Tendency: Mean, Median, Mode and standard deviation": [
-          ],
-          "5.3. Student’s’ test, ANOVA , Karl Pearson Correlation test, Chi square test": [
-          ],
-          "5.4. Thesis writing format": [
-          ],
-          "5.5. Different genres of writing reports": [
-          ]
-        },
-        "UNIT VI : Smartphones, Bigdata and Artificial intelligence": {
-          "6.1. Smartphones in Research": [
-          ],
-          "6.2. Changing nature of Research from sample based to big data": [
-          ],
-          "6.3. Artificial intelligence": [
-          ],
-          "6.4. Automation in Research": [
+        "UNIT V :Strategies and Tactics of Social Action": {
+          "5.1. Strategies and Tactics": [
           ]
         }
       }
     },
-    "COMMUNITY ORGANIZATION AND SOCIAL ACTION": {
-      "CODE": "P16SW1MCT07",
+    "SOCIAL RESEARCH AND STATISTICS": {
+      "CODE": "MS/15C/202",
       "HRS/WEEK": "6",
-      "CREDIT": "5",
+      "CREDIT": "3",
       "MARKS": "100",
-      "Objectives": "1.\tTo educate the students about the Community.\n2.\tTo make the students understand leadership and social movement.\n3.\tTo impart knowledge on Community Organization.\n4.\tTo familiarize the students about the community development.\n5.\tTo create knowledge about Social Action.",
+      "Objectives": "1.\tTo highlight the relevance of research for social work\n2.\tTo study the various facets of the research process with special emphasis on Quantitative Research\n3.\tTo hone the skills in undertaking research and in writing about the same.",
       "UNITS": {
         "UNIT I: COMMUNITY AND ANALYSIS OF COMMUNITY": {
-          "1.1. Meaning and Elements of Community": [
-          ],
-          "1.2. Difference between Community and Society": [
-          ],
-          "1.3. Types of Community- Urban , Rural , Tribal Introduction": [
-          ],
-          "1.4. Nature and Types of Community Power Structure": [
-          ],
-          "1.5. Community Dynamics: Integrative and disintegrative forces, Participative groups and groupism, functions of sub group, Minority groups and Gender and Empowerment.": [
+          "1.1. Introduction": [
+            "1.1.1. Meaning",
+            "1.1.2. Approaches to Research"
           ]
         },
-        "UNIT II: COMMUNITY ORGANIZATION": {
-          "2.1. Definition, Aims , Objectives, Scope & Assumptions of Community Organization. ": [
+        "UNIT II: Problem Conceptualization & Research Design": {
+          "2.1. Identification of concepts and variables": [
           ],
-          "2.2. Principles of Community Organization.": [
-          ],
-          "2.3. Historical background of Community Organization, Community Council and Community Chests, Self help groups.": [
-          ],
-          "2.4. Models and Methods of Community Organization. (PRA, PLA, PDA, Social Audit)": [
-          ],
-          "2.5. Role of Social Worker in Community Organization": [
+          "2.2. Research Design": [
           ]
         },
-        "UNIT III: SKILLS & PROCESS OF COMMUNITY ORGANISATION AND CONCEPT OF COMMUNITY DEVELOPMENT.": {
-          "3.1. Professional Skills – Communication, Training, Consultation, Organisation, Public Relations,Enabling, Facilitating, Mobilizing, Liasoning, Participatory skills": [
+        "UNIT III: Data Collection": {
+          "3.1. Data": [
           ],
-          "3.2. Process - Study, Analysis, Assessment, Discussion, Organisation, Action Evaluation, Modification, and Sustainability.": [
+          "3.2. Tools of data collection": [
           ],
-          "3.3. Community Development: Definition, and basic elements of community development.": [
+          "3.3. Levels of measurement": [
           ],
-          "3.4. Importance of Community Development in Community Organization.": [
+          "3.4. Scaling Techniques": [
           ],
-          "3.5. Approaches of Community Development. (CSR)": [
+          "3.5. Sampling": [
           ]
         },
-        "UNIT IV: SOCIAL ACTION AS A METHOD OF SOCIAL WORK": {
-          "4.1. Social Action – Concept, Definition, Aims and Objectives, as a method of Social Work": [
+        "UNIT IV: Data Processing and Analysis": {
+          "4.1. Data Processing": [
           ],
-          "4.2. Scope of Social Action in India.": [
+          "4.2. Levels / Types of data analysis": [
           ],
-          "4.3. Principles and Process of Social Action.": [
+          "4.3. Types of Statistics": [
           ],
-          "4.4. Paradigm of five elements in Social Action – Cause, Change Agent, Change Target, Change Channel, Change Strategy.": [
+          "4.4. Measures of Association": [
           ],
-          "4.5. Strategies and Tactics for Social Action – Power, Persuasive and Educative strategies, Reform and Political Change Strategies, Public Interest Litigation, Social Advocacy and Lobbying, Alliance Building Process, fact finding, social audit, gender audit.": [
+          "4.5. Hypothesis Testing": [
+            "4.5.1. Arithmetic Mean",
+            "4.5.2. Median",
+            "4.5.3. Mode",
+            "4.5.4. Range",
+            "4.5.5. Standard Deviation",
+            "4.5.6. Correlation",
+            "4.5.7. Chi-Square Test"
           ]
         },
-        "UNIT V: APPROACHES TO SOCIAL ACTION": {
-          "5.1. Models of Social Action – Paulo Friere – Pedagogy of the Oppressed; Gandian Approaches; Ambedker Approach- , Martin Luther King, Saul Alinsky, Jane Sharp , Robert Chambers.": [
+        "UNIT V: Data Presentation & Interpretation and Research Writing": {
+        }
+      }
+    },
+    "SOCIAL POLICY AND PLANNING (For CD & MPSW Specialization)": {
+      "CODE": "MS/15C/203A",
+      "HRS/WEEK": "6",
+      "CREDIT": "3",
+      "MARKS": "100",
+      "Objectives": "1.\tTo understand the issues in social development.\n2.\tTo gain knowledge of polices in India and planning process in India.\n3.\tTo develop understanding of social policy in the perspective of National goals as stated in the Constitution and well as human rights and Development Goals\n4.\tTo gain knowledge about the policy formulation process and acquire skills in critical analysis of the policies.",
+      "UNITS": {
+        "UNIT 1: Concepts and Definitions": {
+          "1.1. Concepts": [
+          ]
+        },
+        "UNIT 2: Social Policy in India": {
+          "2.1. Sources of Policy": [
+          ]
+        },
+        "UNIT 3: Role of various Actors in Policy Formulation": {
+          "3.1. Industry and Market Forces": [
           ],
-          "5.2. National and International trends of Social Action – Contemporary": [
-          ],
-          "5.3. Social Action Movements in India – Social, Cultural, Political and Environmental Movements.": [
-          ],
-          "5.4. Use of media and public opinion building in advocacy – Coalition and Network building, linking up protest movements with development work.": [
-          ],
-          "5.5. Role of a Social Worker in Social Action – Mediation, Advocacy, Negotiation, Conflict Resolution.": [
+          "3.2. Policy advocacy": [
+          ]
+        },
+        "UNIT 4: Planning process in India": {
+        },
+        "UNIT 5: Social development policies and programmes": {
+          "5.1. Overview of the policies and programmes for the segments of population": [
           ]
         }
       }
     },
-    "SOCIAL POLICY, SOCIAL LEGISLATION AND SOCIAL WELFARE ADMINISTRATION": {
-      "CODE": "P16SW2MCT08",
+    "HUMAN RESOURCE MANAGEMENT (For HRM Specialization)": {
+      "CODE": "MS/15C/203B",
       "HRS/WEEK": "6",
-      "CREDIT": "5",
+      "CREDIT": "3",
       "MARKS": "100",
-      "Objectives": "",
+      "Objectives": "1.\tTo introduce the students to the basics of human resource management (HRM).\n2.\tTo provide an overview of the functional areas of HRM.\n3.\tTo lay the foundation for a deeper understanding of and practice in the field of human resource management.",
       "UNITS": {
-        "UNIT 1: SOCIAL POLICY": {
-          "1.1. Definition of Social Policy – Evolution and Constitutional Base.": [
+        "UNIT I : INTRODUCTION TO HUMAN RESOURCE MANAGEMENT": {
+        },
+        "UNIT II : ACQUISTION OF HUMAN RESOURCES": {
+          "2.1. Job analysis": [
           ],
-          "1.2. Sources and instrument of Social Policy.": [
-          ],
-          "1.3. Policy Making and Legislation Process –campaign, lobbying": [
-          ],
-          "1.4. Policies regarding": [
-            "1.4.1. Backward classes (OBCs)",
-            "1.4.2. Scheduled classes (SCs)",
-            "1.4.3. Scheduled Tribes (STs)",
-            "1.4.4. Denotified Communities"
-          ],
-          "1.5. Policies and programmes for": [
-            "1.5.1. Women",
-            "1.5.2. Children",
-            "1.5.3. Aged",
-            "1.5.4. Persons with Disability (PWD’s)",
-            "1.5.5. Religion and Linguistic Minorities."
+          "2.2. Recruitment": [
           ]
         },
-        "UNIT 2: SOCIAL LEGISLATION": {
-          "2.1. Definition and Its role as an instrument of social change": [
+        "UNIT III : DEVELOPMENT OF HUMAN RESOURCES": {
+          "3.1. Training and development": [
           ],
-          "2.2. Constitutional basis for social legislation": [
-            "2.2.1. Fundamental rights",
-            "2.2.2. Directive principles of state policy"
+          "3.2. Training effectiveness": [
           ],
-          "2.3. Process of legislation": [
-            "2.3.1. Bill Enactment",
-            "2.3.2. Role of NAC (National Advisory Committee)"
+          "3.3. Career development": [
           ],
-          "2.4. Laws relating to marriage, Divorce, Minority and Guardianship": [
-            "2.4.1. Hindu",
-            "2.4.2. Muslim",
-            "2.4.3. Christian",
-            "2.4.4. Adoption",
-            "2.4.5. Succession Inheritance"
-          ],
-          "2.5. Legislation relating to social problems": [
-            "2.5.1. Drug addiction",
-            "2.5.2. Prostitution",
-            "2.5.3. Juvenile delinquency",
-            "2.5.4. Child Labour",
-            "2.5.5. Untouchability",
-            "2.5.6. Other Legislations",
-            [
-              "2.5.6.1. Right to information Act, 2005",
-              "2.5.6.2. Right to Education Act, 2009",
-              "2.5.6.3. Domestic Violence Act, 2005",
-              "2.5.6.4. MNREGA.",
-              "2.5.6.5. Recent Legislations – Food Security Act, Lok Pal"
-            ]
+          "3.4. Performance Management": [
           ]
         },
-        "UNIT 3: SOCIAL PLANNING AND SOCIAL DEVELOPMENT": {
-          "3.1. Social planning and Social Development: Need & Importance": [
+        "UNIT IV : MOTIVATION OF HUMAN RESOURCES": {
+          "4.1. Employee motivation": [
           ],
-          "3.2. Planning Bodies at Local, State & National Level.": [
-          ],
-          "3.3. Decentralized Planning.": [
-          ],
-          "3.4. Five Year Plans": [
-          ],
-          "3.5. Social development in India.": [
+          "4.2. Leadership": [
           ]
         },
-        "UNIT 4:  SOCIAL WELFARE ADMINISTRATION": {
-          "4.1. Meaning and definition": [
-            "4.1.1. Social Welfare Administration",
-            "4.1.2. Social Work Administration",
-            "4.1.3. Purpose"
+        "UNIT V : MAINTENANCE OF HUMAN RESOURCES": {
+          "5.1. Benefits": [
           ],
-          "4.2. Social Welfare Administration - principles": [
-            "4.2.1. Policy making",
-            "4.2.2. Planning",
-            "4.2.3. Personnel",
-            "4.2.4. Supervision",
-            "4.2.5. Office administration"
-          ],
-          "4.3. Social Welfare Administration -Finance": [
-            "4.3.1. Budgeting",
-            "4.3.2. Fund raising",
-            "4.3.3. Accounting",
-            "4.3.4. Auditing."
-          ],
-          "4.4. Social Welfare Administration-Functions and Areas": [
-            "4.4.1. Purchase and stock keeping",
-            "4.4.2. Record maintenance",
-            "4.4.3. Co-ordination",
-            "4.4.4. Public relation",
-            "4.4.5. Monitoring and evaluation",
-            "4.4.6. Research",
-            "4.4.7. Annual report"
-          ],
-          "4.5. Social Welfare Administration at National, State and local levels": [
-            "4.5.1. Central Social Welfare Board",
-            "4.5.2. State Social Welfare Board",
-            "4.5.3. Directorate of Social Welfare and handicapped Welfare",
-            "4.5.4. Rehabilitation Council of India (RCI)"
-          ]
-        },
-        "UNIT 5: SOCIAL WELFARE PROGRAMMES AND AGENCIES": {
-          "5.1. Evolution of Social welfare in India": [
-            "5.1.1. Voluntary Social Work"
-          ],
-          "5.2. Social agencies": [
-            "5.2.1. Meaning",
-            "5.2.2. Definition",
-            "5.2.3. Types",
-            "5.2.4. Models of NGOs",
-            "5.2.5. Role of NGOs in National ,  State and Local  Development"
-          ],
-          "5.3. Governmental Schemes on Social Welfare": [
-          ],
-          "5.4. Agency registration – Society, Trust and Company Act 1956": [
-          ],
-          "5.5. PAN, 12A, 80G, 35 AC, FCRA ": [
+          "5.2. Employee Separation": [
           ]
         }
       }
     },
-    "-COUNSELING AND GUIDANCE": {
-      "CODE": "P16SW2NMT01                              ",
+    "BASICS OF COUNSELLING": {
+      "CODE": "MS/16ID/204",
       "HRS/WEEK": "6",
-      "CREDIT": "5",
+      "CREDIT": "2",
       "MARKS": "100",
-      "Objectives": "1.\tTo analyze the basic concept of Counseling and Guidance.\n2.\tTo impart knowledge on the counseling relationship and  counseling types.\n3.\tTo enable and impart knowledge  to the students on approaches  and communication to counseling.\n4.\tTo give knowledge on qualities and skills of effective counselors.\n5.\tTo create an understanding on counseling in different settings.",
+      "Objectives": "1.\tTo introduce the students to the concept, definition, need for counselling.\n2.\tTo impart knowledge to the students on the various models of counselling.\n3.\tTo equip the students on the skills, techniques and process of counselling.",
       "UNITS": {
-        "UNIT I : BASIC CONCEPTS OF COUNSELLING AND GUIDANCE": {
-          "1.1. Concept of Counseling and Guidance": [
-          ],
-          "1.2. Definitions of Counseling and Guidance": [
-          ],
-          "1.3. Purpose and Objectives of Counseling": [
-          ],
-          "1.4. Principles of Counseling and Guidance & Difference between Counseling and Guidance": [
-          ],
-          "1.5. Counseling Profession": [
-            "1.5.1. Counseling as Profession",
-            "1.5.2. Professional Standards",
-            "1.5.3. Ethics of Counseling."
+        "UNIT I : Counselling foundations": {
+          "1.1. Types of counseling": [
           ]
         },
-        "UNIT II : COUNSELLING RELATIONSHIP AND TYPES": {
-          "2.1. Types of Counselling-I": [
-            "2.1.1. Inter personal counseling"
-          ],
-          "2.2. Types of Counselling-II": [
-            "2.2.1. Intra personal counseling"
-          ],
-          "2.3. Types of Counselling-III": [
-            "2.3.1. Individual counseling",
-            "2.3.2. Group Counseling."
-          ],
-          "2.4. Types of Counseling-IV": [
-            "2.4.1. Directive Counseling",
-            "2.4.2. Non Directive Counseling",
-            "2.4.3. Eclectic Counseling"
-          ],
-          "2.5. Counselor-Client Relationship": [
-            "2.5.1. Acceptance, Warmth, Responsiveness, Faith, Therapeutic,Relationship, Empathy, Unconditional positive regard"
+        "UNIT II : Counselling Process": {
+          "2.1. Counselling Process": [
+            "2.1.1. Relationship Building",
+            "2.1.2. Assessment – Standardised methods:",
+            "2.1.3. Goal setting",
+            "2.1.4. Interventions",
+            "2.1.5. Termination and Follow-up"
           ]
         },
-        "UNIT III : BASIC APPROACHES TO COUNSELLING AND COMMUNICATION IN COUNSELING": {
-          "3.1. Approaches": [
-            "3.1.1. Psycho Analytical Approach",
-            "3.1.2. Humanistic Approach",
-            "3.1.3. Cognitive Behavior Approach"
-          ],
-          "3.2. Communication": [
-            "3.2.1. Communication skills in Counseling"
-          ],
-          "3.3. Elements and Types of Communication": [
-          ],
-          "3.4. Communication barriers and Methods to  overcome Communication barriers": [
-          ],
-          "3.5. Effective Communication in relevance to Counselling": [
+        "UNIT III : Counselling Skills & Techniques": {
+          "3.1. Skills & Techniques": [
           ]
         },
-        "UNIT IV : EFFECTIVE COUNSELORS": {
-          "4.1. Skills of a counselor": [
+        "UNIT IV : Counselling Approaches and Models": {
+          "4.1. Counselling models": [
           ],
-          "4.2. Qualities of a good counselor": [
-          ],
-          "4.3. Role and responsibility of effective counselor": [
-          ],
-          "4.4. Counselor issues": [
-            "4.4.1. Confidentiality",
-            "4.4.2. Over – involvement",
-            "4.4.3. Record keeping",
-            "4.4.4. Supervision"
-          ],
-          "4.5. Boundaries of counselor": [
+          "4.2. Issues of counsellor": [
           ]
         },
-        "UNIT V : COUNSELLING IN DIFFERENT CONTEXT": {
-          "5.1. Counselling in Educational context": [
+        "UNIT V : Counselling in different settings": {
+          "5.1. Family": [
           ],
-          "5.2. Vocational / Career Counseling": [
+          "5.2. Health setting": [
           ],
-          "5.3. HIV/AIDS Counseling": [
+          "5.3. Educational setting": [
           ],
-          "5.4. Family/Marital Counseling": [
+          "5.4. Work place counselling": [
           ],
-          "5.5. Disaster Counseling": [
+          "5.5. Community setting": [
+          ],
+          "5.6. Teaching Methodology": [
           ]
+        }
+      }
+    },
+    "MANAGEMENT OF ORGANIZATIONS": {
+      "CODE": "MS/15ID/205",
+      "HRS/WEEK": "6",
+      "CREDIT": "2",
+      "MARKS": "100",
+      "Objectives": "1.\tTo provide an overview of the structure and administration of an organization.\n2.\tTo impart necessary skill for the management of organizations.\n3.\tTo provide an understanding of the policies and procedures involved in establishing and maintaining non-profit organizations.",
+      "UNITS": {
+        "UNIT I : Fundamentals of Management": {
+          "1.1. Job analysis": [
+            "1.1.1. Management",
+            "1.1.2. Managerial skills"
+          ]
+        },
+        "UNIT II : Evolution of Management Thought": {
+          "2.1. Classical Theory": [
+          ],
+          "2.2. Neo- Classical Theory": [
+          ],
+          "2.3. New Management theory": [
+          ]
+        },
+        "UNIT III : Basics of Organization": {
+          "3.1. Organization": [
+          ],
+          "3.2. Organization Structure": [
+          ],
+          "3.3. Business Organizations": [
+          ]
+        },
+        "UNIT IV : Introduction to Non-Profit Organization": {
+          "4.1. Non-profit organization": [
+          ],
+          "4.2. Strategic planning": [
+          ]
+        },
+        "UNIT V : Management of Non-profit Organizations": {
+        }
+      }
+    },
+    "SOCIAL LEGISLATION (For CD & MPSW Specialisation )": {
+      "CODE": "MS/15E/206A",
+      "HRS/WEEK": "6",
+      "CREDIT": "2",
+      "MARKS": "100",
+      "Objectives": "1.\tTo enable students to understand the judicial system and the legal mechanisms for seeking justice.\n2.\tTo impact knowledge about the various legislations available to deal with social problems.\n3.\tTo make the students understand the mechanism of utilizing Social Legislation for social transformation.\n4.\tTo expose them to law enforcement institutions and bridge the gap between the Criminal Justice System and victims.",
+      "UNITS": {
+        "UNIT I : Introduction": {
+          "1.1. The Constitution of India": [],
+          "1.2. Judicial system in India": [],
+          "1.3. Legal Provisions": []
+        },
+        "UNIT II : Personal Laws": {
+        },
+        "UNIT III : Women and Law": {
+        },
+        "UNIT IV : Children and Law": {
+        },
+        "UNIT V : Social Problems and Law": {
+        }
+      }
+    },
+    "LABOUR LEGISLATION - I For HRM Specialisation Students": {
+      "CODE": "MS/16E/206B",
+      "HRS/WEEK": "6",
+      "CREDIT": "2",
+      "MARKS": "100",
+      "Objectives": "1.\tTo help the students to learn the fundamentals of Labour legislations.\n2.\tTo give input to the students on the constitution and its relevance to Labour Legislations.\n3.\tTo assist the students in understanding the legislations concerning Labour.",
+      "UNITS": {
+        "UNIT I : Fundamentals of Labour Legislation": {
+          "1.1 Classification of Labour Legislation": []
+        },
+        "UNIT II : Indian Constitution and Labour Legislation": {
+        },
+        "UNIT III : Protective Labour Legislation": {
+        },
+        "UNIT IV : Regulative Labour Legislation": {
+        },
+        "UNIT V : Legislation related to Social Security": {
+        }
+      }
+    },
+    "FIELD WORK - II": {
+      "CODE": "MS/15C/207",
+      "HRS/WEEK": "6",
+      "CREDIT": "6",
+      "MARKS": "100",
+      "Objectives": "The broad aim of concurrent field work at this stage (First year – II semester) is to provide opportunities to the students for applying the knowledge and the information gained in the class room to reality situations. It also provides an opportunity to:\n1.\tWork with communities, groups, individuals / families and managing organization tasks.\n2.\tLearn skills through the practices of primary methods of social work (case work, group work and community organization).\n3.\tInculcate professional growth and development.",
+      "UNITS": {
+        "UNIT I :": {
+        }
+      }
+    },
+    "SOFT SKILLS -II FOCUS AREA: LEADERSHIP & TEAM BUILDING": {
+      "CODE": "MS/15S/208",
+      "HRS/WEEK": "6",
+      "CREDIT": "2",
+      "MARKS": "100",
+      "Objectives": "1.\tTo enable students learn team building and conflict management skills using OBT (Out Bound Training) methodology.",
+      "UNITS": {
+        "UNIT I :INTERPERSONAL SKILLS": {
+        },
+        "UNIT II : CONFLICT MANAGEMENT": {
+        },
+        "UNIT III : TEAM BUILDING -1": {
+        },
+        "UNIT IV : TEAM BUILDING -2": {
+        },
+        "UNIT V : LEADERSHIP": {
+        }
+      }
+    },
+    "SUMMER PLACEMENT": {
+      "CODE": "MS/15R/209",
+      "HRS/WEEK": "6",
+      "CREDIT": "1",
+      "MARKS": "100",
+      "Objectives": "1.\tKnowing about the basics of the working of an industrial organization / social welfare organization.\n2.\tExperiencing direct practice with the client systems and the management operations of the work of the setting.\n3.\tIntegrating theoretical learning with the practice.\n4.\tExploring the possibilities and areas for carrying out Research project to be carried out at the later stage of the course, and\n5.\tExperience self in the role of the professional worker.",
+      "UNITS": {
+        "UNIT I :": {
         }
       }
     }
   },
   "SEMESTER 3": {
-    "ORGANISATIONAL BEHAVIOUR": {
-      "CODE": "P16SW3MCT10",
+    "COMMUNITY DEVELOPMENT SPECIALIZATION RURAL DEVELOPMENT AND GOVERNANCE": {
+      "CODE": "MS/15C/301A",
       "HRS/WEEK": "6",
-      "CREDIT": "5",
+      "CREDIT": "3",
       "MARKS": "100",
-      "Objectives": "1.\tTo help the learner to understand the basic concepts of Organizational Behavior.\n2.\tTo help the learner to understand the concepts of Team building and Decision Making.\n3.\tTo orient the learner to understand and develop knowledge of Group behavior in organization.\n4.\tTo understand the importance of Leadership in Organization.\n5.\tTo orient the learner to understand Training and Development in the organization.",
+      "Objectives": "1.\tTo develop in students an in depth understanding of Rural Communities.\n2.\tTo provide knowledge of the various methods, Programmes, strategies and developmental efforts towards Rural development.\n3.\tTo understand the role and contribution of professional social work in the developmental process.",
       "UNITS": {
-        "Unit I : BASICS OF ORGANISATION BEHAVIOR": {
-          "1.1. Fundamentals of Organizational Behavior": [
+        "UNIT I : Rural community and its Issues": {
+          "1.1. Rural community": [
           ],
-          "1.2. Fundamental concept and approach associated with OB": [
-            "1.2.1. Nature of People",
-            "1.2.2. Nature of Organizations",
-            "1.2.3. Four basic approaches in OB"
+          "1.2. Rural community issues": [
           ],
-          "1.3. Social System and Organizational Culture": [
-            "1.3.1. Understanding a Social system",
-            "1.3.2. Psychological contract",
-            "1.3.3. Understanding Organization Culture",
-            "1.3.4. Different types of Organization Culture"
-          ],
-          "1.4. Communication and  Public Speaking": [
-            "1.4.1. Process and elements of communication",
-            "1.4.2. Types of communication",
-            "1.4.3. Communication Organization Development"
-          ],
-          "1.5. Public Speaking and Effective Communication": [
-            "1.5.1. Speaking Skills",
-            "1.5.2. Types of speeches",
-            "1.5.3. Elevator Speeches"
+          "1.3. Land related issues": [
           ]
         },
-        "Unit II : TEAM BUILDING AND DECISION MAKING": {
-          "2.1. Meaning, needs and importance of Team Building": [
-          ],
-          "2.2. Principle-process-approaches in Team Building": [
-          ],
-          "2.3. Effective Team Building in work place and its challenges": [
-          ],
-          "2.4. Decision making methods and process": [
-          ],
-          "2.5. Effective managerial decision making": [
+        "UNIT II: Rural Development Programmes": {
+          "2.1. Rural development": [
           ]
         },
-        "Unit III : GROUP BEHAVIOUR IN ORGANISATIONS": {
-          "3.1. Fundamentals of Groups": [
-          ],
-          "3.2. Group Developmental Process": [
-          ],
-          "3.3. Group Member roles.": [
-          ],
-          "3.4. Interpersonal Relationship in Groups": [
-          ],
-          "3.5. Group Dynamic- Sociometry": [
+        "UNIT III : Rural Community Development & Social Work Application": {
+          "3.1. Rural community development": [
           ]
         },
-        "Unit IV : LEADERSHIP AND MOTIVATION": {
-          "4.1. Leadership- Meaning and Characteristics": [
-          ],
-          "4.2. Types of Leadership": [
-          ],
-          "4.3. Traits and impact of Effective Leadership": [
-          ],
-          "4.4.  Role of motivation in Organization Behavior": [
-          ],
-          "4.5. Motivations and its impact on Effective Leadership": [
+        "UNIT IV : Rural Administration": {
+          "4.1. Rural Development Administration": [
           ]
         },
-        "Unit V : TRAINING AND DEVELOPMENT": {
-          "5.1. Nature and importance of Training and Development": [
-          ],
-          "5.2. Effective Training Designing": [
-          ],
-          "5.3. Approaches in Training and Development": [
-          ],
-          "5.4. Evolution of Training and its role in event of learning": [
-          ],
-          "5.5. Organizational characteristics in influencing training": [
+        "UNIT V :Rural Governance": {
+        }
+      }
+    },
+    "DALIT AND TRIBAL EMPOWERMENT": {
+      "CODE": "MS/15C/302A",
+      "HRS/WEEK": "6",
+      "CREDIT": "3",
+      "MARKS": "100",
+      "Objectives": "1.\tTo understand the current status of dalit and tribal communities.\n2.\tTo gain knowledge on the process of dalit and tribal disempowerment.\n3.\tTo learn strategies and processes of dalit and tribal empowerment.\n4.\tTo know about national and international efforts towards dalit and tribal empowerment.",
+      "UNITS": {
+        "UNIT I: Dalits and Development": {
+        },
+        "UNIT II: Tribal Communities": {
+          "2.1. Tribal social systems and structures": [
+          ]
+        },
+        "UNIT III: Tribal Issues and Development": {
+          "3.1. Globalisation and tribals": [
+          ]
+        },
+        "UNIT IV: Constitutional Safeguards for Dalits": {
+          "4.1. Constitutional protection": [
+          ]
+        },
+        "UNIT V: Social Work practice for Dalits and Tribal Empowerment": {
+          "5.1. Social Work Methods for Dalit and Tribal persons": [
           ]
         }
       }
     },
-    "BASICS OF HEALTH CARE": {
-      "CODE": "P16SW3MCT12 ",
+    "COMMUNITY DEVELOPMENT- APPROACHES AND TOOLS (Common for both CD & MPSW Specializations)": {
+      "CODE": "MS/15C/303A",
       "HRS/WEEK": "6",
-      "CREDIT": "5",
+      "CREDIT": "3",
       "MARKS": "100",
-      "Objectives": "1.\tTo familiarize the students with the concepts of health.\n2.\tTo acquaint the students with the need of hygiene and living conditions.\n3.\tTo make the students aware of the major diseases and immunization of children & occupational health.\n4.\tTo educate the student on Health work in the Community.\n5.\tTo equip the students with the Health Care Delivery System at all levels and legislations related to health.",
+      "Objectives": "1.\tTo explore the various approaches in developing communities.\n2.\tTo understand the tools used for community assessment, program implementation and evaluation.",
       "UNITS": {
-        "UNIT  I: CONCEPT OF HEALTH": {
-          "1.1. Definition of Health": [
+        "UNIT 1: Concepts and Approach": {
+          "1.1. Community Development": [
           ],
-          "1.2. Dimensions of health and its relationship to welfare": [
+          "1.2. Development Process": [
           ],
-          "1.3. Determinants of health and its relationship to welfare": [
-          ],
-          "1.4. Factors influencing the health status of individuals": [
-          ],
-          "1.5. Concepts": [
-            "1.5.1. Primary Health Care.",
-            "1.5.2. Public health",
-            "1.5.3. Social & preventive medicine",
-            "1.5.5. Comprehensive health care",
-            "1.5.6. Community mental health",
-            "1.5.7. Community Psychiatry."
-          ],
-          "1.6. Health indicators": [
+          "1.3. Community Development related Concepts and Approaches": [
           ]
         },
-        "UNIT II: HYGIENE AND NUTRITION": {
-          "2.1. Water and Sanitation Hygiene": [
+        "UNIT 2: Participatory Learning and Action": {
+          "2.1. Participatory Learning and Action": [
           ],
-          "2.2. Nutrient groups.": [
-          ],
-          "2.3. Social aspects of Nutrition": [
-            "2.3.1. Malnutrition",
-            "2.3.2. Balanced diet"
-          ],
-          "2.4. Assessment of Nutritional Status": [
-          ],
-          "2.5. National programme in Nutrition.": [
+          "2.2. Participatory Rural Appraisal (PRA) Tools": [
           ]
         },
-        "UNIT III: DISEASES AND PREVENTION": {
-          "3.1. Concept of disease and Prevention": [
-          ],
-          "3.2. Communicable diseases": [
-            "3.2.1. Definition and types of communicable diseases",
-            "3.2.2. Major Communicable diseases"
-          ],
-          "3.3. Non-communicable diseases": [
-          ],
-          "3.4. Immunization (meaning-types-importance-agents-schedules)": [
-          ],
-          "3.5. Occupational health and Safety": [
+        "UNIT 3: Need Assessment": {
+          "3.1. Community Need Assessment Tools": [
           ]
         },
-        "UNIT IV: HEALTH ISSUES IN THE COMMUNITY": {
-          "4.1. Community Health: concepts and origin.": [
+        "UNIT 4: Planning": {
+          "4.1. Community Planning Tools": [
           ],
-          "4.2. Health Care Systems: Primary Health Centre, Private Health Systems, Indigenous System  and Voluntary Health Systems.": [
+          "4.2. Framework Analysis": [
           ],
-          "4.3. Major National Health Programmes – ICDS, UIP,NEMP,NTP,NLEPandInternationalHealthOrganizations – UNICEF, WHO and Red Cross.": [
-          ],
-          "4.4. Health Education importance and First Aid": [
-          ],
-          "4.5. Family Planning": [
+          "4.3. Participatory Monitoring and Evaluation": [
           ]
         },
-        "UNIT V: SALIENT FEATURES OF LEGISLATIONS RELATED TO HEALTH": {
-          "5.1. Quality initiatives by Government and Private Sectors": [
+        "UNIT 5: Policy Analysis and Documentation": {
+          "5.1. Policy Practice": [
           ],
-          "5.2. NRHM": [
-          ],
-          "5.3. Salient features of legislations related to Health": [
-            "5.3.1. MTP Act 1971",
-            "5.3.2. Persons with disabilities act 1995",
-            "5.3.3. Mental Health Act 1987",
-            "5.3.4. Factories Act 1948 -  with reference to Health",
-            "5.3.5. ESI Act 1948"
-          ],
-          "5.4. Five Year Plan in Health Care /   National Health Rights Bill 2009.": [
-          ],
-          "5.5. Role of Health Care Worker": [
+          "5.2. Macro Practice Documentation": [
           ]
         }
       }
     },
-    "DEMOGRAPHY AND FAMILY SOCIAL WORK": {
-      "CODE": "P16SW3MCT13 ",
+    "WOMEN AND DEVELOPMENT": {
+      "CODE": "MS/15C/304A",
       "HRS/WEEK": "6",
-      "CREDIT": "5",
+      "CREDIT": "3",
       "MARKS": "100",
-      "Objectives": "1.\tTo make the students understand the Population Studies.\n2.\tTo educate the students about the Physiology of reproduction and methods of contraception.\n3.\tTo enhance the students to know about the family with its multi-dynamics.\n4.\tTo make the students to familiarize with the family problems and the therapy needed to work on the problems.\n5.\tTo train the students about the family welfare programmes and planning.",
+      "Objectives": "1.\tTo get an understanding of the perspective of women and development in Indian society.\n2.\tTo understand the key issues faced by women and understand strategies to change the situation in terms of personal liberation as well as in terms of making women a part of the developmental process.\n3.\tTo examine the social systems that affect women in meeting growth needs and special needs.",
       "UNITS": {
-        "UNIT I: DEMOGRAPHY": {
-          "1.1. Demography of India": [
-            "1.1.1. Meaning of Demography",
-            "1.1.2. Demographic Cycle",
-            "1.1.3. Trends and Characteristics of Population in India",
-            "1.1.4. World population Trends"
-          ],
-          "1.2. Population Explosion": [
-            "1.2.1. Meaning of Population Explosion / growth",
-            "1.2.2. Causes of Population Explosion / growth",
-            "1.2.3. Impact of Population Explosion / growth"
-          ],
-          "1.3. Theories of Population": [
-            "1.3.1. The Malthusian Theory of Population",
-            "1.3.2. Optimum Theory of Population",
-            "1.3.3. Herbert Spencer Biological Theory",
-            "1.3.4. Karl mark’s theory of Surplus Population"
-          ],
-          "1.4. Population Control": [
-            "1.4.1. Economic measures",
-            "1.4.2. Social measures",
-            "1.4.3. Comparative analysis on Demography of developing countries (India & China)"
-          ],
-          "1.5. Population Policy": [
+        "UNIT I : Status of Women": {
+          "1.1. Concept of development with reference to women": [
           ]
         },
-        "UNIT II : REPRODUCTIVE HEALTH": {
-          "2.1. Physiology of Reproduction-Concept Introduction alone": [
-            "2.1.1. Reproductive Anatomy & Physiology",
-            "2.1.2. Menarche",
-            "2.1.3. Menopause & Andropause",
-            "2.1.4. Fecundity & Fertility"
+        "UNIT II : Education, Employment and Health": {
+          "2.1. Education": [
           ],
-          "2.2. Treatment of Infertility. -Concept Introduction alone": [
-            "2.2.1. Treatment of Infertility",
-            "2.2.2. Infertility Clinics",
-            "2.2.3. Surrogate Mother",
-            "2.2.4. Pre-Natal Diagnostic Techniques Act (PNDT Act) salient features only"
+          "2.2. Employment": [
           ],
-          "2.3. Methods of Contraception.": [
-          ],
-          "2.4. Abortion": [
-            "2.4.1. Abortion-Meaning&Definition",
-            "2.4.2. Legislation – MIP Act"
-          ],
-          "2.5. Social Work  Intervention on Reproductive Health- Myths & Misconceptions.": [
+          "2.3. Health issues of women in India": [
           ]
         },
-        "UNIT III : FAMILY": {
-          "3.1. The meaning of Family": [
-            "3.1.1. Functions of Family",
-            "3.1.2. Importance of Family in Society"
-          ],
-          "3.2. Types of Family and Understanding Indian Family and changing Family and its Impacts": [
-          ],
-          "3.3. Family Problems-Causes and Consequences": [
-            "3.3.1. Family Life Cycle.",
-            "3.3.2. Family Dynamics."
+        "UNIT III : Gender Analysis and Framework": {
+          "3.1. Gender analysis and its framework": [
           ]
         },
-        "UNIT IV : FAMILY SOCIAL WORK": {
-          "4.1. Family Social Work –Meaning,Scope": [
-            "4.1.1. Roles and Responsibilities of Family Social Worker"
+        "UNIT IV : Women in difficult circumstances": {
+          "4.1. Women in difficult circumstances": [
           ],
-          "4.2. Principles of  Family Social Work": [
-          ],
-          "4.3. Family Social Work Methods": [
-            "4.3.1. Family Assessment",
-            "4.3.2. Family Therapy"
-          ],
-          "4.4. Parenthood.": [
-            "4.4.1. Family Life Education"
+          "4.2. Legal rights of women (salient features only)": [
           ]
         },
-        "UNIT V : FAMILY WELFARE PLANNING": {
-          "5.1. The National Family Health Survey": [
-          ],
-          "5.2. Family Welfare Programs in India": [
-          ],
-          "5.3. Organizations for Family Welfare": [
-            "5.3.1. Department of Family Welfare",
-            "5.3.2. National Institute of Health and Family Welfare",
-            "5.3.3. WHO-with respect to Family Welfare",
-            "5.3.4. United Nations Population Fund (UNFPA)"
-          ],
-          "5.4. Population Education": [
-          ],
-          "5.5. Sex Education.": [
+        "UNIT V : National and International Efforts": {
+          "5.1. International conventions and efforts": [
           ]
         }
       }
     },
-    "URBAN, RURAL AND TRIBAL SOCIAL SYSTEMS": {
-      "CODE": "P16SW3MCT14  ",
+    "DISASTER MANAGEMENT AND ENVIRONMENTAL SOCIAL WORK [Common for both CD & MPSW specialization students]": {
+      "CODE": "MS/15ID/305A",
       "HRS/WEEK": "6",
-      "CREDIT": "5",
+      "CREDIT": "2",
       "MARKS": "100",
-      "Objectives": "1.\tTo learn Urban, Rural and Tribal social systems.\n2.\tTo learn urban, Rural and tribal issues .\n3.\tTo learn the change processes in Urban, Rural and Tribal Communities.n4.\tTo learn issues and their implications on Urban, Rural and Tribal  Communities.\n5.\tTo learn the challenges for Interventions by Community Workers",
+      "Objectives": "1.\tTo develop an understanding of Disaster and Disaster Management.\n2.\tTo help students to understand environmental issues and Movements.\n3.\tTo enable students to understand the government and NGOs and the role of social workers in safeguarding environment and protecting livelihoods.",
       "UNITS": {
-        "UNIT 1: UNDERSTANDING URBAN, RURAL AND TRIBAL COMMUNITIES": {
-          "1.1. Characteristics of Urban, Rural and Tribal communities.": [
-          ],
-          "1.2. Changing Patterns of Social Institutions – Family, marriage,  kinship, religion, caste.": [
-          ],
-          "1.3. Economic systems and changing patterns": [
-            "1.3.1. Occupational Patterns",
-            "1.3.2. Stratification",
-            "1.3.3. Resources: access, control and use."
-          ],
-          "1.4. Factors Leading to Change and their Impacts on Urban, Rural  and Tribal ommunities": [
-            "1.4.1. Urbanization",
-            "1.4.2. Migration",
-            "1.4.3. Industrialization",
-            "1.4.4. Changing relations with Land, Forest, Water resources",
-            "1.4.5. Development of Transport and Communication, Liberalization,Privatization and Globalization (LPG) and Modernization."
-          ],
-          "1.5. Changing Face of Urban communities": [
-            "1.5.1. Infrastructural Development",
-            "1.5.2. Growing Heterogeneity",
-            "1.5.3. Merging of fringe villages",
-            "1.5.4. The ‘Global City’ and Socio-Cultural and Economic Implications."
+        "UNIT I : INTRODUCTION TO DISASTERS AND DISASTER MANAGEMENT": {
+          "1.1. Phases of Disaster": [
           ]
         },
-        "UNIT 2: ISSUES, IMPLICATIONS AND CHALLENGES": {
-          "2.1. Economic issues": [
-            "2.1.1. Poverty",
-            "2.1.2. Unemployment and Inequity in resource access."
+        "UNIT II : SOCIAL WORK AND COMMUNITY INTERVENTIONS": {
+          "2.1. Vulnerable groups": [
           ],
-          "2.2. Environmental issues": [
-            "2.2.1. Ecological imbalance",
-            "2.2.2. Degeneration of resources",
-            "2.2.3. Pollution",
-            "2.2.4. Waste disposal and sanitation"
+          "2.2. Social work interventions": [
           ],
-          "2.3. Socio-Cultural issues": [
-            "2.3.1. Inequality (class, caste and gender)",
-            "2.3.2. Cultural invasion and changes in life styles and culture",
-            "2.3.3. Impact of global culture on local communities",
-            "2.3.4. Caste Polarization",
-            "2.3.5. Communalism and regionalism"
-          ],
-          "2.4. Infrastructure and amenities": [
-            "2.4.1. Water",
-            "2.4.2. Energy (power and fuel)",
-            "2.4.3. Housing",
-            "2.4.4. Road",
-            "2.4.5. Transport & Communication",
-            "2.4.6. Health care services, Education"
-          ],
-          "2.5. Displacement": [
-            "2.5.1. Development induced displacement.",
-            "2.5.2. Development Projects and disaster."
+          "2.3. Community Interventions": [
           ]
         },
-        "UNIT 3 : RURAL COMMUNITY DEVELOPMENT": {
-          "3.1. Concepts of Rural Community": [
-            "3.1.1. Rural Development.",
-            "3.1.2. Origin of Community Development in India."
+        "UNIT III : ENVIRONMENT SOCIAL WORK AND SUSTAINABLE DEVELOPMENT": {
+          "3.1. Natural Environmental Problems & Causes": [
           ],
-          "3.2. Rural Community Development": [
-            "3.2.1. Definition &concepts",
-            "3.2.2. Philosophy",
-            "3.2.3. Objectives and Scope"
-          ],
-          "3.3. Difference between Rural Development and rural community development.": [
-          ],
-          "3.4. Rural Development schemes SGSY, IAY, Bharat Nirman, MGNREGA, THAI.": [
-          ],
-          "3.5. Social work intervention in Rural Development Schemes.": [
+          "3.2. Sustainable Development": [
           ]
         },
-        "UNIT 4 : URBAN COMMUNITY DEVELOPMENT": {
-          "4.1. Concept of Urban Planning": [
-            "4.1.1. Urban Development and Urban Community Development."
-          ],
-          "4.2. Urban Community Development": [
-            "4.2.1. Meaning, Need and Scope."
-          ],
-          "4.3. Urban Development": [
-            "4.3.1. Policy and laws related to Urban Development",
-            "4.3.2. Land Acquisition Act."
-          ],
-          "4.4. Slum": [
-            "4.4.1. Definition",
-            "4.4.2. Characteristics and problems of slum people",
-            "4.4.3. Theories",
-            "4.4.4. Causes",
-            "4.4.5. Tamil Nadu Slum (Improvement and clearance) Act of 1971",
-            "4.4.6. Community Development in New Housing project",
-            "4.4.7. Urban Development Schemes such as JNNURM, NUIS"
-          ],
-          "4.5. Voluntary agencies concerned with Urban Community Development": [
+        "UNIT IV : ENVIRONMENTAL MOVEMENTS": {
+          "4.1. Environmental Movements": [
           ]
         },
-        "UNIT 5 : SKILLS FOR COMMUNITY WORK": {
-          "5.1. Role and skills of a Community Development Worker": [
-          ],
-          "5.2. Identification and working with leaders,": [
-          ],
-          "5.3. Resource mobilization, organizing people, working in groups": [
-          ],
-          "5.4. Networking, Lobbying and Advocacy with elected representatives.": [
-          ],
-          "5.5. Challenges before the Community Worker in addressing problems/issues of": [
-            "5.5.1. Rural",
-            "5.5.2. Urban",
-            "5.5.3. Tribal communities"
+        "UNIT V : ENVIRONMENTAL MANAGEMENT": {
+          "5.1. Environment Action and Management": [
           ]
         }
       }
     },
-    "HUMAN RESOURCE MANAGEMENT": {
-      "CODE": "P16SW3MCT15",
+    "MEDICAL & PSYCHIATRIC SOCIAL WORK SPECIALIZATION MENTAL HEALTH AND PSYCHIATRIC SOCIAL WORK": {
+      "CODE": "MS/15C/301B",
       "HRS/WEEK": "6",
-      "CREDIT": "5",
+      "CREDIT": "3",
       "MARKS": "100",
-      "Objectives": "1.\tDevelop an understanding of Human Resource Theories and Approaches, and gain insight into Global Perspectives of Management.\n2.\tUnderstand the role, responsibilities and functions to be handled by the Human Resource  managers.\n3.\tDevelop the skills required to program the Human Resource  Managerial functions.\n4.\tDevelop the knowledge of changing Socio-Economic, Political and Industrial Environment and its impact on Industrial Organization.\n5.\tdevelop an understanding  about  Human Resource  Management Global Perspective and role of managers.",
+      "Objectives": "1.\tTo introduce the students to the concepts and historical development of the field of Psychiatry.\n2.\tTo impart knowledge on the various psychiatric disorders and the role of social worker.\n3.\tTo provide knowledge on Emerging researches in mental health.",
       "UNITS": {
-        "Unit I: Management Concepts": {
-          "1.1. Management: Meaning, Definition, Nature of Management, Management as a Profession, Historical Perspectives, Henry Fayol, Principles of Scientific Management,": [
-          ],
-          "1.2. F. W. Tyalor, Management Vs. Administration, Human Resource Approach, System Approach.": [
-          ],
-          "1.3. Managerial Role, Functions & skills: Managerial Role, levels of management, functions, managerial skills of an effective manager.": [
-          ],
-          "1.4. Management Global Perspective and role of managers: Changing concepts, socioeconomic, political and industrial environment, global economy & market, MNC’s, TNC’s": [
-          ],
-          "1.5. impact of Liberalization, Privatization and Globalization- Downsizing, Outsourcing, Mergers and Acquisitions and its impact on industrial organizations,  manpower and anagement.": [
+        "UNIT I : Introduction": {
+        },
+        "UNIT II : Classification & Assessment of Mental Health Disorders": {
+          "2.1. Psychiatric Assessment": [
           ]
         },
-        "Unit II: Planning": {
-          "2.1. Meaning Definition, Features of Planning": [
+        "UNIT III : Psychiatric Illness & Disorders": {
+          "3.1. Classification of Mental Disorders": [
           ],
-          "2.2. Planning process": [
+          "3.2. Organic Mental Disorders": [
           ],
-          "2.3. Types of planning": [
+          "3.3. Toxic": [
           ],
-          "2.4. Strategic planning and Management": [
-          ],
-          "2.5. Different models of strategic Management.": [
+          "3.4. Functional (Non Organic) Mental Disorders": [
           ]
         },
-        "Unit III: Organizing & Supervision": {
-          "3.1. Organizing & Co-ordination: Meaning of organization, process, organizational structure, hierarchy, authority, power and responsibility, Line and staff functional organizations, departmentation.": [
+        "UNIT IV : Behavioural Disorders and Child hood Disorders": {
+          "4.1. Behaviour disorders": [
           ],
-          "3.2. Virtual organization, Learning Organization. Coordination: Meaning, need for co-ordination, principle of co-ordination, co-ordination process, span of control, delegation of authority.": [
-          ],
-          "3.3. Direction and Supervision: Meaning, Features Importance, Principles of Direction, elements of direction. Supervision: Skills & Role of supervisor, its need and importance.": [
-          ],
-          "3.4.  Communication: Concept, nature, goals, basic-principles and key elements of effective communication, types, methods, channels and barriers of communication, Drafting skills.": [
-          ],
-          "3.5. Interpersonal communication and its role in organization.": [
+          "4.2. Common Mental Health Problems and Disorders in Children": [
+            "4.2.1 Disorders of Psychological Development"
           ]
         },
-        "Unit IV: Change Management": {
-          "4.1. Managing Change: Concept of Change, dilemma of change, factors/ agents of change, resistance to change, overcoming resistance to change, impact of change on organization and employees, planned change, types of planned change.": [
+        "UNIT V : Research in Mental Health": {
+        }
+      }
+    },
+    "MEDICAL SOCIAL WORK": {
+      "CODE": "MS/15C/302B",
+      "HRS/WEEK": "6",
+      "CREDIT": "3",
+      "MARKS": "100",
+      "Objectives": "1.\tTo introduce the historical developments of Social Work in Medical Settings, existing status and its development.\n2.\tTo highlight a Holistic and Integrated approach to Social Work Practice in the field of Health.\n3.\tTo develop a deeper understanding of common Physical Diseases and Health problems of the Community.\n4.\tTo develop the capacity to perceive the relation of Environment and Socio Cultural and Psychological factors in the causation, treatment and prevention of diseases.",
+      "UNITS": {
+        "UNIT I : Concepts": {
+          "1.1. Concept and Definition": [
           ],
-          "4.2. Management of change and Organizational Development.": [
-          ],
-          "4.3. Conflict Management: Meaning, types of Conflict": [
-          ],
-          "4.4. Impact of Conflict on organizational performance.": [
-          ],
-          "4.5. Conflict management and strategies.": [
+          "1.2. Medical Social Work": [
           ]
         },
-        "Unit V: Quality of work Life": {
-          "5.1. Quality of Work Life: meaning, Criteria, various aspects, measures of QWL Obstacles.": [
+        "UNIT II : Health Care Models": {
+          "2.1. Healthcare Models": [
           ],
-          "5.2. Programmes & Strategies for enriching QWL.": [
+          "2.2. Alternative System of Health": [
           ],
-          "5.3. Social Work In industry: concept, evolution, goals, scope and application of Social Work method, tools, techniques and Intervention Strategies, its application and limitations, Role of Social Work in welfare, Problem Solving.": [
+          "2.3. Health Education": [
+          ]
+        },
+        "UNIT III : Role of Social Worker": {
+          "3.1. Patient as a person": [
           ],
-          "5.4. Employees Counseling, Rehabilitation of Employees, ": [
+          "3.2. Role and Functions of Medical Social Worker": [
+          ]
+        },
+        "UNIT IV : Diseases": {
+          "4.1. Major communicable diseases": [
           ],
-          "5.5. CSR activities.Case studies: Selected case studies on above topics- role and functions of Management/Manager, Communication, Change Management, Conflict Management, and Global issues- LPG, Quality of Work Life.": [
+          "4.2. Major non communicable diseases": [
+          ],
+          "4.3. Psychosocial Problems and the role of medical social worker in dealing patients": [
+          ]
+        },
+        "UNIT V : Medical Social Work practice in different settings": {
+          "5.1. Medical social work practice in different settings": [
           ]
         }
       }
     },
-    "MENTAL HEALTH": {
-      "CODE": "P16SW3MET01",
+    "COMMUNITY DEVELOPMENT- APPROACHES AND TOOLS (Common for both CD & MPSW Specializations)": {
+      "CODE": "MS/15C/303A",
       "HRS/WEEK": "6",
-      "CREDIT": "5",
+      "CREDIT": "3",
       "MARKS": "100",
-      "Objectives": "1.\tTo introduce the students to the concepts and historical development of the field of Psychiatry.\n2.\tTo equip the students with the classification and Assessment in Mental illness.\n3.\tTo equip the students with causes, symptoms, and treatment of major Psychiatric illnesses.\n4.\tTo impart knowledge on the various childhood disorders.\n5.\tTo impart knowledge on other related disorders.",
+      "Objectives": "1.\tTo explore the various approaches in developing communities.\n2.\tTo understand the tools used for community assessment, program implementation and evaluation.",
       "UNITS": {
-        "UNIT I: INTRODUCTION": {
-          "1.1. Attitudes and beliefs pertaining to mental illness": [
+        "UNIT I : Concepts and Approach": {
+          "1.1. Community Development": [
           ],
-          "1.2. Concepts": [
-            "1.2.1. Normality, Abnormality & Mental health"
+          "1.2. Development Process": [
           ],
-          "1.3. Community Mental Health ": [
-          ],
-          "1.4. Community Psychiatry": [
-          ],
-          "1.5. Role of Social Workers in the field of   Mental Health": [
+          "1.3. Community Development related Concepts and Approaches": [
           ]
         },
-        "UNIT II: MENTAL HEALTH CLASSIFICATION SYSTEM (salient features) and ASSESSMENT": {
-          "2.1. Diagnostic & Statistical Manual- DSM – V": [
+        "UNIT II : Participatory Learning and Action": {
+          "2.1. Participatory Learning and Action": [
           ],
-          "2.2. International Classification of diseases- ICD- 10": [
-          ],
-          "2.3. Psychiatric assessment": [
-            "2.3.1. Interviewing",
-            "2.3.2. Case History taking /Sources of intake",
-            "2.3.3. Family Dynamics (Ego Mapping)"
-          ],
-          "2.4. Mental status examination": [
-          ],
-          "2.5. Formulation of Psychosocial diagnosis": [
+          "2.2. Participatory Rural Appraisal (PRA) Tools": [
           ]
         },
-        "UNIT III: PSYCHIATRIC ILLNESS": {
-          "3.1. Neuroses & Psychoses": [
-          ],
-          "3.2. Organic & Functional": [
-          ],
-          "3.3. Sexual Deviations": [
-          ],
-          "3.4. Personality disorders & Psychosomatic disorders": [
-          ],
-          "3.5. Alcoholism & Drug dependence": [
+        "UNIT III : Need Assessment": {
+          "3.1. Community Need Assessment Tools": [
           ]
         },
-        "UNIT IV: CHILDHOOD DISORDERS": {
-          "4.1. Behavior disorders: Eating, Elimination, Sleep & Speech disorders": [
+        "UNIT IV : Planning": {
+          "4.1. Community Planning Tools": [
           ],
-          "4.2. Childhood Psychoses: Autism, Schizophrenia": [
+          "4.2. Framework Analysis": [
           ],
-          "4.3. Mental Retardation: Definition, Classification, Clinical types & causes": [
-          ],
-          "4.4. Attention Deficit Hyperactive Disorder & Learning disorders": [
-          ],
-          "4.5. School Mental Health ": [
+          "4.3. Participatory Monitoring and Evaluation": [
           ]
         },
-        "UNIT V: OTHER ASSOCIATED DISORDERS": {
-          "5.1. Dementia": [
+        "UNIT V : Policy Analysis and Documentation": {
+          "5.1. Policy Practice": [
           ],
-          "5.2. Alzheimer’s disease": [
-          ],
-          "5.3. Suicide: Causes, indications & Prevention": [
-          ],
-          "5.4. Epilepsy: Definition, Types, causes and management": [
-          ],
-          "5.5. Mental health problems of Adolescents, Children, Women and Elderly": [
+          "5.2. Macro Practice Documentation": [
           ]
         }
       }
     },
-    "EMPOWERMENT OF WOMEN AND CHILDREN": {
-      "CODE": "P16SW3MET02",
+    "SOCIAL WORK WITH FAMILIES AND SENIOR CITIZENS": {
+      "CODE": "MS/15C/304B",
       "HRS/WEEK": "6",
-      "CREDIT": "5",
+      "CREDIT": "3",
       "MARKS": "100",
-      "Objectives": "1.\tTo educate the students about the various women’s problems.\n2.\tTo impart knowledge about the welfare programmes for women.\n3.\tTo acquaint the students about child development.\n4.\tTo make the students understand the child health and problems of children.\n5.\tTo familiarize the students about the welfare services of children.",
+      "Objectives": "1.\tTo help students gain a theoretical and conceptual understanding of families and family systems.\n2.\tTo help students understand interaction, functions and issues concerning Indian families.\n3.\tTo help students gain knowledge and skills in family interventions.\n4.\tTo help students understand the needs of the senior citizens and programmes for them and acquire skills in working with senior citizens.",
       "UNITS": {
-        "UNIT I : WOMEN IN INDIA": {
-          "1.1. Demographic profile": [
-            "1.1.1. Sex ratio",
-            "1.1.2. Education",
-            "1.1.3. Employment"
+        "UNIT I :Theoretical and conceptual framework for understanding family": {
+        },
+        "UNIT II : Family dynamics": {
+        },
+        "UNIT III : Challenges of family": {
+          "3.1. Family Violence": [
           ],
-          "1.2. Changing Status of Women in India": [
-          ],
-          "1.3. Problems of Women-Causes and Prevalence": [
-            "1.3.1. Single hood",
-            "1.3.2. Divorce/Destitution/Desertion",
-            "1.3.3. Cyber Crime with reference to women issues",
-            "1.3.4. Problems of unwed Mothers"
-          ],
-          "1.4. Problems of Women –Women and Work": [
-            "1.4.1. Discrimination in Employment",
-            "1.4.2. Problems of working women-Organized sector",
-            "1.4.3. Problems of working women-Unorganized  sector",
-            "1.4.4. Problems of Domestic Workers"
-          ],
-          "1.5. Problems of Women –Violence Against Women": [
-            "1.5.1. Trafficking in women and girls",
-            "1.5.2. Pornography",
-            "1.5.3. Domestic violence"
+          "3.2. Family Intervention": [
           ]
         },
-        "UNIT II : EMPOWERMENT OF WOMEN": {
-          "2.1. Sustainable Developmental Goals relevant to women and children": [
+        "UNIT IV : Senior citizens and their Health status": {
+          "4.1. Health Status of the senior citizens": [
           ],
-          "2.2. Women Empowerment": [
-            "2.2.1. Women Empowerment Policy",
-            "2.2.2. Programmes",
-            "2.2.3. Gender Analysis Framework or Gender Framework",
-            "2.2.4. Concepts Related to Gender- Gender & Sex Patriarchy, Matriarchy"
-          ],
-          "2.3. Women’s Movement": [
-            "2.3.1. Global",
-            "2.3.2. National and Local"
-          ],
-          "2.4. Rights of women": [
-            "2.4.1. International Convention-Convention on Elimination of Discrimination Against Women(CEDAW) 2008",
-            "2.4.2. Indian Constitutional Rights for Women"
-          ],
-          "2.5. Women and Law": [
-            "2.5.1. Maternity Benefits Act 1988",
-            "2.5.2. The Equal Remuneration Act 1976",
-            "2.5.3. The Dowry Prohibition Act 1961",
-            "2.5.4. The Domestic Violence act 2005",
-            "2.5.5. Visaka Committee Report"
+          "4.2. Health Services": [
           ]
         },
-        "UNIT III : CHILDREN": {
-          "3.1. Child Development - definition /meaning and stages": [
-            "3.1.1. Principle of child development",
-            "3.1.2. Role of family in child development"
-          ],
-          "3.2. Needs of Children": [
-            "3.2.1. Biological Needs",
-            "3.2.2. Psycho-Social Needs",
-            "3.2.3. Egoistic Needs",
-            "3.2.4. Effects of non-satisfaction of needs"
-          ],
-          "3.3. Socialization of child": [
-            "3.3.1. Meaning",
-            "3.3.2. Formal Agencies of Socialization",
-            "3.3.3. Informal Agencies of Socialization"
-          ],
-          "3.4. School Social Work": [
-            "3.4.1. Meaning",
-            "3.4.2. Need",
-            "3.4.3. Objectives"
-          ],
-          "3.5. School Social Worker": [
-            "3.5.1. Role of School Social Worker",
-            "3.5.2. Functions of school social worker"
-          ]
-        },
-        "UNIT IV : CHILD HEALTH": {
-          "4.1. Child Nutrition": [
-            "4.1.1. Sources of Nutrition",
-            "4.1.2. Balanced Diet",
-            "4.1.3. Mal Nutrition",
-            "4.1.4. Nutritional disorders"
-          ],
-          "4.2. Child Health Services": [
-            "4.2.1. MCH Service",
-            "4.2.2. ICDS"
-          ],
-          "4.3. Childhood diseases": [
-            "4.3.1. Types",
-            "4.3.2. Causes",
-            "4.3.3. Symptoms",
-            "4.3.4. Prevention",
-            "4.3.5. Treatment",
-            "4.3.6. Stages of Immunization"
-          ],
-          "4.4. Problems of children -I": [
-            "4.4.1. Child abuse",
-            "4.4.2. Working Chidren"
-          ],
-          "4.5. Problems of children -II": [
-            "4.5.1. Children in difficult Circumstances",
-            "4.5.2. Girl child"
-          ]
-        },
-        "UNIT V : SERVICES TO CHILDREN": {
-          "5.1. Ministry of Women and Children": [
-          ],
-          "5.2. Child welfare in India": [
-            "5.2.1. Child Welfare Programmes"
-          ],
-          "5.3. Child and Law": [
-            "5.3.1. Constitutional Rights",
-            "5.3.2. Juvenile Justice (Care and Protection of Children) Act Amendment2014",
-            "5.3.3. Child Labour (Prohibition and Regulation) Amendment Bill 2012",
-            "5.3.4. The Protection of Children from Sexual Offences Act 2012",
-            "5.3.5. The Commissions for Protection of Child Rights Act, 2005",
-            "5.3.6. Immoral Traffic (Prevention)Amendment Bill 2006"
-          ],
-          "5.4. Child Rights": [
-            "5.4.1. National policy for children",
-            "5.4.2. UN charter of children’s rights",
-            "5.4.3. Early Childhood Care and Education Policy"
-          ],
-          "5.5. Agencies for children": [
-            "5.5.1. National Agency-Indian council for Child Welfare-Balkan Ji Bari",
-            "5.5.2. The Children’s Aid Society- SOS Children’s Village",
-            "5.5.3. National Institute of Public Co-operation and Child Development",
-            "5.5.4. International Agency",
-            "5.5.5. UN Agencies- WHO- UNICEF-UNESCO- Non-UN Agencies- CARE"
+        "UNIT V : Social work interventions": {
+          "5.1. Social work interventions": [
           ]
         }
       }
     },
-    "GOVERNANCE AND ADMINISTRATION IN COMMUNITY DEVELOPMENT": {
-      "CODE": "P16SW3MET03",
+    "DISASTER MANAGEMENT AND ENVIRONMENTAL SOCIAL WORK [Common for both CD & MPSW specialization students]": {
+      "CODE": "MS/15ID/305A",
       "HRS/WEEK": "6",
-      "CREDIT": "5",
+      "CREDIT": "2",
       "MARKS": "100",
-      "Objectives": "1.\tTo learn the context, meaning and relevance of decentralized governance for urban, rural and tribal areas.\n2.\tTo learn knowledge about the structure and functioning of governing bodies at various levels.\n3.\tTo learn contemporary issues and challenges in accessing governance bodies for people’s development.\n4.\tTo learn the contemporary issues in governance.\n5.\tTo learn the network concepts for the effective functioning of local governance.",
+      "Objectives": "1.\tTo develop an understanding of Disaster and Disaster Management.\n2.\tTo help students to understand environmental issues and Movements.\n3.\tTo enable students to understand the government and NGOs and the role of social workers in safeguarding environment and protecting livelihoods.",
       "UNITS": {
-        "UNIT I : DECENTRALIZED GOVERNANCE": {
-          "1.1. Concept & Evolution of Panchayati Raj": [
-            "1.1.1. Historical development of the concept",
-            "1.1.2. National level committees in the evolution of Panchayati Raj (Balwantrai Mehta, Ashok Mehta, Singhvi committees)",
-            "1.1.3. Panchayati Raj Act in Tamil Nadu"
-          ],
-          "1.2. The Constitutional 73rd Amendment": [
-            "1.2.1. Background of and obstacles to its passage",
-            "1.2.2. Review of 73rd Constitutional Amendment"
-          ],
-          "1.3. Democratic Decentralization": [
-            "1.3.1. Meaning",
-            "1.3.2. Objectives and importance of Governance – Meaning and Structure",
-            "1.3.3. Good governance – Indicators, models"
-          ],
-          "1.4. The Functions of Panchayati Raj Institutions": [
-            "1.4.1. Structure, functions and powers at each level",
-            "1.4.2. revenue sources, and ",
-            "1.4.3. committees in village level Panchayati Raj bodies",
-            "1.4.4. gram sabha its role and importance"
-          ],
-          "1.5. Community participation in governance": [
+        "UNIT I :INTRODUCTION TO DISASTERS AND DISASTER MANAGEMENT": {
+          "1.1. Phases of Disaster": [
           ]
         },
-        "UNIT II : STRUCTURE AND FUNCTIONING OF GOVERNING BODIES": {
-          "2.1. Community Development Programme in India": [
+        "UNIT II : SOCIAL WORK AND COMMUNITY INTERVENTIONS": {
+          "2.1. Vulnerable groups": [
           ],
-          "2.2. Micro level planning": [
-            "2.2.1.  Meaning",
-            "2.2.2. concepts and process"
+          "2.2. Social work interventions": [
           ],
-          "2.3. Rural Development Programme in National and state": [
-          ],
-          "2.4. Role of Non-Government Organizations in development programme .": [
-          ],
-          "2.5. National urban sanitation policy, National urban transport policy.- salient aspects": [
+          "2.3. Community Interventions": [
           ]
         },
-        "UNIT III: Urban Governance": {
-          "3.1. History of Urban Local Self Government in India": [
+        "UNIT III : ENVIRONMENT SOCIAL WORK AND SUSTAINABLE DEVELOPMENT": {
+          "3.1. Natural Environmental Problems & Causes": [
           ],
-          "3.2. 74th Constitutional Amendment Review of content and implementation": [
-          ],
-          "3.3. Types of Urban Local Self Government in India": [
-            "3.3.1. Municipal Corporation, Municipal Council/ Town Panchayats.",
-            "3.3.2. Sources of Revenue",
-            "3.3.3. Structure, powers and functions at each level",
-            "3.3.4. Committees and their functions",
-            "3.3.5.System of elections to Urban Local Self Government",
-            "3.3.6. Ward , Committees and citizen participation"
-          ],
-          "3.4. Parastial organization (Slum Clearance Board , CMDA,MWS,HB)": [
-          ],
-          "3.5. Role of Urban local bodies in Urban Development": [
+          "3.2. Sustainable Development": [
           ]
         },
-        "UNIT IV: CONTEMPORARY ISSUES AND POTENTIALS THROUGH LOCAL SELF GOVERNMENT": {
-          "4.1. Community Participation – Meaning and concept ": [
-          ],
-          "4.2. Participation of marginalized groups ( women , SC & ST & minorities)": [
-          ],
-          "4.3. Community Development Process ": [
-          ],
-          "4.4. Skills and Approaches in Community Development – Lobby and Advocacy .": [
-          ],
-          "4.5. Challenges in developing partnerships between elected bodies, bureaucracy and civil society.": [
-          ]
+        "UNIT IV : ENVIRONMENTAL MOVEMENTS": {
         },
-        "UNIT V: NETWORKING": {
-          "5.1. Networking": [
-            "5.1.1. Meaning",
-            "5.1.2. Concept"
-          ],
-          "5.2. Process of Networking": [
-          ],
-          "5.3. Scope for Networking": [
-            "5.3.1. VANI",
-            "5.3.2. TN-Forces",
-            "5.3.3. CACL",
-            "5.3.4. CAT"
-          ],
-          "5.4. Issues and Strategies  in Networking": [
-          ],
-          "5.5. lobby and Advocacy, Capacity building": [
+        "UNIT V : ENVIRONMENTAL MANAGEMENT": {
+          "5.1. Environment Action and Management": [
           ]
         }
       }
     },
-    "LABOUR WELFARE AND LEGISLATION": {
-      "CODE": "P16SW3MET04",
+    "HUMAN RESOURCES MANAGEMENT SPECIALIZATION LABOUR LEGISLATIONS-II": {
+      "CODE": "MS/16C/301C",
       "HRS/WEEK": "6",
-      "CREDIT": "5",
+      "CREDIT": "2",
       "MARKS": "100",
-      "Objectives": "1.\t.Develop the knowledge of Labour welfare: pre-independence, post independence and its changing nature in the era of globalization.\n2.\tUnderstand the importance of Health, Hygiene and problems related to industrail hazards, occupational diseases and its safety management.\n3.\tKnowledge of various government organizations working for Labour welfare.\n4.\tDevelop insight of Labour welfare programme and its relevance to work culture and productivity.\n5.\tUnderstand the various legislation pertaining to Labour welfare.",
+      "Objectives": "1.\tTo equip the students with the necessary knowledge on the statutory compliance concerning the labour force.\n2.\tTo introduce the students to labour legislations pertaining to Industrial Relations and working conditions in the organised sector.\n3.\tTo impart knowledge of labour legislations pertaining to wages, social security and welfare in the organised sector.",
       "UNITS": {
-        "Unit I: Labour Welfare": {
-          "1.1. Labour Welfare: Welfare-concept, definition, philosophy, objectives, principles, scope and Machinery of Labour Welfare in India.": [
-          ],
-          "1.2. Historical Development of labour Welfare: Industrial revolution and changing welfare concept, Impact of Industrialization, remedial, ameliorative and preventive measures undertaken by industrial and welfare organizations for the industrial workforce.": [
-          ],
-          "1.3. Approaches to Labour Welfare: Philanthropic, utilitarian, legalistic, humanitarian and democratic approach, five Different categories and seven major benefits of Labour Welfare.": [
-          ],
-          "1.4. Traditional welfare to developmental approach. Labour Welfare as a Management philosophy.": [
-          ],
-          "1.5. Labour Welfare: Intra-mural & extra mural measures/ agencies of Labour Welfare, Its special characteristics and facilities, Statutory and Non-statutory Labour Welfare provisions/ facilities/ & programmes.": [
-          ]
+        "UNIT I :Legislations related to Industrial Relations": {
         },
-        "Unit II: Occupational Safety & Health": {
-          "2.1. Welfare Officer: Duties, responsibilities, role and functions of welfare/ labour welfare officer in industry. Changing role and challenges before welfare officer in emerging new industrial set-up.": [
-          ],
-          "2.2. Health & Hygiene and Safety management: Industrial hygiene and occupational health. Health at work and at home, problems of hygiene and industrial safety in the factory, mines, plantations, safety management -policy & programmes, safety climate, role of safety officer.": [
-          ],
-          "2.3. Industrial accidents: nature types and causes, human factor in industrial accidents. Prevention of industrial accidents, rehabilitation of the disabled and their families, Statutory role and responsibilities of industry in reporting accidents. Occupational Hazards and Diseases: nature, types, hazardous industries, prevention and remedial measures.": [
-          ],
-          "2.4. Disaster Management in industry: disaster situations & conditions, factors responsible,       DM planning and management – role of Government, Employer and Employees. Role of Safety officer and Labour Welfare Officer in Industry in the context of prevention, rehabilitation of accidents cases, safety and disaster management.": [
-          ],
-          "2.5. The Tamil Nadu  Labour Welfare Board & Centers: Structure and functions,objectives, programmes and its contribution to the well being of the working class.": [
-          ]
+        "UNIT II : Legislations related to Working conditions": {
         },
-        "Unit III: Labour Legislations Law : I": {
-          "3.1. Growth of labour legislation in India: Historical perspective, Critical review of Labour welfare scheme in India. Review of Labour Administration in India.": [
-          ],
-          "3.2. Protective Legislation: Salient aspects The Factories Act 1948,": [
-          ],
-          "3.3. The Apprentices Act 1961,": [
-          ],
-          "3.4. The Contract labour (Regulation and Abolition) Act 1970.": [
-          ],
-          "3.5. The Mines Act 1952, The Plantation act 1951": [
-          ]
+        "UNIT III : Legislations related to Social Security": {
         },
-        "Unit IV: Labour Legislations Law: II": {
-          "4.1. Social Security and Welfare legislations: Salient aspects": [
-          ],
-          "4.2. The Workmen’s Compensation Act 1923,": [
-          ],
-          "4.3. The Maternity Benefit Act 1961,": [
-          ],
-          "4.4. The E S I act 1948, The E P F act 1952": [
-          ],
-          "4.5. Family Pension Scheme 1971, 1995 and recent pension Scheme.": [
-          ]
+        "UNIT IV : Legislations related to Wages": {
         },
-        "Unit V: Labour Legislations Law: III": {
-          "5.1. The Industrial Disputes Act 1947, Industrial Employment Standing Order Act 1946, Model standing Order,": [
-          ],
-          "5.2. Trade Union Act 1926,Wage Legislation": [
-          ],
-          "5.3.The Payment of Wages Act 1936,": [
-          ],
-          "5.4. The Minimum Wages Act 1948,": [
-          ],
-          "5.5. The Payment of Bonus Act 1956.": [
-          ]
-        }
+        "UNIT V : Legislations related to Welfare of Labour and Women": {}
       }
     },
-    "COMMUNITY BASED DISASTER MANAGEMENT": {
-      "CODE": "P16SW3NMTO2 ",
+    "STRATEGIC HUMAN RESOURCE MANAGEMENT": {
+      "CODE": "MS/15C/302C",
       "HRS/WEEK": "6",
-      "CREDIT": "5",
+      "CREDIT": "3",
       "MARKS": "100",
-      "Objectives": "1.\tTo cultivate an idea on disaster and hazards.\n2.\tTo foster the skills to disaster administration.\n3.\tTo impart the problems and challenges.\n4.\tTo create an understanding about the disaster and vulnerable groups.\n5.\tTo equip the students with information on approaches to manage tsunami survivors ",
+      "Objectives": "1.\tTo introduce to the students the emerging field of strategic management.\n2.\tTo help the student to understand the nature of the changing global business environment and the role of HR in it.\n3.\tTo enable the students to appreciate the various methods and techniques of Strategic Human Resource Management.",
       "UNITS": {
-        "UNIT I : DISASTER AND HAZARDS": {
-          "1.1. Meaning : Disaster and hazards": [
-          ],
-          "1.2. Concept :  disaster and hazards": [
-          ],
-          "1.3. Difference between Disaster and hazards": [
-          ],
-          "1.4. Types: Natural & manmade disaster": [
-          ],
-          "1.5. Water, climate & geological related calamities: Accident &   Atmospheric related calamities.": [
+        "UNIT I :Strategic management": {},
+        "UNIT II : Strategic Human Resource Management (SHRM)": {
+          "2.1. Major trends in Strategic Human Resource": [
           ]
         },
-        "UNIT II : SOCIAL WORKERS IN DISASTER SERVICE": {
-          "2.1. Impact of Disasters on socio economic development": [
+        "UNIT III : Process, Theories and Models": {},
+        "UNIT IV : Integrating strategy and HRM": {},
+        "UNIT V : Practices, Ethics of SHRM": {}
+      }
+    },
+    "ORGANIZATIONAL BEHAVIOUR": {
+      "CODE": "MS/15C/303B",
+      "HRS/WEEK": "6",
+      "CREDIT": "2",
+      "MARKS": "100",
+      "Objectives": "1.\tTo help students gain knowledge about the dynamics of human behavior in the organization setup.\n2.\tTo enable them to gain understanding on the factors influencing human behavior in organization.\n3.\tTo impart necessary skills essential for the management of human behavior in organizations.",
+      "UNITS": {
+        "UNIT I :Introduction to Organization Behavior": {},
+        "UNIT II : Foundations of Individual Behavior (Micro-perspective)": {},
+        "UNIT III : Foundations of Group and Team Behavior (Meso-Perspective)": {},
+        "UNIT IV : Key Pillars of Organization Behavior": {
+          "4.1. Motivation": [
           ],
-          "2.2. Preparedness, Prevention, Mitigation and Rehabilitation": [
-          ],
-          "2.3. Flood and drought management": [
-          ],
-          "2.4. National disaster management authority Act": [
-          ],
-          "2.5. National policy on disaster management": [
+          "4.2. Leadership": [
           ]
         },
-        "UNIT III : PROBLEMS AND CHALLENGES": {
-          "3.1. Public administrations for disaster management: Bureaucratic and political apathy": [
-          ],
-          "3.2. Lack of leadership and communication": [
-          ],
-          "3.3. Capacity Development and Sustainable Development": [
-          ],
-          "3.4. Community level worker": [
-          ],
-          "3.5. Roles of social workers in Disaster Management": [
+        "UNIT V : Foundations of Organization Behavior (Macro Perspective)": {}
+      }
+    },
+    "EMPLOYEE RELATIONS AND WELFARE": {
+      "CODE": "MS/15C/304C",
+      "HRS/WEEK": "6",
+      "CREDIT": "3",
+      "MARKS": "100",
+      "Objectives": "1.\tTo provide knowledge on the employee / industrial relations system in India.\n2.\tTo familiarize the students with the various employee / industrial relations processes.\n3.\tTo give an insight into the concept of employee welfare & the societal and organizational responses thereof.",
+      "UNITS": {
+        "UNIT I :Industrial Relations": {},
+        "UNIT II : I.R. Climate": {},
+        "UNIT III : Proactive & Reactive IR": {},
+        "UNIT IV : Employee Welfare": {},
+        "UNIT V : Social Security": {}
+      }
+    },
+    "PERFORMANCE MANAGEMENT": {
+      "CODE": "MS/15ID/305B",
+      "HRS/WEEK": "6",
+      "CREDIT": "2",
+      "MARKS": "100",
+      "Objectives": "1.\tTo introduce the students to the concept of performance management.\n2.\tTo train them in the performance management methods and techniques.\n3.\tTo throw light on reward management",
+      "UNITS": {
+        "UNIT I :Introduction & Developing Performance Plan": {
+          "1.1. Setting Relevant and Realistic Goals with Employees": [
           ]
         },
-        "UNIT IV : DISASTER AND VULNERABLE GROUPS": {
-          "4.1. Needs and problems of women": [
-          ],
-          "4.2. Issues of Women in man  made Disaster, and Role of women Organization": [
-          ],
-          "4.3. Special needs of children adolescents & Role of govt.  for child care.": [
-          ],
-          "4.4. Laws pertaining to the issues of women and children": [
-          ],
-          "4.5. Problems of aged and infirm with reference to both -Institutional and Non-Institutional Care": [
+        "UNIT II : Performance Feedback": {},
+        "UNIT III : Guidelines for Performance Reviews": {
+          "3.1. Performance flow Chart based on Market Analysis": [
           ]
         },
-        "UNIT V: ROLE OF SOCIAL WORKERS IN RELIEF AND REHABILITATION OF POST DISASTEROUS SITUATION": {
-          "5.1. Social workers in providing psychosocial care for individuals and families": [
-          ],
-          "5.2. Social workers role in training community level workers after the disaster situation": [
-          ],
-          "5.3. Psychosocial care for children after the disaster": [
-          ],
-          "5.4. Psychosocial care for women after the disaster": [
-          ],
-          "5.5. Right based awareness campaign to reform a livelihood/ resettlement.": [
-          ]
-        }
+        "UNIT IV : Employee Performance Appraisals (Performance Reviews)": {},
+        "UNIT V : Rewarding Mechanism in Performance Appraisal": {}
+      }
+    },
+    "RESEARCH PROJECT – I": {
+      "CODE": "MS/15C/306",
+      "HRS/WEEK": "6",
+      "CREDIT": "4",
+      "MARKS": "100",
+      "Objectives": "1.\tTo orient the students to field research.\n2.\tTo develop their skills in research problem formulation and research field / area identification.\n3.\tTo train them in developing tool of data collection.",
+      "UNITS": {
+        "UNIT I :Completion of tasks relating to": {},
+        "UNIT II : Completion of tasks relating to": {},
+        "UNIT III : Completion of tasks relating to": {}
+      }
+    },
+    "FIELD WORK- III": {
+      "CODE": "MS/15C/307",
+      "HRS/WEEK": "6",
+      "CREDIT": "6",
+      "MARKS": "100",
+      "Objectives": "",
+      "UNITS": {
+        "UNIT I": {}
+      }
+    },
+    "SOFT SKILLS- III": {
+      "CODE": "MS/15S/308",
+      "HRS/WEEK": "6",
+      "CREDIT": "2",
+      "MARKS": "100",
+      "Objectives": "1.\tTo facilitate the transition of students from education to workplace setting.\n2.\tTo enhance the employability of students.\n3.\tTo equip the students ready for the workplace.",
+      "UNITS": {
+        "UNIT I :Introduction & Developing Performance Plan": {}
+      }
+    },
+    "PARTICIPATION IN PROFESSIONAL FORUM ACTIVITIES-I": {
+      "CODE": "MS/15R/309",
+      "HRS/WEEK": "",
+      "CREDIT": "Nill",
+      "MARKS": "100",
+      "Objectives": "1.\tTo facilitate students’ learning through professional forum activities.\n2.\tTo facilitate professional networking.",
+      "UNITS": {
+        "UNIT I :Introduction & Developing Performance Plan": {}
       }
     }
   },
   "SEMESTER 4": {
-    "MEDICAL SOCIAL WORK": {
-      "CODE": "P16SW4MCT17",
+    "COMMUNITY DEVELOPMENT SPECIALIZATION URBAN DEVELOPMENT AND GOVERNANCE": {
+      "CODE": "MS/15C/401A",
       "HRS/WEEK": "6",
-      "CREDIT": "5",
+      "CREDIT": "3",
       "MARKS": "100",
-      "Objectives": "1.\tTo introduce to the students the concept, objectives and historical development of Medical Social Work.\n2.\tTo provide information to the students on the concepts and classification of disability.\n3.\tTo impart knowledge to the students on Illness and hospitalization.\n4.\tTo provide information to the students on Social Work in hospital setting .\n5.\tTo provide information to the students on the role of the Medical Social Worker in various settings.",
+      "Objectives": "1.\tTo enable students to understand the unique nature of urban community.\n2.\tTo develop sensitivity and commitment for working with urban poor.\n3.\tTo provide knowledge on the government and voluntary efforts towards urban development.\n4.\tTo equip students with specific skills and techniques of working with urban communities.",
       "UNITS": {
-        "UNIT 1: MEDICAL SOCIAL WORK": {
-          "1.1 Medical sociology": [
-            "1.1.1. Definition & its relevance to social work practice.",
-            "1.1.2. Concept of Clinical Social Work"
+        "UNIT 1: Concepts and Definitions": {
+          "1.1 Urban community": [
           ],
-          "1.2. Definition, Concept and Objectives of Medical Social Work": [
+          "1.2. Urban Problems": [
           ],
-          "1.3. Nature, Need and Scope of Medical Social Work": [
-          ],
-          "1.4. Medical Social Worker: General Role & Functions": [
-          ],
-          "1.5. Historical development of Medical social work in India & Abroad": [
+          "1.3. Migration": [
           ]
         },
-        "UNIT 2: CONCEPTS & CLASSIFICATIONS": {
-          "2.1. Concepts": [
-            "2.1.1. Impairment, Disability, Handicap"
+        "UNIT 2: Urbanization and Issues": {
+          "2.1. Urbanization & Urbanism": [
           ],
-          "2. 2.  Causes, Types and Classification of Physical disability": [
-            "2.2.1. Orthopedic disability",
-            "2.2.2. Visual disability",
-            "2.2.3. Speech disability",
-            "2.2.4. Neurological disability",
-            "2.2.5. Learning disability"
+          "2. 2.  Unorganized/Informal sectors": [
           ],
-          "2.3.  Psychosocial problems & implications for each specific disability": [
-          ],
-          "2.4.  Multidisciplinary team work:  Need, Importance & Principles": [
-            "2.4.1. Role of Medical social worker as a member of the team"
-          ],
-          "2. 5.  Role of the Medical Social worker": [
-            "2.5.1. Physiotherapy",
-            "2.5.2. Occupational therapy"
+          "2.3.  unorganised labour": [
           ]
         },
-        "UNIT 3: ILLNESS AND HOSPITALIZATION": {
-          "3.1. Psychological, Social and Economic implications of illness for patient and family": [
-          ],
-          "3.2. Concepts of Patients as a person": [
-          ],
-          "3.3. Concepts of Patients as a whole": [
-          ],
-          "3.4. Patient’s rights & Medical ethics": [
-          ],
-          "3.5. Laws pertaining to Hospitals: (Salient features)": [
-            "3.5.1. Transplantation of Human Organs Act, 1994 –",
-            "3.5.2. Pre-natal Diagnostic Techniques (Regulation and Prevention of Misuse) Act, 1994 – Medical Negligence – Medico Legal Case – Dying Declaration."
+        "UNIT 3: Urban Community development": {
+          "3.1. Urban Community Development": [
           ]
         },
-        "UNIT 4: SOCIAL WORK IN HOSPITALS": {
-          "4.1. Medical Social Work department": [
-            "4.1.1. Staffing, Organization and functions",
-            "4.1.2. Extension services",
-            "4.1.3. Public relations",
-            "4.1.4. Medical Social Work Research and Documentation"
+        "UNIT 4: Urban Development Administration": {},
+        "UNIT V: Urban Development Programmes": {
+          "5.1. Urban Development Programmes": [
           ],
-          "4.2. Practice of social work methods in hospital settings: Case work, Group work, and Community organization": [
-            "4.2.1. Scope and Limitations of practice."
-          ],
-          "4.3. Understanding Hospital settings and Administration": [
-            "4.3.1. Structure & Function",
-            "4.3.2. Goals & Technology ",
-            "4.3.3. Departments & Administrative procedures"
-          ],
-          "4.4. Working with formal caregivers": [
-          ],
-          "4.5. Working with patient’s support groups": [
-          ]
-        },
-        "UNIT V: ROLE & FUNCTIONS OF A MEDICAL SOCIAL WORKER IN VARIOUS SETTINGS": {
-          "5.1. Out patient unit and Intensive Care Unit": [
-          ],
-          "5.2. Pediatric and Maternity wards": [
-          ],
-          "5.3. Abortion clinics and HIV/AIDS clinics": [
-          ],
-          "5.4. Orthopedic, Cardiology department, Cancer hospitals, Hansenorium, TB sanatorium, Blood bank, Organ transplant centre, Trauma care centre": [
-          ],
-          "5.5. Community setting: Health care needs and functions- Training of volunteers to work with the chronically ill in the community.": [
+          "5.2. Urban Governance": [
           ]
         }
       }
     },
-    "SOCIAL WORK WITH YOUTH AND AGED": {
-      "CODE": "P16SW4MCT18",
+    "SOCIAL WORK WITH CHILDREN AND YOUTH": {
+      "CODE": "MS/15C/402A",
       "HRS/WEEK": "6",
-      "CREDIT": "5",
+      "CREDIT": "3",
       "MARKS": "100",
-      "Objectives": "1.\tTo make the students understand youth in Indian context.\n2.\tTo educate the students about the needs and problems of youth.\n3.\tTo familiarize the students about the welfare programmes and services of youth.\n4.\tTo impart knowledge on old age problems.\n5.\tTo create a knowledge on old age services.",
+      "Objectives": "1.\tTo sensitise the students on the problems of children and youth in the society.\n2.\tTo develop an understanding of the need and importance for child and youth development.\n3.\tTo enhance understanding of the role of social work in child and youth welfare settings.",
       "UNITS": {
-        "UNIT I:  CONCEPT OF YOUTH": {
-          "1.1. Concept of Youth": [
-            "1.1.1. Indian Context",
-            "1.1.2. International Context"
+        "UNIT I:  Demographic Profile": {},
+        "UNIT II:  Health and Education": {},
+        "UNIT III:  Children and Youth in Difficult Circumstances": {
+          "3.1. Children and Youth in especially difficult circumstances:": [
           ],
-          "1.2. Basic needs of Youth": [
+          "3.2. Child Abuse": [
           ],
-          "1.3. Indian Rural Youth": [
-          ],
-          "1.4. Indian Urban Youth": [
-          ],
-          "1.5. Factors responsible for promotion of Youth hood": [
-            "1.5.1 Strength Factors",
-            "1.5.2 At Risk Factors"
+          "3.3. Street and Working Children": [
           ]
         },
-        "UNIT II:  YOUTH IN INDIA": {
-          "2.1. Problems of Youth": [
+        "UNIT 4:  Special problems": {
+          "4.1. Children and youth in need of special care": [
           ],
-          "2.2. Concept of Youth Empowerment": [
+          "4.2. Emotionally challenged children": [
           ],
-          "2.3. Youth Policy in India": [
-          ],
-          "2.4. Ministry of Youth affairs and Sports": [
-          ],
-          "2.5. Youth Organizations-National & International": [
-            "2.5.1. Rajiv Gandhi National Institute of Youth Development (RGNIYD)",
-            "2.5.2. UNO-Agencies related to Youth"
+          "4.3. Functional disorders": [
           ]
         },
-        "UNIT III:  SOCIAL WORK WITH YOUTH": {
-          "3.1. Social Work with Youth": [
-          ],
-          "3.2. Services for Student Youth": [
-            "3.2.1. Carrier Guidance",
-            "3.2.2.Bharat Scouts and Guides",
-            "3.2.3.National Services Scheme",
-            "3.2.4.National Cadet Corps",
-            "3.2.5.Youth Hostel"
-          ],
-          "3.3. Services for Non-Student Youth": [
-            "3.3.1.Non-Formal Education",
-            "3.3.2.Nehru Yuva Kendra"
-          ],
-          "3.4. Youth and Sports": [
-            "3.4.1.Major Schemes of Department of Sports",
-            "3.4.2.Sports Authority of India"
-          ],
-          "3.5.Youth programme-International": [
-            "3.5.1.International Cooperation",
-            "3.5.2.Common Welfare Youth Programme",
-            "3.5.3.International Exchange of Youth Delegation",
-            "3.5.3.United Nations Volunteer Programme"
+        "UNIT V: Constitutional Safeguards": {}
+      }
+    },
+    "COMMUNITY HEALTH [Common for both CD& MPSW specialization students]": {
+      "CODE": "MS/15C/403A",
+      "HRS/WEEK": "6",
+      "CREDIT": "3",
+      "MARKS": "100",
+      "Objectives": "1.\tTo help the students to understand the health care system in India, health policies and legislative provisions relating to health.\n2.\tTo help the students to acquire knowledge on the existing programmes and services at local, national and international levels and the need for a preventive and developmental approach in the field of health.\n3.\tTo provide an understanding on programme planning and education for different target groups about handling of their health problems.\n4.\tTo learn  the art of report writing and Documentation.\n5.\tTo develop a holistic and integrated approach to social work practice in the field of health.",
+      "UNITS": {
+        "UNIT I:Community Health": {
+          "1.1. Natural History of Disease": [
           ]
         },
-        "UNIT 4:  AGED": {
-          "4.1. Elderly  as Social Problem": [
-            "4.1.1. Definition of Old age",
-            "4.1.2. Elderly as Social Problem",
-            "4.1.3. Demographic condition of Aging Population in India"
+        "UNIT II Community Health Care": {
+          "2.1. Principles and Levels of Health Care": [
           ],
-          "4.2. Theories of Aging": [
-            "4.2.1. Gerontology",
-            "4.2.2. Continuity Theory",
-            "4.2.3. Activity Theory",
-            "4.2.4. Developmental Theory",
-            "4.2.5. Exchange Theory"
-          ],
-          "4.3. Dimensions of Aging": [
-            "4.3.1. Appearance",
-            "4.3.1. Sexual Functioning",
-            "4.3.3. Sensory and Perceptual Abilities",
-            "4.3.4. Memory and Aging",
-            "4.3.5. Emotional Health"
-          ],
-          "4.4. Changing status of the Aged in Indian society": [
-            "4.5. Problems of Aged-Introduction",
-            "4.5.1. Problems with Interpersonal Relationship",
-            "4.5.2. Family Problems",
-            "4.5.3. Problems due to loss of Partner",
-            "4.5.4. Problems in Social Relationship",
-            "4.5.5. Coping Problem",
-            "4.5.6. Physical Health Problem",
-            "4.5.7. Mental Health Problem",
-            "4.5.8. Financial Problem",
-            "4.5.9. Environmental Problem",
-            "4.5.10. Fear of Death"
+          "2.2. Organization and administration of Health Care": [
           ]
         },
-        "UNIT V: GERIATRIC SERVICES": {
-          "5.1. National Policy For Older Persons(NPOP)": [
+        "UNIT III: Legislations pertaining to Health": {},
+        "UNIT IV: National Health programmes": {},
+        "UNIT V : National and International NGOs & Research in Health": {
+          "5.1. Role of International Health organizations in health care field": [
           ],
-          "5.2. Geriatric Services in India": [
-            "5.2.1. Old age Pension and Old age Homes",
-            "5.2.2. MWPSC Act 2007 with reference to special features only"
-          ],
-          "5.3. Social Work with Aged": [
-            "5.3.1. Reasons for Social Work with Aged",
-            "5.3.2. Framework for understanding Social Work with Older People"
-          ],
-          "5.4. Successful Aging-Aging with dignity": [
-          ],
-          "5.5. National and International Agencies for Aged": [
+          "5.2. Research applications in Health": [
           ]
         }
       }
     },
-    "PROJECT PLANNING AND MANAGEMENT OF NGOS": {
-      "CODE": "P16SW4MCT19",
+    "SOCIAL ENTREPRENEURSHIP": {
+      "CODE": "MS/15ID/404A",
       "HRS/WEEK": "6",
-      "CREDIT": "5",
+      "CREDIT": "2",
       "MARKS": "100",
-      "Objectives": "1.\tTo learn  knowledge on basic concepts of Management.\n2.\tTo learn  knowledge on Project planning, Monitoring and evaluation.\n3.\tTo learn the meaning of Management concepts, Principles and Process in the context of NGOs.\n4.\tTo learn  the art of report writing and Documentation.\n5.\tTo Gain insight on the Government Programmes of various Ministries and Departments.",
+      "Objectives": "1.\tTo provide an understanding of the nature and process of social entrepreneurship development.\n2.\tTo motivate students to go for entrepreneurship development",
       "UNITS": {
-        "UNIT I:BASIC CONCEPTS OF MANAGEMENT": {
-          "1.1. Voluntary / NGO": [
-            "1.1.1. History and growth of NGOs, type role and function of NGO, National Policy on Voluntary sector"
+        "UNIT I: Social entrepreneurship and social entrepreneur": {
+          "1.1. Social entrepreneurship": [
           ],
-          "1.2. Organizational Behavior": [
-            "1.2.1. Groups in organization & group behavior",
-            "1.2.2. Leadership, team & conflict"
-          ],
-          "1.3. Organizing NGO": [
-            "1.3.1. Board",
-            "1.3.2. Trustee",
-            "1.3.3. Committees",
-            "1.3.4. Executives, roles and function"
-          ],
-          "1.4. Laws related to NGOs": [
-            "1.4.1. Tamil Nadu  Society registration Act 1975",
-            "1.4.2. Trust Act of 1912, Cooperative Societies Act 1912",
-            "1.4.3. Companies Act 1956",
-            "1.4.4. CSR"
-          ],
-          "1.5. Tax exemption 12A, 80G, 35 AC 100A and Procedure to be followed": [
-            " 1.5.1. FCRA and related issues",
-            "1.5.2. Public Private Partnership (PPP)"
+          "1.2. Social entrepreneur": [
           ]
         },
-        "UNIT II  DOCUMENTATION & REPORT WRITING": {
-          "2.1.  Report writing": [
-            "2.1.1. How to write process report and Project report"
-          ],
-          "2.2.  Documentation and its techniques": [
-            "2.2.1.  Using computers to documentation purpose"
-          ],
-          "2.3. Maintenance of records, data bank, interim reporting completion report": [
-          ],
-          "2.4. Accounting & auditing": [
-          ],
-          "2.5. Management Information system": [
+        "Unit II: Growth strategies of social entrepreneur and entrepreneur development programmes (EDP).": {},
+        "Unit  III: Women Social entrepreneurship": {},
+        "Unit IV: Setting up of small business enterprise.": {},
+        "Unit V: Entrepreneurial support system": {}
+      }
+    },
+    "MEDICAL & PSYCHIATRIC SOCIAL WORK SPECIALIZATION CLINICAL SOCIAL WORK": {
+      "CODE": "MS/15C/401B",
+      "HRS/WEEK": "6",
+      "CREDIT": "3",
+      "MARKS": "100",
+      "Objectives": "To develop an understanding of the concepts related to working in clinical set up and processes involved in it.\n2.\tTo make students understand the use and practice in clinical setting among various fields of social work.\n3.\tTo provide the knowledge about the role of social worker in mental health centers and hospitals.\n4.\tTo familiarize the emerging trends and experiments in mental health interventions.\n5.\tTo make students understand the uniqueness of social workers role in clinical settings.",
+      "UNITS": {
+        "UNIT I: Introduction": {
+          "1.1. Clinical social work": [
           ]
         },
-        "UNIT III:PROJECT PLANNING": {
-          "3.1. Project planning": [
-            "3.1.1. Concept and Meaning",
-            "3.1.2. Baseline survey"
-          ],
-          "3.2. Participatory project planning approach, need assessment": [
-          ],
-          "3.3. Methodologies (Logical Framework Approach)": [
-          ],
-          "3.4. Expectations, key result areas impact supervision": [
-            "3.4.1. Performance appraisal"
-          ],
-          "3.5. Monitoring and Evaluation": [
+        "UNIT II: Differential Diagnosis, Assessment and techniques": {
+          "2.1. Diagnosis and Assessment": [
           ]
         },
-        "UNIT IV: HOW TO WRITE PROJECTS": {
-          "4.1. Proposal Writing": [
-          ],
-          "4.2. Fund Raising": [
-          ],
-          "4.3. Funding organization expectations": [
-          ],
-          "4.4. Fund raising Techniques": [
-          ],
-          "4.5. HRD techniques in NGOs": [
-            "4.5.1. Accreditation of NGOs (Credibility alliance.)"
+        "UNIT III:Approaches, Theories and Models": {},
+        "UNIT IV : Clinical social work in various settings": {
+          "4.1. Practice of clinical social work in different setting": [
           ]
         },
-        "UNIT V : PROJECTS AND PROGRAMMES": {
-          "5.1. CAPART, NABARD": [
+        "UNIT V: Promotion, Prevention, Treatment and Rehabilitation": {}
+      }
+    },
+    "THERAPEUTIC INTERVENTIONS IN SOCIAL WORK": {
+      "CODE": "MS/15C/402B",
+      "HRS/WEEK": "6",
+      "CREDIT": "3",
+      "MARKS": "100",
+      "Objectives": "1.\tTo introduce the student to understand the various forms of Therapeutic Interventions in Social work practice.\n2.\tTo develop the understanding of skills in practicing various psychosocial interventions while working with patients, their families and communities.\n3.\tTo initiate the student into integrating indigenous and holistic therapeutic practices in keeping with the principles and the code of ethics of Professional Intervention",
+      "UNITS": {
+        "UNIT I: Introduction and Overview": {
+          "1.1. Counselling": [
           ],
-          "5.2. Central and State  Social Welfare Advisory Board": [
-            "5.2.1. Related Government Department of Social Defense"
+          "1.2. Therapy": [
           ],
-          "5.3. Donor agencies procedure": [
-            "5.3.1. Process of availing the above programmes / grants"
+          "1.3. Phases of therapy": [
+            "1.3.1. Early phase",
+            "1.3.2. Middle phase",
+            "1.3.3. Final phase"
+          ]
+        },
+        "UNIT II: Psycho- Social Therapies": {
+          "2.1. Therapeutic Counseling & Psychotherapy": [
           ],
-          "5.4. Problems /issues in NGO Management. (Social accounting & auditing& credibility alliance)": [
+          "2.2. Psycho-Social Therapies": [
           ],
-          "5.5. Model Project Guidelines": [
+          "2.3. Cognitive and behavioural therapies": [
+            "2.3.1. Psychoanalytical and psychodynamic therapies"
+          ]
+        },
+        "UNIT III: ": {
+          "3.1. Humanistic therapies": [
+          ],
+          "3.2. Arts therapies": [
+          ],
+          "3.3. Other therapies": [
+          ]
+        },
+        "UNIT IV: Indigenous and Current Techniques": {
+          "4.1  Indigenous therapeutic Techniques": [
+          ]
+        },
+        "UNIT V: Rehabilitation": {
+          "5.1. Rehabilitation": [
+          ],
+          "5.2. Community based rehabilitation": [
           ]
         }
       }
     },
-    "INDUSTRIAL RELATIONS AND TRADE UNIONISM": {
-      "CODE": "P16SW4MCT20",
+    "COMMUNITY HEALTH (Common for both CD & MPSW Specializations)": {
+      "CODE": "MS/15C/403A",
       "HRS/WEEK": "6",
-      "CREDIT": "5",
+      "CREDIT": "3",
       "MARKS": "100",
-      "Objectives": "1.\tTo  make the learner to understand the basic aspects of Industrial relations.\n2.\tTo make the learner to understand the trade union movement in India.\n3.\tTo make the learner to understand the collective bargaining.\n4.\tTo make the learner to understand the discipline and grievance handling.\n5.\tTo make the learner to understand the worker’s participation in Management.",
+      "Objectives": "1.\tTo help the students to understand the health care system in India, health policies and legislative provisions relating to health.\n2.\tTo help the students to acquire knowledge on the existing programmes and services at local, national and international levels and the need for a preventive and developmental approach in the field of health.\n3.\tTo provide an understanding on programme planning and education for different target groups about handling of their health problems.\n4.\tTo develop a holistic and integrated approach to social work practice in the field of health.",
       "UNITS": {
-        "UNIT I: Industrial Relations": {
-          "1.1. Definition of Industrial relation- concepts- the Indian scenario today – State government’s intervention": [
-          ],
-          "1.2. Machineries for settlements and prevention of Industrial disputes in India. Works committee, conciliation, adjudication, voluntary arbitration": [
-          ],
-          "1.3. Present day industrial worker –comparison with predecessor industrial disputes: meaning –causes . Importance of good labour management relations- causes of industrial unrest": [
-          ],
-          "1.4. Creating and adopting labour policy": [
-          ],
-          "1.5. Role of ILO in industrial relations": [
+        "UNIT I: Community Health": {
+          "1.1. Natural History of Disease": [
           ]
         },
-        "Unit II: Trade union movement in India": {
-          "2.1. History and growth of trade union –Purpose and functions": [
+        "UNIT II: Community Health Care": {
+          "2.1. Principles and Levels of Health Care": [
           ],
-          "2.2. Trade unions and Socio-Economic development": [
-          ],
-          "2.3. Leadership pattern in Trade union movement- issues and challenges": [
-          ],
-          "2.4. Need for professionalism in Trade union union movement.  Not needed": [
-          ],
-          "2.5. Role of youth in the trade union movement": [
+          "2.2. Organization and administration of Health Care": [
           ]
         },
-        "Unit  III: collective Bargaining": {
-          "3.1. Meaning, nature, types, process and importance of CB": [
+        "UNIT III : Legislations pertaining to Health": {},
+        "UNIT IV : National Health programmes": {},
+        "UNIT V : National and International NGOs & Research in Health": {
+          "5.1. Role of International Health organizations in health care field": [
           ],
-          "3.2. Status of collective bargaining and freedom of association in India": [
-          ],
-          "3.3. Suggestions to improve collective bargaining": [
-          ],
-          "3.4. Negotiations –types of negotiations –Problem Solving Attitude": [
-          ],
-          "3.5. Exit policy, voluntary retirement and golden handshake": [
-          ]
-        },
-        "Unit IV: Discipline and Grievance handling": {
-          "4.1. Discipline –causes of indiscipline –Maintenance of discipline": [
-          ],
-          "4.2. Domestic enquiries –concept and practice – Principles of Natural justice": [
-          ],
-          "4.3. Some important industrial pronouncements – principles of Hot stove rule": [
-          ],
-          "4.4. Grievance handling –constitution of grievance committee – meaning of grievance –sources –level of grievance –benefites of grievance system": [
-          ],
-          "4.5. Grievance redressal machinery in India – Law on the subject": [
-          ]
-        },
-        "Unit V: worker’s participation in management": {
-          "5.1. Concept- practices in India- works committees, joint management councils": [
-          ],
-          "5.2. Employee Director on board of nationalized banks": [
-          ],
-          "5.3. The voluntary scheme of worker’s participation followed – quality circles": [
-          ],
-          "5.4. Strategies to ensure worker’s participation in management": [
-          ],
-          "5.5. Best practices of worker’s participation in management": [
+          "5.2. Research applications in Health": [
           ]
         }
       }
     },
-    "SOCIAL WORK INTERVENTION IN PSYCHIATRIC": {
-      "CODE": "P16SW4MET05",
+    "DISABILITY AND SOCIAL WORK": {
+      "CODE": "MS/15ID/404B",
       "HRS/WEEK": "6",
-      "CREDIT": "5",
+      "CREDIT": "2",
       "MARKS": "100",
-      "Objectives": "1.\tTo introduce the students to Psychiatric Social Work its concepts and historical development.\n2.\tTo equip the students with the therapeutic frame work for therapies.\n3.\tTo impart knowledge to the students on the therapeutic intervention in psychiatric illness.\n4.\tTo provide information to the students on the scope of psychiatric social work practice.\n5.\tTo educate the students on rehabilitation of psychiatric patients.",
+      "Objectives": "1.\tTo impart knowledge regarding classification, characteristics, causes, approaches for disability.\n2.\tTo familiarize the student about the strategies, therapies and assistive devices for helping the disabled.\n3.\tTo enable the students to know the need for education, types and models for the disability.\n4.\tTo acquaint the students about the avenues of employment both in the organised and unorganised sector.\n5.\tTo familiarize the students about the various Laws, welfare , and rehabilitation services to the disabled.",
       "UNITS": {
-        "UNIT I: INTRODUCTION TO PSYCHIATRIC SOCIAL WORK": {
-          "1.1. Definition of Psychiatry and concept of psychiatric social work": [
+        "Unit 1: Introduction to Disability": {
+          "1.1. Definitions": [
           ],
-          "1.2. Historical development": [
-            "1.2.1. India",
-            "1.2.2. Abroad"
-          ],
-          "1.3. Current status as a field of specialization": [
-          ],
-          "1.4. Practice of Social work methods in psychiatric settings": [
-          ],
-          "1.5. Mental health problems in India": [
+          "1.2. Disability as a social construct": [
           ]
         },
-        "UNIT II: THEORETICAL CONTRIBUTION OF PSYCHOLOGISTS": {
-          "2.1. Psychoanalytic theory – Transactional Analysis": [
+        "Unit II: Classification of Disability": {
+          "2.1. Different Types of disability": [
           ],
-          "2.2. Cognitive behavior theory": [
-          ],
-          "2.3. Gestalt theory": [
-          ],
-          "2.4. Rational Emotive theory": [
-          ],
-          "2.5. Adlerian theory": [
+          "2.2. Psycho social problems of persons with disability": [
           ]
         },
-        "UNIT III:THERAPEUTIC INTERVETION for PSYCHIATRIC ILINESS (with specil skills of application by the Social workers)": {
-          "3.1. CBT": [
+        "Unit III: Needs and problems of Persons with Disability": {},
+        "Unit IV: Education and Employment for Disabled": {
+          "4.1. Special education and integrated Education": [
           ],
-          "3.2. Group Psychotherapy": [
-          ],
-          "3.3. Family therapy & marital therapy": [
-          ],
-          "3.4. Counseling and guidance": [
-          ],
-          "3.5. Psycho – pharmaco – therapy": [
+          "4.2. Accessibility /Barrier free environment, Assistive devices for the disabled:": [
           ]
         },
-        "UNIT IV : PSYCHIARTIC SOCIAL WORK PRACTICE": {
-          "4.1. Role and Functions of psychiatric social workers with regard to the problems of Patients and their families in child guidance clinic": [
-          ],
-          "4.2. Role and functions of Case Managers with regard to the problems of Patients and their families in Psychiatric Out patient Departments": [
-          ],
-          "4.3. Role and Functions of psychiatric social workers with regard to the problems of Patients and their families in Psychiatry specialty clinics": [
-          ],
-          "4.4. Role and Functions of Psychiatric social workers with regard to the problems of Patients and their families in De – addiction centre": [
-          ],
-          "4.5. Limitations & difficulties faced in social work practice": [
-          ]
-        },
-        "UNIT V: REHABILITATION OF MENTALLY RETARDED AND HANDICAPPED": {
-          "5.1. Psychiatric Rehabilitation": [
-          ],
-          "5.2. Role of the Psychiatric Social Worker in a Team": [
-          ],
-          "5.3. Rehabilitating patients in de – addiction centre": [
-          ],
-          "5.4. Rehabilitating schizophrenic patients and their family": [
-          ],
-          "5.5. Rehabilitating mentally challenged with their Care givers": [
+        "Unit V: Rights and Entitlements Of The Disabled – Laws & Institutes": {
+          "5.1. National Institutes": [
           ]
         }
       }
     },
-    "EMPOWERMENT OF PERSONS LIVING WITH DISABILITY": {
-      "CODE": "P16SW4MET06",
+    "HUMAN RESOURCE MANAGEMENT SPECIALIZATION ORGANIZATIONAL CHANGE AND DEVELOPMENT": {
+      "CODE": "MS/15C/401C",
       "HRS/WEEK": "6",
-      "CREDIT": "5",
+      "CREDIT": "3",
       "MARKS": "100",
-      "Objectives": "1.\tTo impart knowledge regarding the classification, characteristics and causes for disability.\n2.\tTo familiarize the students about the prevalence of disability and prevention for disability.\n3.\tTo educate the students about the laws related to disability.\n4.\tTo enable the students to know the education aspects for disabled .\n5.\tTo enhance the students to know the employment aspects for disabled .\n6.\tTo acquaint the students about the various welfare and rehabilitation services to the disabled",
+      "Objectives": "1.\tTo help the students to build knowledge on OD\n2.\tTo help the students to develop skill in implementation of OD practices.\n3.\tTo gain knowledge about the concepts of Change Management",
       "UNITS": {
-        "UNIT I: DISABILITY": {
-          "1.1. Classification and Characteristics of Disability": [
+        "UNIT I: Management of Change": {},
+        "UNIT II: Organization Development": {},
+        "UNIT III: The Process of Organization Development": {},
+        "UNIT IV: Human Process Intervention": {
+          "4.1. Individual Based": [
           ],
-          "1.2. Causes for Disability": [
+          "4.2. Group based": [
           ],
-          "1.3. Prevention and Early Intervention": [
-          ],
-          "1.4. Approaches to disability and Prevalence of Disability in India": [
-          ],
-          "1.5. Role of family and significant others in Disability": [
+          "4.3. Inter-Group Based": [
           ]
         },
-        "UNIT II: DISABILITY AND LAW": {
-          "2.1. Rights of disabled": [
-            "2.1.1. Fundamental rights",
-            "2.1.2. United nation’s Advocacy and Convention of Rights of  Disabled 2007",
-            "2.1.3. National Policy on Persons with Disability 2006"
-          ],
-          "2.2. Mental Health Act 1987": [
-          ],
-          "2.3. The Rehabilitation Council of India Act(RCI) 1992": [
-          ],
-          "2.4. The Persons With Disabilities Act 1995 (PWD)": [
-          ],
-          "2.5. The National Trust Act 1999 (Laws with reference to special features alone)": [
+        "UNIT V: Techno Structural Interventions": {}
+      }
+    },
+    "LEARNING AND DEVELOPMENT": {
+      "CODE": "MS/15C/402C",
+      "HRS/WEEK": "6",
+      "CREDIT": "3",
+      "MARKS": "100",
+      "Objectives": "1.\tTo introduce the students to the basics of learning among adults.\n2.\tTo provide an overview of the theory and practice of employee learning, training and development in organisations.",
+      "UNITS": {
+        "Unit 1: INTRODUCTION TO LEARNING": {
+          "1.1. Learning": [
           ]
         },
-        "UNIT III: EDUCATION FOR DISABLED": {
-          "3.1. Special Education": [
-            "3.1.1 Definition",
-            "3.1.2 Need"
+        "Unit II: TRAINING": {},
+        "Unit III: TRAINING NEEDS ASSESSMENT & TRAINING METHODS": {
+          "3.1. Training Program Design, Development and Delivery": [
           ],
-          "3.2. Integrated Education": [
-            "3.2.1. Definition",
-            "3.2.2. Scheme of Integrated Education for the Disabled children(IEDC)"
-          ],
-          "3.3. Innovation models for education": [
-          ],
-          "3.4. Inclusive Education": [
-            "3.4.1. What is inclusive Education?",
-            "3.4.2. Needs of Inclusive Education",
-            "3.4.3. Difference between Integrated and Inclusive Education",
-            "3.5. Right to Education Act 2009"
+          "3.2. Training Methods": [
           ]
         },
-        "UNIT IV: SKILLS AND EMPLOYMENT FOR DISABLED": {
-          "4.1  Avenues of Employment-unorganized sector and organized sector": [
-          ],
-          "4.2. New CBR Guidelines and Twin Track Approach": [
-          ],
-          "4.3. Attitudes of Employers": [
-          ],
-          "4.4. Facilities for accelerating placement": [
-            "4.4.1. Trade identification and skill development"
-          ],
-          "4.5. Modern Techniques of Promoting Employment": [
+        "Unit IV: TRAINING EVALUATION": {
+          "4.1. Training Evaluation": [
           ]
         },
-        "UNIT V: SERVICES FOR DISABLED": {
-          "5.1. Programmes –Central &state": [
-            "5.1.1. Artificial Limbs Manufacturing Corporation of India (ALIMCO)",
-            "5.1.2. Rehabilitation Council of India (RCI)",
-            "5.1.3. Department of Disability Affairs"
-          ],
-          "5.2. National Institutes and Other Agencies": [
-            "5.2.1. District Rehabilitation Centre",
-            "5.2.2. District Disability Rehabilitation Centers",
-            "5.2.3. Composite Regional Centre (CRCs)",
-            "5.2.4. Regional Rehabilitation Centre (RRCs)"
-          ],
-          "5.3. Special Services and association / federation": [
-          ],
-          "5.4. Accessibility/Barrier free Environment": [
-          ],
-          "5.5. Social work Intervention with Disability": [
+        "Unit V: EMPLOYEE DEVELOPMENT": {
+          "5.1. Employee Development": [
           ]
         }
       }
     },
-    "ECOLOGY, ENVIRONMENT AND SOCIAL WORK": {
-      "CODE": "P16SW4MET07",
+    "INTERNATIONAL HUMAN RESOURCE MANAGEMENT": {
+      "CODE": "MS/15C/403B",
       "HRS/WEEK": "6",
-      "CREDIT": "5",
+      "CREDIT": "3",
       "MARKS": "100",
-      "Objectives": "1.\tTo learn the perspectives on Ecology, Environment and society.\n2.\tThe learn the development process and its link with environment \n3.\tTo learn the environment issues and  Environmental movements  \n4.\tTo learn environment management and alternatives. \n5.\tTo learn the role of social workers in environment action.",
+      "Objectives": "1.\tTo introduce the students to the International Business Environment.\n2.\tTo give necessary exposure to International Human Resource Management.\n3.\tTo impart necessary skills required Human Resource Management with regard to the management of International business organizations.",
       "UNITS": {
-        "UNIT I: The Concepts and Perspectives": {
-          "1.1. Ecology, Environment and Society- their linkages.": [
-          ],
-          "1.2.History of Man, Environment": [
-            "1.2.1.Environment and Society."
-          ],
-          "1.3. Changing patterns-": [
-            "1.3.1. From survival needs to emerging consumerism",
-            "1.3.2. Energy intensive Life-styles."
-          ],
-          "1.4. Perspective on environment-": [
-            "1.4.1. Marxist",
-            "1.4.2. Techno centrist and Functional."
-          ],
-          "1.5. Indian thought and Environment-traditional and Gandhian.": [
-          ]
-        },
-        "UNIT II: Development Processes and Environment": {
-          "2.1. Technology, Industrialization, Urbanization and Globalization-": [
-            "2.1.1. their impact on Environment"
-          ],
-          "2.2. Commercialization of Agriculture": [
-            "2.2.1. changing land use patterns and the rural society"
-          ],
-          "2.3. Construction of Dams and Mega projects  and its consequences-": [
-            "2.3.1. displacement, relocation and rehabilitation"
-          ],
-          "2.4. Deforestation and Ecological Imbalance.": [
-          ],
-          "2.5. SEZ and its impact on local people.": [
-          ]
-        },
-        "UNIT III : Environmental Issues and Consciousness": {
-          "3.1. Environment degradation and pollution of Natural Resources-": [
-            "3.1.1. Air, Soil, Water, Population, Sanitation, Housing."
-          ],
-          "3.2. Encroachments over Common Property Resources.": [
-          ],
-          "3.3. Energy crisis and Rural Poverty.": [
-          ],
-          "3.4. Environment Consciousness-": [
-            "3.4.1. NGOs, Social Workers and Ecological Movements Global level People’s initiatives to save their environment-",
-            "3.4.2. Chipko Movement, Save forests movement, Mitti Bachao Andolan Movements against big dams-",
-            "3.4.3. Narmada and Tehri, Eco farming-natural farming efforts."
-          ],
-          "3.5. Forestation programmes and policies.": [
-          ]
-        },
-        "UNIT IV : Environment Action and Management": {
-          "4.1. State and the Environment preservation, Copenhagen summit and its implications.": [
-          ],
-          "4.2. Government Policies and programmes, Environmental Legislation-": [
-            "4.2.1. needs and importance."
-          ],
-          "4.3. Grassroots Organization, Women and Conservation of Environment.": [
-          ],
-          "4.4. Panchyats and Environment.": [
-          ],
-          "4.5. Environment Management": [
-            "4.5.1. Role of Traditional, State controlled, people controlled and jointly managed systems; and Waste Management."
-          ]
-        },
-        "UNIT V : Social worker role in Environmental issues at the local level": {
-          "5.1. Environmental issues in Tamil Nadu": [
-          ],
-          "5.2. Social Workers role in addressing the environmental issues": [
-          ],
-          "5.3. Social work intervention in environmental issues and Strategies": [
-          ],
-          "5.4. Environment Impact Assessment.": [
-          ],
-          "5.5. Tamil Nadu Pollution Control Board( TNPCB)  and its functions": [
-          ]
-        },
-        "UNIT VI : Global agencies in Ecology and Environment": {
-          "6.1. International agencies in Ecology and Environment (UNE, UNDP, FAO, UNFCCC etc)": [
-          ],
-          "6.2. International policy making and national policy making": [
-          ],
-          "6.3. International and national programs and project s": [
-          ],
-          "6.4. Local projects creating international impacts": [
-          ],
-          "6.5. Technology and environment": [
+        "Unit 1: Globalization and International Business": {},
+        "Unit II: International / Global Human Resource Management.": {},
+        "Unit III: Staffing, Training and Performance management for Global operations.": {},
+        "Unit IV: International Compensation": {},
+        "Unit V: Contemporary Issues in IHRM": {
+          "5.1. Motivation and leading": [
           ]
         }
       }
     },
-    "ORGANIZATIONAL BEHAVIOUR AND ORGANIZATIONAL DEVELOPMENT": {
-      "CODE": "P16SW4MET08",
+    "COMPENSATION MANAGEMENT": {
+      "CODE": "MS/15ID/404C",
       "HRS/WEEK": "6",
-      "CREDIT": "5",
+      "CREDIT": "2",
       "MARKS": "100",
-      "Objectives": "1.\tTo understand the meaning and nature of Organizational behavior and its relevance to Management.\n2.\tTo understand the nature of personalities , group and group processes and Group decision making for organizational effectiveness.\n3.\tTo understand organizational structure and organizational culture broadly.\n4.\tTo make the students to understand the OD process and challenges.\n5.\tTo identify the major components for OD and its applicability to business",
+      "Objectives": "1.\tTo introduce students to the basic concepts involved in Compensation Management.\n2.\tTo familiarize students with the various techniques used to fix salary, incentives, etc.\n3.\tTo understand the different techniques of managing employee benefits.",
       "UNITS": {
-        "Unit 1: Introduction to organizational behavior": {
-          "1.1. Introduction to organizational behaviour –Definition, Theoretical frameworks-": [
+        "Unit 1: Concepts related to Compensation": {
+          "1.1. Introduction": [
           ],
-          "1.2. Contributing disciplines to the organizational Behavior Field": [
-          ],
-          "1.3. Management Functions": [
-          ],
-          "1.4. Review- Entry of Organizational behavior": [
-          ],
-          "1.5. Individual behavior –Attitudes, Values, Personality, Perception Individual Decision making": [
+          "1.2. Compensation system design issues": [
           ]
         },
-        "Unit II: Motivation & Group behavior": {
-          "2.1. Motivation- Meaning and Concepts - Early theories of motivation-": [
-          ],
-          "2.2. Contemporary and latest theories in Motivation- Integrating contemporary": [
-          ],
-          "2.3. Theories- Motivation concepts to application- Issues in motivation": [
-          ],
-          "2.4. Group behavior- Group development-Group decision making": [
-          ],
-          "2.5. Teams-nature of types-Team effectiveness": [
+        "Unit II: Compensation Management": {
+          "2.1. Managing Compensation": [
           ]
         },
-        "Unit III:  Organizational structure & Culture": {
-          "3.1. Organizational structure –Design, Size": [
-          ],
-          "3.2. Employee Behaviour": [
-          ],
-          "3.3. Organizational culture and Functions – Creation and sustenance": [
-          ],
-          "3.4. Ethical culture": [
-          ],
-          "3.5. Responsive culture ": [
+        "Unit III: Variable Pay and Executive Compensation": {},
+        "Unit IV: Managing Employee Benefits": {
+          "4.1. Managing Employee Benefits": [
           ]
         },
-        "Unit IV: Organizational Development": {
-          "4.1. Concept, Features and scope of Organizational development, Underlying assumptions and values, Re-inventing the organization": [
-          ],
-          "4.2. Understand OD process – role and style of the OD practioner- Diagnostic process": [
-          ],
-          "4.3. Overcoming resistance to change": [
-          ],
-          "4.4. OD intervention- Process intervention skills": [
-          ],
-          "4.5. OD intervention strategies- personal, interpersonal and group process Interventions, Comprehensive and structural interventions": [
-          ]
-        },
-        "Unit V: OD implementation and Assessment": {
-          "5.1. OD implementation and Assessment –Conditions for failure and success in OD efforts": [
-          ],
-          "5.2. OD assessment and changes in organizational performance and Impact of OD": [
-            "5.2.1. Learning organization- Organization, transformation and strategic change",
-            "5.2.2. Challenges and Opportunities of organizations",
-            "5.2.3. Emerging trends in Organizational Behaviour"
-          ]
-        }
+        "Unit V: Legal aspects": {}
       }
     },
-    "FAMILY AND MARITAL COUNSELING": {
-      "CODE": "P16SW4MET09",
-      "HRS/WEEK": "6",
-      "CREDIT": "5",
+    "RESEARCH PROJECT – II": {
+      "CODE": "MS/15C/405",
+      "HRS/WEEK": "4",
+      "CREDIT": "2",
       "MARKS": "100",
-      "Objectives": "1.\tTo familiarize the students with the basic concept of family and  marriage.\n2.\tTo import Knowledge on foundations of beginning family life.\n3.\tTo enable and import knowledge the students on understanding family function and dysfunctional.\n4.\tTo give knowledge on healthy marriage with couple therapy.\n5.\tTo create an understanding on major theories and system of counseling",
+      "Objectives": "1.\tTo introduce and to provide hands on training to the students on the various sampling procedures.\n2.\tTo impart data collection skills.\n3.\tTo develop their ability to analyse the data they have collected.\n4.\tTo develop their scientific writing.\n5.\tTo enable them in preparing research reports.",
       "UNITS": {
-        "UNIT I: BASIC CONCEPT OF COUNSELLING": {
-          "1.1. Concept of counseling and Definitions of counseling": [
-          ],
-          "1.2. Goals, Purpose and Objectives of counseling": [
-          ],
-          "1.3. Principles of counseling": [
-          ],
-          "1.4. Difference between counseling": [
-          ],
-          "1.5. Counseling profession": [
-            "1.5.1. Counseling as profession",
-            "1.5.2. Professional standards",
-            "1.5.3. Ethics of counseling"
-          ]
-        },
-        "UNIT II: COUNSELING METHODS AND TECHNIQUES": {
-          "2.1. Counseling Process": [
-          ],
-          "2.2. Counseling Techniques": [
-          ],
-          "2.3. Counseling Approach": [
-          ],
-          "2.4. Types of Counseling": [
-            "2.4.1. Individual counseling",
-            "2.4.2. Group counseling",
-            "2.4.3. Directive counseling",
-            "2.4.4. Non-direct counselling",
-            "2.4.5. Eclectic counselling"
-          ],
-          "2.5. Counseling Skills": [
-          ]
-        },
-        "UNIT III: FAMILY COUNSELING": {
-          "3.1. Changing patterns of family in India": [
-          ],
-          "3.2. Communications in family": [
-            "3.2.1. Importance of communications",
-            "3.2.2. Patterns of communications",
-            "3.2.3. factors affecting communications in families"
-          ],
-          "3.3. Definition of family counseling": [
-          ],
-          "3.4. Family Counseling Processes": [
-          ],
-          "3.5. Importance of family counseling ": [
-          ]
-        },
-        "UNIT IV: FAMILY & MARITAL ISSUES INCLUDING COUNSELOR ISSUES": {
-          "4.1. Content of Family/ parenting issues": [
-          ],
-          "4.2. Family/ parenting issues": [
-            "4.2.1. Single parenting",
-            "4.2.2. Blended families",
-            "4.2.3. Parent – child relationship"
-          ],
-          "4.3. Concept of marital issues": [
-          ],
-          "4.4. Marital issues": [
-            "4.4.1. Separation",
-            "4.4.2. Divorce",
-            "4.4.3. Communication problems",
-            "4.4.4. Sexual concerns",
-            "4.4.5. Domestic violence"
-          ],
-          "4.5. Counselor issues": [
-          ]
-        },
-        "UNIT V: MARITAL COUNSELING": {
-          "5.1. Marriage system in India": [
-            "5.1.1. Definition of martial counseling"
-          ],
-          "5.2. Types of marital counseling": [
-            "5.2.1. Pre-marital counseling",
-            "5.2.2. Post marital counseling"
-          ],
-          "5.3. Approaches to marriage counseling": [
-          ],
-          "5.4. Healthy marriages": [
-          ],
-          "5.5. Importance of marital counseling": [
-          ]
-        }
+        "Unit 1: Completion of tasks relating to": {},
+        "Unit II: Completion of tasks relating to": {},
+        "Unit III: Completion of tasks relating to": {}
+      }
+    },
+    "FIELD WORK- IV": {
+      "CODE": "MS/15C/406",
+      "HRS/WEEK": "6",
+      "CREDIT": "6",
+      "MARKS": "100",
+      "Objectives": "",
+      "UNITS": {
+        "Unit 1: ": {}
+      }
+    },
+    "SOFT SKILLS- IV FOCUS AREA: SPECIALISATION COMPETENCIES": {
+      "CODE": "MS/15S/407",
+      "HRS/WEEK": "6",
+      "CREDIT": "2",
+      "MARKS": "100",
+      "Objectives": "",
+      "UNITS": {
+        "Unit 1:": {}
+      }
+    },
+    "BLOCK PLACEMENT": {
+      "CODE": "MS/15R/408",
+      "HRS/WEEK": "6",
+      "CREDIT": "Nill",
+      "MARKS": "100",
+      "Objectives": "1.\tTo develop enhanced practice skill and integrate learning.\n2.\tTo develop greater understanding of reality situations through involvement in day to day work.\n3.\tTo develop appreciation of other’s efforts and develop sensitivity to gaps in the programme.\n4.\tTo enhance awareness of self in the role of HR professional / professional social worker.",
+      "UNITS": {
+        "Unit 1: ": {}
+      }
+    },
+    "PARTICIPATION IN PROFESSIONAL FORUM ACTIVITIES-II": {
+      "CODE": "MS/15R/409",
+      "HRS/WEEK": "6",
+      "CREDIT": "Nill",
+      "MARKS": "100",
+      "Objectives": "1.\tTo facilitate students’ learning through professional forum activities.\n2.\tTo facilitate professional networking.",
+      "UNITS": {
+        "Unit 1:": {}
       }
     }
   }

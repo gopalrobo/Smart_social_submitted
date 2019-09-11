@@ -115,7 +115,7 @@
         android:layout_weight="1"
         android:orientation="horizontal">
 
-        <smart.social.worker.CustomFontTextView
+        <smart.msocial.worker.CustomFontTextView
             android:id="@+id/proceed"
             android:layout_width="match_parent"
             android:layout_height="50dp"
@@ -128,7 +128,7 @@
             android:textColor="#fff"
             android:textSize="15dp" />
 
-        <smart.social.worker.CustomFontTextView
+        <smart.msocial.worker.CustomFontTextView
             android:id="@+id/fieldWork"
             android:layout_width="match_parent"
             android:layout_height="50dp"

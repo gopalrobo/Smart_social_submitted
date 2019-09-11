@@ -3,7 +3,7 @@
     android:id="@+id/splashScreen"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/holy"
+    android:background="@drawable/msswsplash"
     android:orientation="vertical">
 
 
@@ -20,6 +20,7 @@
         android:text="Smart Social Worker"
         android:textSize="30sp"
         android:textColor="#fff"
+
         android:fontFeatureSettings="smcp"
         android:textStyle="bold"
         android:layout_above="@+id/textView"

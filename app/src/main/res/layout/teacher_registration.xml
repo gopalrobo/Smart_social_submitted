@@ -20,24 +20,6 @@
             android:orientation="vertical">
 
 
-            <de.hdodenhof.circleimageview.CircleImageView
-                android:id="@+id/image"
-                android:layout_width="70dp"
-                android:layout_height="70dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="10dp"
-                android:src="@drawable/profile" />
-
-            <smart.social.worker.CustomFontTextView
-                android:id="@+id/imagetxt"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="3dp"
-                android:gravity="center"
-                android:text="Faculty image"
-                android:textColor="@color/jaguar"
-                 />
 
 
             <LinearLayout
@@ -62,7 +44,7 @@
                     android:layout_gravity="center"
                     android:layout_weight="0.25">
 
-                    <smart.social.worker.CustomFontEditText
+                    <smart.msocial.worker.CustomFontEditText
                         android:id="@+id/name"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -71,8 +53,7 @@
                         android:hint="Faculty Name*"
                         android:inputType="textCapWords"
                         android:textColorHint="#c6c6c6"
-                        android:textSize="@dimen/textsize"
-                         />
+                        android:textSize="@dimen/textsize" />
 
                 </android.support.design.widget.TextInputLayout>
 
@@ -100,7 +81,7 @@
                     android:layout_gravity="center"
                     android:layout_weight="0.25">
 
-                    <smart.social.worker.CustomFontEditText
+                    <smart.msocial.worker.CustomFontEditText
                         android:id="@+id/bachelorDegree"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -109,8 +90,7 @@
                         android:hint="Bachelor degree"
                         android:inputType="textCapWords"
                         android:textColorHint="#c6c6c6"
-                        android:textSize="@dimen/textsize"
-                         />
+                        android:textSize="@dimen/textsize" />
 
                 </android.support.design.widget.TextInputLayout>
 
@@ -138,7 +118,7 @@
                     android:layout_gravity="center"
                     android:layout_weight="0.25">
 
-                    <smart.social.worker.CustomFontEditText
+                    <smart.msocial.worker.CustomFontEditText
                         android:id="@+id/masterDegree"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -147,8 +127,7 @@
                         android:hint="Master Degree"
                         android:inputType="textCapWords"
                         android:textColorHint="#c6c6c6"
-                        android:textSize="@dimen/textsize"
-                         />
+                        android:textSize="@dimen/textsize" />
 
                 </android.support.design.widget.TextInputLayout>
 
@@ -176,7 +155,7 @@
                     android:layout_gravity="center"
                     android:layout_weight="0.25">
 
-                    <smart.social.worker.CustomFontEditText
+                    <smart.msocial.worker.CustomFontEditText
                         android:id="@+id/mphil"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -185,8 +164,7 @@
                         android:hint="M Phil"
                         android:inputType="textMultiLine|textCapWords"
                         android:textColorHint="#c6c6c6"
-                        android:textSize="@dimen/textsize"
-                         />
+                        android:textSize="@dimen/textsize" />
 
                 </android.support.design.widget.TextInputLayout>
 
@@ -214,7 +192,7 @@
                     android:layout_gravity="center"
                     android:layout_weight="0.25">
 
-                    <smart.social.worker.CustomFontEditText
+                    <smart.msocial.worker.CustomFontEditText
                         android:id="@+id/phd"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -223,67 +201,12 @@
                         android:hint="Phd"
                         android:inputType="textCapWords"
                         android:textColorHint="#c6c6c6"
-                        android:textSize="@dimen/textsize"
-                         />
+                        android:textSize="@dimen/textsize" />
 
                 </android.support.design.widget.TextInputLayout>
 
             </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:orientation="horizontal"
-                    android:weightSum="3">
-
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="40dp"
-                        android:layout_gravity="center"
-                        android:layout_weight="1.32"
-                        android:padding="@dimen/paddingimg"
-                        android:src="@drawable/ic_my_location_black_24dp"
-                        android:tint="@color/colortint" />
-
-                    <android.support.design.widget.TextInputLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_weight="0.3">
-
-                        <smart.social.worker.CustomFontEditText
-                            android:id="@+id/geotag"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:backgroundTint="@color/colorAccent"
-                            android:hint="Geo tag"
-                            android:inputType="textMultiLine"
-                            android:maxLines="5"
-                            android:textColorHint="#c6c6c6"
-                            android:textSize="@dimen/textsize"
-                             />
-
-                    </android.support.design.widget.TextInputLayout>
-
-
-                    <ImageView
-                        android:id="@+id/refresh"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_gravity="center_vertical"
-                        android:layout_weight="1.35"
-                        android:padding="8dp"
-                        android:src="@drawable/ic_refresh_black_24dp"
-                        android:tint="@color/accent" />
-                </LinearLayout>
-
-            </LinearLayout>
 
 
             <LinearLayout
@@ -308,7 +231,7 @@
                     android:layout_gravity="center"
                     android:layout_weight="0.25">
 
-                    <smart.social.worker.CustomFontEditText
+                    <smart.msocial.worker.CustomFontEditText
                         android:id="@+id/phone"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -317,8 +240,7 @@
                         android:hint="Phone*"
                         android:inputType="phone"
                         android:textColorHint="#c6c6c6"
-                        android:textSize="@dimen/textsize"
-                         />
+                        android:textSize="@dimen/textsize" />
 
                 </android.support.design.widget.TextInputLayout>
 
@@ -346,7 +268,7 @@
                     android:layout_gravity="center"
                     android:layout_weight="0.25">
 
-                    <smart.social.worker.CustomFontEditText
+                    <smart.msocial.worker.CustomFontEditText
                         android:id="@+id/education"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -355,8 +277,7 @@
                         android:hint="Education*"
                         android:inputType="textCapWords"
                         android:textColorHint="#c6c6c6"
-                        android:textSize="@dimen/textsize"
-                         />
+                        android:textSize="@dimen/textsize" />
 
                 </android.support.design.widget.TextInputLayout>
 
@@ -384,7 +305,7 @@
                     android:layout_gravity="center"
                     android:layout_weight="0.25">
 
-                    <smart.social.worker.CustomFontEditText
+                    <smart.msocial.worker.CustomFontEditText
                         android:id="@+id/experience"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -393,8 +314,7 @@
                         android:hint="Experience*"
                         android:inputType="textCapWords"
                         android:textColorHint="#c6c6c6"
-                        android:textSize="@dimen/textsize"
-                         />
+                        android:textSize="@dimen/textsize" />
 
                 </android.support.design.widget.TextInputLayout>
 
@@ -422,7 +342,7 @@
                     android:layout_gravity="center"
                     android:layout_weight="0.25">
 
-                    <smart.social.worker.CustomFontEditText
+                    <smart.msocial.worker.CustomFontEditText
                         android:id="@+id/socialmedia"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -431,8 +351,161 @@
                         android:hint="Web link to any Social media*"
                         android:inputType="textCapWords"
                         android:textColorHint="#c6c6c6"
-                        android:textSize="@dimen/textsize"
-                         />
+                        android:textSize="@dimen/textsize" />
+
+                </android.support.design.widget.TextInputLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Assign Student"
+                android:textColor="#000"
+                android:textSize="18dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_gravity="top"
+                    android:layout_weight="1.32"
+                    android:padding="@dimen/paddingimg"
+                    android:src="@drawable/ic_bubble_chart_black_24dp"
+                    android:tint="@color/colortint" />
+
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/studentList"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:scrollbars="vertical" />
+
+                <ImageView
+                    android:id="@+id/addStudent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:layout_weight="1.35"
+                    android:padding="8dp"
+                    android:src="@drawable/ic_add_white_24dp"
+                    android:tint="@color/accent" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Assign Subject"
+                android:textColor="#000"
+                android:textSize="18dp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_gravity="top"
+                    android:layout_weight="1.32"
+                    android:padding="@dimen/paddingimg"
+                    android:src="@drawable/ic_bubble_chart_black_24dp"
+                    android:tint="@color/colortint" />
+
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/subjectList"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:scrollbars="vertical" />
+
+                <ImageView
+                    android:id="@+id/addSubject"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:layout_weight="1.35"
+                    android:padding="8dp"
+                    android:src="@drawable/ic_add_white_24dp"
+                    android:tint="@color/accent" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.75"
+                    android:padding="@dimen/paddingimg"
+                    android:src="@drawable/ic_bubble_chart_black_24dp"
+                    android:tint="@color/colortint" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.25">
+
+                    <smart.msocial.worker.CustomFontEditText
+                        android:id="@+id/password"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:backgroundTint="@color/colorAccent"
+                        android:hint="Password"
+                        android:textColorHint="#c6c6c6"
+                        android:textSize="@dimen/textsize" />
+
+                </android.support.design.widget.TextInputLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.75"
+                    android:padding="@dimen/paddingimg"
+                    android:src="@drawable/ic_bubble_chart_black_24dp"
+                    android:tint="@color/colortint" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.25">
+
+                    <smart.msocial.worker.CustomFontEditText
+                        android:id="@+id/confirmpassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:backgroundTint="@color/colorAccent"
+                        android:hint="Confirm password"
+                        android:inputType="textCapWords"
+                        android:textColorHint="#c6c6c6"
+                        android:textSize="@dimen/textsize" />
 
                 </android.support.design.widget.TextInputLayout>
 
@@ -461,7 +534,7 @@
                     android:layout_gravity="center"
                     android:layout_weight="0.25">
 
-                    <smart.social.worker.CustomFontEditText
+                    <smart.msocial.worker.CustomFontEditText
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
@@ -469,8 +542,7 @@
                         android:hint="Web link to any Social media*"
                         android:inputType="textCapWords"
                         android:textColorHint="#c6c6c6"
-                        android:textSize="@dimen/textsize"
-                         />
+                        android:textSize="@dimen/textsize" />
 
                 </android.support.design.widget.TextInputLayout>
 
@@ -480,8 +552,8 @@
     </android.support.v4.widget.NestedScrollView>
 
 
-    <smart.social.worker.CustomFontTextView
-        android:id="@+id/r_submittxt"
+    <smart.msocial.worker.CustomFontTextView
+        android:id="@+id/submittxt"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_alignParentBottom="true"

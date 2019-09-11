@@ -4,7 +4,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
 
-    <smart.social.worker.allstudent.SlidingUpPanelLayout
+    <smart.msocial.worker.allstudent.SlidingUpPanelLayout
         android:id="@+id/slidingLayout"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
@@ -69,7 +69,7 @@
                 android:background="@android:color/white"
                 android:visibility="gone" />
 
-            <smart.social.worker.allstudent.LockableRecyclerView
+            <smart.msocial.worker.allstudent.LockableRecyclerView
                 android:id="@android:id/list"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
@@ -79,7 +79,7 @@
                 android:drawSelectorOnTop="true"
                 android:smoothScrollbar="false" />
         </RelativeLayout>
-    </smart.social.worker.allstudent.SlidingUpPanelLayout>
+    </smart.msocial.worker.allstudent.SlidingUpPanelLayout>
 
     <!-- more code here -->
 </RelativeLayout>

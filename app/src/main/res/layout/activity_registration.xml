@@ -10,7 +10,7 @@
     <android.support.v4.widget.NestedScrollView
         android:id="@+id/scroll"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:fitsSystemWindows="true">
 
 
@@ -20,7 +20,7 @@
             android:orientation="vertical">
 
 
-            <de.hdodenhof.circleimageview.CircleImageView
+            <ImageView
                 android:id="@+id/imageview"
                 android:layout_width="70dp"
                 android:layout_height="70dp"
@@ -28,7 +28,7 @@
                 android:layout_marginTop="10dp"
                 android:src="@drawable/profile" />
 
-            <smart.social.worker.CustomFontTextView
+            <smart.msocial.worker.CustomFontTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -60,13 +60,13 @@
                     android:layout_gravity="center"
                     android:layout_weight="0.25">
 
-                    <smart.social.worker.CustomFontEditText
-                        android:id="@+id/aadharnumer"
+                    <smart.msocial.worker.CustomFontEditText
+                        android:id="@+id/registernumber"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:backgroundTint="@color/colorAccent"
-                        android:hint="Aadhar number"
+                        android:hint="Register number"
                         android:inputType="phone"
                         android:textColorHint="#c6c6c6"
                         android:textSize="@dimen/textsize" />
@@ -97,7 +97,7 @@
                     android:layout_gravity="center"
                     android:layout_weight="0.25">
 
-                    <smart.social.worker.CustomFontEditText
+                    <smart.msocial.worker.CustomFontEditText
                         android:id="@+id/studentname"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -134,7 +134,7 @@
                     android:layout_gravity="center"
                     android:layout_weight="0.25">
 
-                    <smart.social.worker.CustomFontEditText
+                    <smart.msocial.worker.CustomFontEditText
                         android:id="@+id/fathername"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -182,7 +182,7 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:backgroundTint="@color/colorAccent"
-                            android:hint="Sex"
+                            android:hint="Gender"
                             android:inputType="textMultiLine"
                             android:maxLines="5"
                             android:textColorHint="#c6c6c6"
@@ -221,7 +221,7 @@
                         android:layout_gravity="center"
                         android:layout_weight="0.3">
 
-                        <smart.social.worker.CustomFontEditText
+                        <smart.msocial.worker.CustomFontEditText
                             android:id="@+id/geotag"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -248,7 +248,6 @@
                 </LinearLayout>
 
             </LinearLayout>
-
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -277,7 +276,187 @@
                         android:layout_gravity="center"
                         android:layout_weight="0.25">
 
-                        <smart.social.worker.CustomFontEditText
+                        <smart.msocial.worker.CustomFontEditText
+                            android:id="@+id/state"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:backgroundTint="@color/colorAccent"
+                            android:hint="State"
+                            android:inputType="textMultiLine"
+                            android:maxLines="5"
+                            android:textColorHint="#c6c6c6"
+                            android:textSize="@dimen/textsize" />
+
+                    </android.support.design.widget.TextInputLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1.75"
+                        android:padding="@dimen/paddingimg"
+                        android:src="@drawable/ic_edit_location_black_24dp"
+                        android:tint="@color/colortint" />
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.25">
+
+                        <smart.msocial.worker.CustomFontEditText
+                            android:id="@+id/district"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:backgroundTint="@color/colorAccent"
+                            android:hint="District"
+                            android:inputType="textMultiLine"
+                            android:maxLines="5"
+                            android:textColorHint="#c6c6c6"
+                            android:textSize="@dimen/textsize" />
+
+                    </android.support.design.widget.TextInputLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1.75"
+                        android:padding="@dimen/paddingimg"
+                        android:src="@drawable/ic_edit_location_black_24dp"
+                        android:tint="@color/colortint" />
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.25">
+
+                        <smart.msocial.worker.CustomFontEditText
+                            android:id="@+id/block"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:backgroundTint="@color/colorAccent"
+                            android:hint="Block"
+                            android:inputType="textMultiLine"
+                            android:maxLines="5"
+                            android:textColorHint="#c6c6c6"
+                            android:textSize="@dimen/textsize" />
+
+                    </android.support.design.widget.TextInputLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1.75"
+                        android:padding="@dimen/paddingimg"
+                        android:src="@drawable/ic_edit_location_black_24dp"
+                        android:tint="@color/colortint" />
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.25">
+
+                        <smart.msocial.worker.CustomFontEditText
+                            android:id="@+id/panchayat"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:backgroundTint="@color/colorAccent"
+                            android:hint="Panchayat"
+                            android:inputType="textMultiLine"
+                            android:maxLines="5"
+                            android:textColorHint="#c6c6c6"
+                            android:textSize="@dimen/textsize" />
+
+                    </android.support.design.widget.TextInputLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1.75"
+                        android:padding="@dimen/paddingimg"
+                        android:src="@drawable/ic_edit_location_black_24dp"
+                        android:tint="@color/colortint" />
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.25">
+
+                        <smart.msocial.worker.CustomFontEditText
                             android:id="@+id/address"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -295,6 +474,195 @@
 
             </LinearLayout>
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1.75"
+                        android:padding="@dimen/paddingimg"
+                        android:src="@drawable/ic_edit_location_black_24dp"
+                        android:tint="@color/colortint" />
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.25">
+
+                        <smart.msocial.worker.CustomFontEditText
+                            android:id="@+id/department"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:backgroundTint="@color/colorAccent"
+                            android:hint="Department"
+                            android:inputType="textMultiLine"
+                            android:maxLines="5"
+                            android:textColorHint="#c6c6c6"
+                            android:textSize="@dimen/textsize"
+                            app:category="@string/selectable"
+                            app:choices="BSW,MSW,MA HRM,MA HROD,MA DM,MSC,CP,MA SC,BSC PSY"
+                            app:tittle="Department" />
+
+                    </android.support.design.widget.TextInputLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1.75"
+                        android:padding="@dimen/paddingimg"
+                        android:src="@drawable/ic_edit_location_black_24dp"
+                        android:tint="@color/colortint" />
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.25">
+
+                        <smart.msocial.worker.CustomFontEditText
+                            android:id="@+id/year"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:backgroundTint="@color/colorAccent"
+                            android:hint="Year"
+                            android:inputType="textMultiLine"
+                            android:maxLines="5"
+                            android:textColorHint="#c6c6c6"
+                            android:textSize="@dimen/textsize"
+                            app:category="@string/selectable"
+                            app:choices="UG1,UG2,UG3,PG1,PG2"
+                            app:tittle="Year" />
+
+                    </android.support.design.widget.TextInputLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1.75"
+                        android:padding="@dimen/paddingimg"
+                        android:src="@drawable/ic_edit_location_black_24dp"
+                        android:tint="@color/colortint" />
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.25">
+
+                        <smart.msocial.worker.CustomFontEditText
+                            android:id="@+id/shift"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:backgroundTint="@color/colorAccent"
+                            android:hint="Shift"
+                            android:inputType="textMultiLine"
+                            android:maxLines="5"
+                            android:textColorHint="#c6c6c6"
+                            android:textSize="@dimen/textsize"
+                            app:category="@string/selectable"
+                            app:choices="Morning,Afernoon,Evening,Weekend"
+                            app:tittle="Shift" />
+
+                    </android.support.design.widget.TextInputLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1.75"
+                        android:padding="@dimen/paddingimg"
+                        android:src="@drawable/ic_edit_location_black_24dp"
+                        android:tint="@color/colortint" />
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.25">
+
+                        <smart.msocial.worker.CustomFontEditText
+                            android:id="@+id/type"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:backgroundTint="@color/colorAccent"
+                            android:hint="Type"
+                            android:inputType="textMultiLine"
+                            android:maxLines="5"
+                            android:textColorHint="#c6c6c6"
+                            android:textSize="@dimen/textsize"
+                            app:category="@string/selectable"
+                            app:choices="Aided,Self finance"
+                            app:tittle="Shift" />
+
+                    </android.support.design.widget.TextInputLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -368,7 +736,7 @@
                         android:layout_gravity="center"
                         android:layout_weight="0.25">
 
-                        <smart.social.worker.CustomFontEditText
+                        <smart.msocial.worker.CustomFontEditText
                             android:id="@+id/degreeName"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -413,7 +781,7 @@
                         android:layout_gravity="center"
                         android:layout_weight="0.25">
 
-                        <smart.social.worker.CustomFontEditText
+                        <smart.msocial.worker.CustomFontEditText
                             android:id="@+id/percentGpa"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -504,7 +872,7 @@
                         android:layout_gravity="center"
                         android:layout_weight="0.25">
 
-                        <smart.social.worker.CustomFontEditText
+                        <smart.msocial.worker.CustomFontEditText
                             android:id="@+id/mobile"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -549,7 +917,7 @@
                         android:layout_gravity="center"
                         android:layout_weight="0.25">
 
-                        <smart.social.worker.CustomFontEditText
+                        <smart.msocial.worker.CustomFontEditText
                             android:id="@+id/whatsapp"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -652,6 +1020,7 @@
                 </LinearLayout>
 
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -696,93 +1065,7 @@
                 </LinearLayout>
 
             </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:orientation="horizontal"
-                    android:weightSum="2">
-
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="40dp"
-                        android:layout_gravity="center"
-                        android:layout_weight="1.75"
-                        android:padding="@dimen/paddingimg"
-                        android:src="@drawable/ic_account_balance_black_24dp"
-                        android:tint="@color/colortint" />
-
-                    <android.support.design.widget.TextInputLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_weight="0.25">
-
-                        <smart.social.worker.CustomFontEditText
-                            android:id="@+id/accountnumber"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:backgroundTint="@color/colorAccent"
-                            android:hint="Account number(Own/Parent/Guardian)"
-                            android:inputType="phone"
-                            android:textColorHint="#c6c6c6"
-                            android:textSize="@dimen/textsize" />
-
-                    </android.support.design.widget.TextInputLayout>
-
-                </LinearLayout>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:orientation="horizontal"
-                    android:weightSum="2">
-
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="40dp"
-                        android:layout_gravity="center"
-                        android:layout_weight="1.75"
-                        android:padding="@dimen/paddingimg"
-                        android:src="@drawable/ic_all_out_black_24dp"
-                        android:tint="@color/colortint" />
-
-                    <android.support.design.widget.TextInputLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_weight="0.25">
-
-                        <smart.social.worker.CustomFontEditText
-                            android:id="@+id/ifscnumber"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:backgroundTint="@color/colorAccent"
-                            android:hint="IFSC number"
-                            android:inputType="textCapWords"
-                            android:textColorHint="#c6c6c6"
-                            android:textSize="@dimen/textsize" />
-
-                    </android.support.design.widget.TextInputLayout>
-
-                </LinearLayout>
-
-            </LinearLayout>
 
             <LinearLayout
                 android:id="@+id/passwordlin"
@@ -804,10 +1087,10 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    app:passwordToggleEnabled="true"
-                    android:layout_weight="0.25">
+                    android:layout_weight="0.25"
+                    app:passwordToggleEnabled="true">
 
-                    <smart.social.worker.CustomFontEditText
+                    <smart.msocial.worker.CustomFontEditText
                         android:id="@+id/password"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -843,17 +1126,17 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    app:passwordToggleEnabled="true"
-                    android:layout_weight="0.25">
+                    android:layout_weight="0.25"
+                    app:passwordToggleEnabled="true">
 
-                    <smart.social.worker.CustomFontEditText
+                    <smart.msocial.worker.CustomFontEditText
                         android:id="@+id/confirmpassword"
                         android:layout_width="match_parent"
-                        android:inputType="textPassword"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:backgroundTint="@color/colorAccent"
                         android:hint="Confirm Password"
+                        android:inputType="textPassword"
                         android:textColorHint="#c6c6c6"
                         android:textSize="@dimen/textsize" />
 
@@ -885,7 +1168,7 @@
                     android:layout_gravity="center"
                     android:layout_weight="0.25">
 
-                    <smart.social.worker.CustomFontEditText
+                    <smart.msocial.worker.CustomFontEditText
                         android:id="@+id/otp"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -924,7 +1207,7 @@
                     android:layout_gravity="center"
                     android:layout_weight="0.25">
 
-                    <smart.social.worker.CustomFontEditText
+                    <smart.msocial.worker.CustomFontEditText
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
@@ -942,7 +1225,7 @@
     </android.support.v4.widget.NestedScrollView>
 
 
-    <smart.social.worker.CustomFontTextView
+    <smart.msocial.worker.CustomFontTextView
         android:id="@+id/r_submittxt"
         android:layout_width="match_parent"
         android:layout_height="50dp"

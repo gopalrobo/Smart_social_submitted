@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">HCC SSW</string>
+    <string name="app_name">Smart MSSW</string>
     <string name="action_settings">Settings</string>
     <string name="HistoricalTimeline">Step 1:Group discusion and brainstorming with the community;
 
@@ -172,7 +172,7 @@ Step 2: Observe and Record all information during Informal Exposure Walk.\n\n\n\
     <string name="plural_mode">Plural Mode</string>
 
     <plurals name="numberOfSelectedItems">
-        <item quantity="one">Present 1/100</item>
-        <item quantity="other">Present %d/100 </item>
+        <item quantity="one">Absent 1/100</item>
+        <item quantity="other">Absent %d/100 </item>
     </plurals>
 </resources>
