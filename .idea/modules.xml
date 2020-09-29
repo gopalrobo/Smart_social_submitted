@@ -2,25 +2,25 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Smart_msocial-master.iml" filepath="$PROJECT_DIR$/Smart_msocial-master.iml" />
-      <module fileurl="file://$PROJECT_DIR$/android-reactive-location/android-reactive-location.iml" filepath="$PROJECT_DIR$/android-reactive-location/android-reactive-location.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/appEvent/appEvent.iml" filepath="$PROJECT_DIR$/appEvent/appEvent.iml" />
-      <module fileurl="file://$PROJECT_DIR$/appPra/appPra.iml" filepath="$PROJECT_DIR$/appPra/appPra.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ask/ask.iml" filepath="$PROJECT_DIR$/ask/ask.iml" />
-      <module fileurl="file://$PROJECT_DIR$/circleimageview/circleimageview.iml" filepath="$PROJECT_DIR$/circleimageview/circleimageview.iml" />
-      <module fileurl="file://$PROJECT_DIR$/datetimepicker-library/datetimepicker-library.iml" filepath="$PROJECT_DIR$/datetimepicker-library/datetimepicker-library.iml" />
-      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
-      <module fileurl="file://$PROJECT_DIR$/library-gmail/library-gmail.iml" filepath="$PROJECT_DIR$/library-gmail/library-gmail.iml" />
-      <module fileurl="file://$PROJECT_DIR$/library-map/library-map.iml" filepath="$PROJECT_DIR$/library-map/library-map.iml" />
-      <module fileurl="file://$PROJECT_DIR$/library-tableformat/library-tableformat.iml" filepath="$PROJECT_DIR$/library-tableformat/library-tableformat.iml" />
-      <module fileurl="file://$PROJECT_DIR$/multichoicerecyclerview/multichoicerecyclerview.iml" filepath="$PROJECT_DIR$/multichoicerecyclerview/multichoicerecyclerview.iml" />
-      <module fileurl="file://$PROJECT_DIR$/multisnaprecyclerview/multisnaprecyclerview.iml" filepath="$PROJECT_DIR$/multisnaprecyclerview/multisnaprecyclerview.iml" />
-      <module fileurl="file://$PROJECT_DIR$/photoview/photoview.iml" filepath="$PROJECT_DIR$/photoview/photoview.iml" />
-      <module fileurl="file://$PROJECT_DIR$/qrmodule/qrmodule.iml" filepath="$PROJECT_DIR$/qrmodule/qrmodule.iml" />
-      <module fileurl="file://$PROJECT_DIR$/rosetta/rosetta.iml" filepath="$PROJECT_DIR$/rosetta/rosetta.iml" />
-      <module fileurl="file://$PROJECT_DIR$/surveylib/surveylib.iml" filepath="$PROJECT_DIR$/surveylib/surveylib.iml" />
-      <module fileurl="file://$PROJECT_DIR$/youtubeparser/youtubeparser.iml" filepath="$PROJECT_DIR$/youtubeparser/youtubeparser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Smart_msocial-master.iml" filepath="$PROJECT_DIR$/Smart_msocial-master.iml" group="Smart_msocial-master" />
+      <module fileurl="file://$PROJECT_DIR$/android-reactive-location/android-reactive-location.iml" filepath="$PROJECT_DIR$/android-reactive-location/android-reactive-location.iml" group="Smart_msocial-master/android-reactive-location" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="Smart_msocial-master/app" />
+      <module fileurl="file://$PROJECT_DIR$/appEvent/appEvent.iml" filepath="$PROJECT_DIR$/appEvent/appEvent.iml" group="Smart_msocial-master/appEvent" />
+      <module fileurl="file://$PROJECT_DIR$/appPra/appPra.iml" filepath="$PROJECT_DIR$/appPra/appPra.iml" group="Smart_msocial-master/appPra" />
+      <module fileurl="file://$PROJECT_DIR$/ask/ask.iml" filepath="$PROJECT_DIR$/ask/ask.iml" group="Smart_msocial-master/ask" />
+      <module fileurl="file://$PROJECT_DIR$/circleimageview/circleimageview.iml" filepath="$PROJECT_DIR$/circleimageview/circleimageview.iml" group="Smart_msocial-master/circleimageview" />
+      <module fileurl="file://$PROJECT_DIR$/datetimepicker-library/datetimepicker-library.iml" filepath="$PROJECT_DIR$/datetimepicker-library/datetimepicker-library.iml" group="Smart_msocial-master/datetimepicker-library" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" group="Smart_msocial-master/library" />
+      <module fileurl="file://$PROJECT_DIR$/library-gmail/library-gmail.iml" filepath="$PROJECT_DIR$/library-gmail/library-gmail.iml" group="Smart_msocial-master/library-gmail" />
+      <module fileurl="file://$PROJECT_DIR$/library-map/library-map.iml" filepath="$PROJECT_DIR$/library-map/library-map.iml" group="Smart_msocial-master/library-map" />
+      <module fileurl="file://$PROJECT_DIR$/library-tableformat/library-tableformat.iml" filepath="$PROJECT_DIR$/library-tableformat/library-tableformat.iml" group="Smart_msocial-master/library-tableformat" />
+      <module fileurl="file://$PROJECT_DIR$/multichoicerecyclerview/multichoicerecyclerview.iml" filepath="$PROJECT_DIR$/multichoicerecyclerview/multichoicerecyclerview.iml" group="Smart_msocial-master/multichoicerecyclerview" />
+      <module fileurl="file://$PROJECT_DIR$/multisnaprecyclerview/multisnaprecyclerview.iml" filepath="$PROJECT_DIR$/multisnaprecyclerview/multisnaprecyclerview.iml" group="Smart_msocial-master/multisnaprecyclerview" />
+      <module fileurl="file://$PROJECT_DIR$/photoview/photoview.iml" filepath="$PROJECT_DIR$/photoview/photoview.iml" group="Smart_msocial-master/photoview" />
+      <module fileurl="file://$PROJECT_DIR$/qrmodule/qrmodule.iml" filepath="$PROJECT_DIR$/qrmodule/qrmodule.iml" group="Smart_msocial-master/qrmodule" />
+      <module fileurl="file://$PROJECT_DIR$/rosetta/rosetta.iml" filepath="$PROJECT_DIR$/rosetta/rosetta.iml" group="Smart_msocial-master/rosetta" />
+      <module fileurl="file://$PROJECT_DIR$/surveylib/surveylib.iml" filepath="$PROJECT_DIR$/surveylib/surveylib.iml" group="Smart_msocial-master/surveylib" />
+      <module fileurl="file://$PROJECT_DIR$/youtubeparser/youtubeparser.iml" filepath="$PROJECT_DIR$/youtubeparser/youtubeparser.iml" group="Smart_msocial-master/youtubeparser" />
     </modules>
   </component>
 </project>

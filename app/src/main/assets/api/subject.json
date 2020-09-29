@@ -1,17 +1,16 @@
 {
   "SEMESTER 1": {
-    "SOCIAL WORK PROFESSION": {
-      "CODE": "MS/15C/101",
-      "HRS/WEEK": "6",
+    "PHARMACEUTICAL CHEMISTRY": {
+      "CODE": "PY8301",
+      "HRS/WEEK": "45",
       "CREDIT": "3",
       "MARKS": "100",
-      "Objectives": "1.\tTo gain an understanding about social work and related concepts.\n2.\tTo provide information about evolution of social work in the West and in India and its emergence as a profession\n3.\tTo recognize the need and importance of social work education and training.\n4.\tTo understand various models of professional practices and its applications.\n5.\tTo gain an insight into personality requirements and code of ethics.",
+      "Objectives": "To inculcate understanding of the properties and principles of medicinal agents that\noriginates from organic and inorganic sources and their application in pharmaceutical\nindustry.\n\uF0B7 To provide the basic functional group identification, molecular rearrangement, chemical\nbonding with their reaction mechanism.\n\uF0B7 To provide the fundamental principles involved in the identification, preparation of\npharmaceutical aids and to apply the principle of coordination compounds in\npharmaceutical substances.",
       "UNITS": {
-        "UNIT I : Introduction": {
-          "1.1. Social work": [
-            "1.1.1. Concepts related to Social Work"
-          ]
-        },
+        "UNIT I STRUCTURE AND PROPERTIES": [
+          "sub unit 2.1 : Molecular orbital theory",
+          "sub unit 2.1 : hybrid orbitals, polarity of bonds and molecules"
+        ],
         "UNIT II: Social Work Practice.": {
           "2.1. Introduction to the Methods of Social Work": [
           ],
